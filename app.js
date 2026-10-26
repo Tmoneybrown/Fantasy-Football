@@ -111,28 +111,6 @@
     }).join("");
   }
 
-  function lockDetails(league) {
-    var starters = (league.starters || []).map(function (starter) {
-      var pos = starter.pos ? '<span class="meta">' + esc(starter.pos) + "</span>" : "";
-      return '<article class="detail sev-' + (tone(starter.status) || "green") + '">' +
-        '<div class="who">' + dot(starter.status) + "<b>" + esc(starter.player) + "</b>" + pos + "</div>" +
-        (starter.note ? '<p class="meta">' + esc(starter.note) + "</p>" : "") +
-        "</article>";
-    }).join("");
-    var pickups = league.starters ? league.starters.reduce(function (all, starter) {
-      return all.concat(starter.pickups || []);
-    }, []) : [];
-    if (league.pickups) pickups = pickups.concat(league.pickups);
-    var pickupHtml = pickups.length
-      ? '<ul class="plist">' + pickups.map(function (pickup) {
-          if (typeof pickup === "string") return "<li>" + esc(pickup) + "</li>";
-          return "<li><b>" + esc(pickup.player || pickup.name || "Pickup") + "</b>" +
-            '<span class="meta">' + esc([pickup.pos, pickup.team, pickup.note].filter(Boolean).join(" · ")) + "</span></li>";
-        }).join("") + "</ul>"
-      : '<p class="meta">No emergency pickups.</p>';
-    return starters + "<h4>Pickups</h4>" + pickupHtml;
-  }
-
   function irDetails(league) {
     return league.categories.map(function (cat) {
       var rows = cat.players.map(function (player) {
@@ -182,14 +160,12 @@
 
   function details(kind, league) {
     if (kind === "bye") return byeDetails(league);
-    if (kind === "lock") return lockDetails(league);
     if (kind === "ir") return irDetails(league);
     return faDetails(league);
   }
 
   function subtitle(kind, data) {
     if (kind === "bye") return "Weeks " + String(data.weeks || "").replace("-", "–");
-    if (kind === "lock") return "Week " + data.week + (data.lock ? " · " + data.lock : "");
     if (kind === "ir" && data.weeks) {
       return Object.keys(data.weeks).map(function (key) {
         return key + " " + data.weeks[key];
@@ -201,7 +177,6 @@
 
   var RANK = { green: 0, orange: 1, red: 2 };
   var REPORTS = [
-    { kind: "lock", title: "Lineup Lock Check", file: "data/lock_check.json" },
     { kind: "bye", title: "Bye Week Planner", file: "data/bye_planner.json" },
     { kind: "ir", title: "IR Stash Alerts", file: "data/ir_stash.json" },
     { kind: "fa", title: "Free Agent Radar", file: "data/free_agents.json" }
@@ -227,12 +202,6 @@
     return best;
   }
 
-  function shortLock(league) {
-    if (!league) return "";
-    if (/all starters clear/i.test(league.summary || "")) return "Lineup clear";
-    return league.summary || "";
-  }
-
   function shortIr(league) {
     if (!league) return "";
     var top = (league.categories || []).filter(function (cat) {
@@ -256,7 +225,6 @@
   function combinedSummary(parts) {
     return [
       parts.bye && parts.bye.summary,
-      shortLock(parts.lock),
       shortIr(parts.ir),
       shortFa(parts.fa)
     ].filter(Boolean).join(" · ");
@@ -289,15 +257,13 @@
     var mount = document.getElementById("teams");
     mount.innerHTML = order.map(function (name, index) {
       var parts = {
-        lock: maps.lock[name],
         bye: maps.bye[name],
         ir: maps.ir[name],
         fa: maps.fa[name]
       };
-      var sample = parts.bye || parts.lock || parts.ir || parts.fa;
+      var sample = parts.bye || parts.ir || parts.fa;
       var status = worstStatus([
         parts.bye && parts.bye.status,
-        parts.lock && parts.lock.status,
         parts.ir && irStatus(parts.ir),
         parts.fa && faStatus(parts.fa)
       ].filter(function (item) { return item != null && item !== false; }));
