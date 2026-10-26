@@ -110,6 +110,129 @@
     font-size: 12px;
   }
   footer p { margin: 0; }
+  .report { margin-top: 8px; }
+  .report-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 8px 12px;
+    flex-wrap: wrap;
+    border-bottom: 2px solid var(--gold);
+    margin: 22px 0 10px;
+    padding-bottom: 6px;
+  }
+  .report-head h2 { border: 0; margin: 0; padding: 0; }
+  .report-head .updated { margin: 0; }
+  .sub { margin: 6px 0 10px; }
+  .league-item { margin: 0 0 8px; }
+  .league-btn {
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    text-align: left;
+    font: inherit;
+    color: inherit;
+    background: var(--card);
+    border: 1px solid var(--line);
+    border-radius: 10px;
+    padding: 10px 12px;
+    cursor: pointer;
+  }
+  .league-btn:hover { border-color: var(--gold); }
+  .league-btn:focus-visible { outline: 2px solid var(--gold); outline-offset: 2px; }
+  .league-btn[aria-expanded="true"] {
+    border-radius: 10px 10px 0 0;
+    border-bottom-color: transparent;
+  }
+  .league-id { display: flex; flex-direction: column; gap: 2px; min-width: 0; }
+  .league-btn .summary {
+    margin-left: auto;
+    color: var(--muted);
+    font-size: 13px;
+    text-align: right;
+    max-width: 48%;
+  }
+  .dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    flex: 0 0 auto;
+    margin-top: 6px;
+    background: var(--muted);
+  }
+  .dot.red { background: #ef4444; }
+  .dot.orange { background: var(--orange); }
+  .dot.green { background: var(--green); }
+  .chev {
+    color: var(--gold);
+    margin-top: 2px;
+    transition: transform .15s ease;
+  }
+  .league-btn[aria-expanded="true"] .chev { transform: rotate(90deg); }
+  .panel {
+    background: #0e2244;
+    border: 1px solid var(--line);
+    border-top: 0;
+    border-radius: 0 0 10px 10px;
+    padding: 8px 12px 12px;
+    margin-top: -1px;
+  }
+  .panel[hidden] { display: none; }
+  .panel h4 {
+    margin: 12px 0 6px;
+    font-size: 13px;
+    letter-spacing: .04em;
+    text-transform: uppercase;
+    color: var(--gold);
+  }
+  .panel h4:first-child { margin-top: 4px; }
+  .panel p { margin: 6px 0 0; }
+  .detail {
+    background: var(--card);
+    border: 1px solid var(--line);
+    border-left-width: 3px;
+    border-radius: 8px;
+    padding: 8px 10px;
+    margin-top: 8px;
+  }
+  .sev-red { border-left-color: #ef4444; }
+  .sev-orange { border-left-color: var(--orange); }
+  .sev-green { border-left-color: var(--green); }
+  .sev-red .wk { color: #ef4444; }
+  .sev-orange .wk { color: var(--orange); }
+  .sev-green .wk { color: var(--green); }
+  .tag {
+    display: inline-block;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: .02em;
+  }
+  .tag.red { color: #ef4444; }
+  .tag.orange { color: var(--orange); }
+  .tag.green { color: var(--green); }
+  .plist { list-style: none; margin: 0; padding: 0; }
+  .plist li {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px 8px;
+    align-items: baseline;
+    padding: 6px 0;
+    border-top: 1px solid var(--line);
+    font-size: 14px;
+  }
+  .meta { color: var(--muted); font-size: 13px; }
+  .who { display: flex; gap: 8px; align-items: center; flex-wrap: wrap; }
+  .who .dot { margin-top: 0; }
+  @media (max-width: 640px) {
+    .league-btn { flex-wrap: wrap; }
+    .league-btn .summary {
+      flex: 1 0 100%;
+      margin-left: 20px;
+      max-width: none;
+      text-align: left;
+    }
+  }
 </style>
 </head>
 <body>
@@ -188,9 +311,48 @@
   </ol>
 
   <h2>LATEST REPORTS</h2>
+  <p class="m">Open a league for the details. League names are yellow. Dots: red out, orange questionable, green clear.</p>
+
+  <section class="report" id="bye-planner" data-kind="bye" data-file="data/bye_planner.json">
+    <div class="report-head">
+      <h2>Bye Week Planner</h2>
+      <p class="m updated">Loading…</p>
+    </div>
+    <p class="m sub"></p>
+    <div class="mount"></div>
+  </section>
+
+  <section class="report" id="lock-check" data-kind="lock" data-file="data/lock_check.json">
+    <div class="report-head">
+      <h2>Lineup Lock Check</h2>
+      <p class="m updated">Loading…</p>
+    </div>
+    <p class="m sub"></p>
+    <div class="mount"></div>
+  </section>
+
+  <section class="report" id="ir-stash" data-kind="ir" data-file="data/ir_stash.json">
+    <div class="report-head">
+      <h2>IR Stash Alerts</h2>
+      <p class="m updated">Loading…</p>
+    </div>
+    <p class="m sub"></p>
+    <div class="mount"></div>
+  </section>
+
+  <section class="report" id="fa-radar" data-kind="fa" data-file="data/free_agents.json">
+    <div class="report-head">
+      <h2>Free Agent Radar</h2>
+      <p class="m updated">Loading…</p>
+    </div>
+    <p class="m sub"></p>
+    <div class="mount"></div>
+  </section>
+
+  <h2>GRAPHICS</h2>
   <p class="m">Tap a graphic to open it full size.</p>
 
-  <figure class="c shot" id="bye-planner">
+  <figure class="c shot" id="bye-planner-graphic">
     <figcaption>
       <div class="rw">
         <b class="league">Bye week planner</b>
@@ -203,7 +365,7 @@
     </a>
   </figure>
 
-  <figure class="c shot" id="lock-check">
+  <figure class="c shot" id="lock-check-graphic">
     <figcaption>
       <div class="rw">
         <b class="league">Lineup lock check</b>
@@ -216,7 +378,7 @@
     </a>
   </figure>
 
-  <figure class="c shot" id="ir-stash">
+  <figure class="c shot" id="ir-stash-graphic">
     <figcaption>
       <div class="rw">
         <b class="league">IR stash radar</b>
@@ -229,7 +391,7 @@
     </a>
   </figure>
 
-  <figure class="c shot" id="fa-radar">
+  <figure class="c shot" id="fa-radar-graphic">
     <figcaption>
       <div class="rw">
         <b class="league">Free agent radar</b>
@@ -246,5 +408,6 @@
     <p>Sample graphics from the latest runs, Oct 22–26, 2026.</p>
   </footer>
 </main>
+<script src="app.js"></script>
 </body>
 </html>
