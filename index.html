@@ -169,7 +169,41 @@
     margin-top: 2px;
     transition: transform .15s ease;
   }
-  .league-btn[aria-expanded="true"] .chev { transform: rotate(90deg); }
+  .league-btn[aria-expanded="true"] .chev,
+  .pos-btn[aria-expanded="true"] .chev { transform: rotate(90deg); }
+  .pos-group { margin-top: 8px; }
+  .pos-btn {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    text-align: left;
+    font: inherit;
+    color: inherit;
+    background: var(--card);
+    border: 1px solid var(--line);
+    border-radius: 8px;
+    padding: 8px 10px;
+    cursor: pointer;
+  }
+  .pos-btn:hover { border-color: var(--gold); }
+  .pos-btn:focus-visible { outline: 2px solid var(--gold); outline-offset: 2px; }
+  .pos-btn[aria-expanded="true"] {
+    border-radius: 8px 8px 0 0;
+    border-bottom-color: transparent;
+  }
+  .pos-btn .chev { margin-top: 0; margin-left: 0; }
+  .pos-count { margin-left: auto; color: var(--muted); font-size: 13px; }
+  .pos-title { color: var(--gold); letter-spacing: .04em; }
+  .pos-panel {
+    background: #0e2244;
+    border: 1px solid var(--line);
+    border-top: 0;
+    border-radius: 0 0 8px 8px;
+    padding: 0 10px 8px;
+    margin-top: -1px;
+  }
+  .pos-panel[hidden] { display: none; }
   .panel {
     background: #0e2244;
     border: 1px solid var(--line);
