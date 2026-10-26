@@ -34,6 +34,17 @@
     return '<span class="tag' + (kind ? " " + kind : "") + '">' + esc(text) + "</span>";
   }
 
+  function posPill(pos) {
+    if (!pos) return "";
+    var key = String(pos).toUpperCase();
+    var kind = "idp";
+    if (key === "TE") kind = "te";
+    else if (key === "WR") kind = "wr";
+    else if (key === "RB") kind = "rb";
+    else if (key === "QB") kind = "qb";
+    return '<span class="pos pos-' + kind + '">' + esc(key) + "</span>";
+  }
+
   function catLabel(name) {
     if (name.indexOf("Top") === 0) return "Top Stashes";
     if (name.indexOf("Deeper") === 0) return "Deeper Options";
@@ -127,12 +138,11 @@
       var rows = cat.players.map(function (player) {
         var status = player.status || player.ret_1019 || "";
         var bits = [
-          player.pos,
           player.team,
           player.injury,
           player.ret_wk != null ? "return W" + player.ret_wk : ""
         ].filter(Boolean);
-        return '<li><b>' + esc(player.player) + "</b>" +
+        return "<li>" + posPill(player.pos) + "<b>" + esc(player.player) + "</b>" +
           tag(status, status) +
           '<span class="meta">' + esc(bits.join(" · ")) + "</span>" +
           (player.note ? '<span class="meta">' + esc(player.note) + "</span>" : "") +
@@ -189,39 +199,136 @@
     return "";
   }
 
-  function render(section, data) {
-    var kind = section.getAttribute("data-kind");
-    section.querySelector(".updated").textContent = "Updated " + fmtDate(data.updated);
-    section.querySelector(".sub").textContent = subtitle(kind, data);
-    var mount = section.querySelector(".mount");
-    mount.innerHTML = data.leagues.map(function (league, index) {
-      var meta = leagueMeta(kind, league);
-      var panelId = section.id + "-panel-" + index;
+  var RANK = { green: 0, orange: 1, red: 2 };
+  var REPORTS = [
+    { kind: "lock", title: "Lineup Lock Check", file: "data/lock_check.json" },
+    { kind: "bye", title: "Bye Week Planner", file: "data/bye_planner.json" },
+    { kind: "ir", title: "IR Stash Alerts", file: "data/ir_stash.json" },
+    { kind: "fa", title: "Free Agent Radar", file: "data/free_agents.json" }
+  ];
+
+  function byLeague(data) {
+    var map = {};
+    (data.leagues || []).forEach(function (league) { map[league.league] = league; });
+    return map;
+  }
+
+  function worstStatus(statuses) {
+    var best = "green";
+    var rank = -1;
+    statuses.forEach(function (status) {
+      var kind = tone(status) || "green";
+      var value = RANK[kind] == null ? 0 : RANK[kind];
+      if (value > rank) {
+        rank = value;
+        best = kind;
+      }
+    });
+    return best;
+  }
+
+  function shortLock(league) {
+    if (!league) return "";
+    if (/all starters clear/i.test(league.summary || "")) return "Lineup clear";
+    return league.summary || "";
+  }
+
+  function shortIr(league) {
+    if (!league) return "";
+    var top = (league.categories || []).filter(function (cat) {
+      return catLabel(cat.category) === "Top Stashes";
+    })[0];
+    var count = top ? top.players.length : 0;
+    return count + " top stash" + (count === 1 ? "" : "es");
+  }
+
+  function shortFa(league) {
+    if (!league) return "";
+    var drops = (league.new_drops || []).length;
+    var questionable = faPlayers(league).filter(function (player) {
+      return /questionable/i.test(player.injury || "");
+    }).length;
+    var line = drops + " new drop" + (drops === 1 ? "" : "s");
+    if (questionable) line += ", " + questionable + " questionable";
+    return line;
+  }
+
+  function combinedSummary(parts) {
+    return [
+      parts.bye && parts.bye.summary,
+      shortLock(parts.lock),
+      shortIr(parts.ir),
+      shortFa(parts.fa)
+    ].filter(Boolean).join(" · ");
+  }
+
+  function subreport(report, league) {
+    var body = league ? details(report.kind, league) : '<p class="meta">No data in this report.</p>';
+    var context = report.data ? subtitle(report.kind, report.data) : "";
+    return '<section class="subreport">' +
+      '<div class="report-head"><h3>' + esc(report.title) + "</h3>" +
+        '<p class="m">Updated ' + fmtDate(report.data && report.data.updated) + "</p></div>" +
+      (context ? '<p class="m sub">' + esc(context) + "</p>" : "") +
+      body +
+      "</section>";
+  }
+
+  var TEAM_ORDER = ["TRUMP", "PCD", "TRTOFF", "Lonestar Dynasty", "Brews and Q's", "Tomball Never Dies"];
+
+  function renderTeams(reports) {
+    var maps = {};
+    var seen = {};
+    reports.forEach(function (report) {
+      maps[report.kind] = byLeague(report.data);
+      (report.data.leagues || []).forEach(function (league) { seen[league.league] = true; });
+    });
+    var order = TEAM_ORDER.filter(function (name) { return seen[name]; });
+    Object.keys(seen).forEach(function (name) {
+      if (order.indexOf(name) === -1) order.push(name);
+    });
+    var mount = document.getElementById("teams");
+    mount.innerHTML = order.map(function (name, index) {
+      var parts = {
+        lock: maps.lock[name],
+        bye: maps.bye[name],
+        ir: maps.ir[name],
+        fa: maps.fa[name]
+      };
+      var sample = parts.bye || parts.lock || parts.ir || parts.fa;
+      var status = worstStatus([
+        parts.bye && parts.bye.status,
+        parts.lock && parts.lock.status,
+        parts.ir && irStatus(parts.ir),
+        parts.fa && faStatus(parts.fa)
+      ].filter(function (item) { return item != null && item !== false; }));
+      var panelId = "team-panel-" + index;
       return '<div class="league-item">' +
         '<button type="button" class="league-btn" aria-expanded="false" aria-controls="' + panelId + '">' +
-          dot(meta.status) +
-          '<span class="league-id"><b class="league">' + esc(league.league) + "</b>" +
-            '<span class="meta">' + esc(league.team) + " · " + esc(league.platform) + "</span></span>" +
-          '<span class="summary">' + esc(meta.summary) + "</span>" +
+          dot(status) +
+          '<span class="league-id"><span class="who"><b class="team">' + esc(sample.team) + "</b>" +
+            '<b class="league">' + esc(name) + "</b></span>" +
+            '<span class="meta">' + esc(sample.platform) + "</span></span>" +
+          '<span class="summary">' + esc(combinedSummary(parts)) + "</span>" +
           '<span class="chev" aria-hidden="true">▸</span>' +
         "</button>" +
-        '<div class="panel" id="' + panelId + '" hidden>' + details(kind, league) + "</div>" +
+        '<div class="panel" id="' + panelId + '" hidden>' +
+          reports.map(function (report) { return subreport(report, maps[report.kind][name]); }).join("") +
+        "</div>" +
         "</div>";
     }).join("");
   }
 
-  function fail(section) {
-    section.querySelector(".updated").textContent = "Could not load this report.";
-  }
-
-  document.querySelectorAll(".report").forEach(function (section) {
-    fetch(section.getAttribute("data-file"))
-      .then(function (res) {
-        if (!res.ok) throw new Error(String(res.status));
-        return res.json();
-      })
-      .then(function (data) { render(section, data); })
-      .catch(function () { fail(section); });
+  var root = document.getElementById("teams");
+  Promise.all(REPORTS.map(function (report) {
+    return fetch(report.file).then(function (res) {
+      if (!res.ok) throw new Error(String(res.status));
+      return res.json();
+    }).then(function (data) {
+      report.data = data;
+      return report;
+    });
+  })).then(renderTeams).catch(function () {
+    root.innerHTML = '<p class="m">Could not load the reports.</p>';
   });
 
   document.addEventListener("click", function (event) {

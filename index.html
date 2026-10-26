@@ -224,6 +224,30 @@
   .meta { color: var(--muted); font-size: 13px; }
   .who { display: flex; gap: 8px; align-items: center; flex-wrap: wrap; }
   .who .dot { margin-top: 0; }
+  .team { color: var(--gold); }
+  .subreport .report-head { margin: 16px 0 8px; }
+  .subreport:first-child .report-head { margin-top: 2px; }
+  .report-head h3 {
+    margin: 0;
+    color: var(--gold);
+    font-size: 16px;
+    letter-spacing: 1px;
+  }
+  .pos {
+    display: inline-block;
+    border-radius: 999px;
+    padding: 1px 8px;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: .04em;
+    line-height: 1.45;
+    color: #0b1a33;
+  }
+  .pos-te { background: #FF9F0A; }
+  .pos-wr { background: #64AAFF; }
+  .pos-rb { background: #34C759; }
+  .pos-qb { background: #FF6482; }
+  .pos-idp { background: #AA82FF; }
   @media (max-width: 640px) {
     .league-btn { flex-wrap: wrap; }
     .league-btn .summary {
@@ -238,43 +262,7 @@
 <body>
 <main>
   <h1>Fantasy Football</h1>
-
-  <section class="report" id="bye-planner" data-kind="bye" data-file="data/bye_planner.json">
-    <div class="report-head">
-      <h2>Bye Week Planner</h2>
-      <p class="m updated">Loading…</p>
-    </div>
-    <p class="m sub"></p>
-    <div class="mount"></div>
-  </section>
-
-  <section class="report" id="lock-check" data-kind="lock" data-file="data/lock_check.json">
-    <div class="report-head">
-      <h2>Lineup Lock Check</h2>
-      <p class="m updated">Loading…</p>
-    </div>
-    <p class="m sub"></p>
-    <div class="mount"></div>
-  </section>
-
-  <section class="report" id="ir-stash" data-kind="ir" data-file="data/ir_stash.json">
-    <div class="report-head">
-      <h2>IR Stash Alerts</h2>
-      <p class="m updated">Loading…</p>
-    </div>
-    <p class="m sub"></p>
-    <div class="mount"></div>
-  </section>
-
-  <section class="report" id="fa-radar" data-kind="fa" data-file="data/free_agents.json">
-    <div class="report-head">
-      <h2>Free Agent Radar</h2>
-      <p class="m updated">Loading…</p>
-    </div>
-    <p class="m sub"></p>
-    <div class="mount"></div>
-  </section>
-
+  <div id="teams"><p class="m">Loading…</p></div>
 </main>
 <script src="app.js"></script>
 </body>
