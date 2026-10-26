@@ -145,17 +145,31 @@
       "</li>";
   }
 
+  var faGroupSeq = 0;
+
+  function faGroup(labelHtml, count, rowsHtml) {
+    var id = "fa-group-" + (faGroupSeq++);
+    var noun = count === 1 ? "player" : "players";
+    return '<div class="pos-group">' +
+      '<button type="button" class="pos-btn" aria-expanded="false" aria-controls="' + id + '">' +
+        labelHtml +
+        '<span class="pos-count">' + count + " " + noun + "</span>" +
+        '<span class="chev" aria-hidden="true">▸</span>' +
+      "</button>" +
+      '<div class="pos-panel" id="' + id + '" hidden><ul class="plist">' +
+        (rowsHtml || '<li class="meta">None</li>') +
+      "</ul></div></div>";
+  }
+
   function faDetails(league) {
     var groups = Object.keys(league.top_by_pos || {}).map(function (pos) {
-      var rows = (league.top_by_pos[pos] || []).map(function (player) {
-        return faRow(player, pos);
-      }).join("");
-      return "<h4>" + esc(pos) + '</h4><ul class="plist">' + rows + "</ul>";
+      var players = league.top_by_pos[pos] || [];
+      var rows = players.map(function (player) { return faRow(player, pos); }).join("");
+      return faGroup(posPill(pos), players.length, rows);
     }).join("");
-    var drops = (league.new_drops || []).map(function (player) {
-      return faRow(player, player.pos, true);
-    }).join("");
-    return groups + "<h4>New Drops</h4><ul class=\"plist\">" + (drops || '<li class="meta">None</li>') + "</ul>";
+    var drops = league.new_drops || [];
+    var dropRows = drops.map(function (player) { return faRow(player, player.pos, true); }).join("");
+    return groups + faGroup('<b class="pos-title">New Drops</b>', drops.length, dropRows);
   }
 
   function details(kind, league) {
@@ -298,7 +312,7 @@
   });
 
   document.addEventListener("click", function (event) {
-    var button = event.target.closest(".league-btn");
+    var button = event.target.closest(".pos-btn") || event.target.closest(".league-btn");
     if (!button) return;
     var panel = document.getElementById(button.getAttribute("aria-controls"));
     var open = button.getAttribute("aria-expanded") === "true";
