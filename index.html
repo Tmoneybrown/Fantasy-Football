@@ -5,8 +5,8 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="color-scheme" content="dark">
 <meta name="theme-color" content="#0b1a33">
-<meta name="description" content="Weekly fantasy football routines for TRUMP, PCD, TRTOFF, Lonestar Dynasty, Brews and Q's, and Tomball Never Dies. All times Central.">
-<title>Fantasy Football Routines</title>
+<meta name="description" content="Bye week planner, lineup lock check, IR stash alerts, and free agent radar for six fantasy football leagues.">
+<title>Fantasy Football</title>
 <style>
   :root {
     color-scheme: dark;
@@ -237,81 +237,7 @@
 </head>
 <body>
 <main>
-  <h1>Fantasy Football Routines</h1>
-  <p class="m">Weekly checks for six leagues. All times Central.</p>
-
-  <ul class="leagues">
-    <li><b class="league">TRUMP</b> <span class="m">Sleeper</span></li>
-    <li><b class="league">PCD</b> <span class="m">Sleeper</span></li>
-    <li><b class="league">TRTOFF</b> <span class="m">MFL · IDP</span></li>
-    <li><b class="league">Lonestar Dynasty</b> <span class="m">ESPN</span></li>
-    <li><b class="league">Brews and Q's</b> <span class="m">ESPN</span></li>
-    <li><b class="league">Tomball Never Dies</b> <span class="m">ESPN</span></li>
-  </ul>
-  <p class="key"><span class="m">Statuses in the reports:</span> <b class="st-out">Out</b> · <b class="st-q">Questionable</b> · <b class="st-ok">Clear</b></p>
-
-  <h2>ROUTINES</h2>
-  <p class="m">One card per routine, in weekday order.</p>
-  <ol class="routines">
-    <li>
-      <article class="c" id="lock">
-        <div class="rw">
-          <span class="day">Game days · ~2 hours before kickoff</span>
-          <span class="m">Last run Oct 25</span>
-        </div>
-        <h3>Game-day lineup lock check + emergency pickups</h3>
-        <p>About two hours before the first kickoff on every day with an NFL game: Thursday and Monday nights, Sundays including London games, and Saturdays and holidays.</p>
-        <p>Starters who are <span class="st-out">out</span>, plus healthy free agents playing that day.</p>
-        <p><a href="#lock-check">Latest report</a></p>
-      </article>
-    </li>
-    <li>
-      <article class="c" id="bye">
-        <div class="rw">
-          <span class="day">Tue · ~8:00 AM</span>
-          <span class="m">Last run Oct 26</span>
-        </div>
-        <h3>Bye week planner</h3>
-        <p>Byes 2-3 weeks out that leave empty starting spots, plus free agents to stash.</p>
-        <p><a href="#bye-planner">Latest report</a></p>
-      </article>
-    </li>
-    <li>
-      <article class="c" id="ir">
-        <div class="rw">
-          <span class="day">Tue–Fri · 8:00 AM</span>
-          <span class="m">Last run Oct 22</span>
-        </div>
-        <h3>IR return stash alerts</h3>
-        <p>Players nearing return from IR who are free agents in your leagues.</p>
-        <p><a href="#ir-stash">Latest report</a></p>
-      </article>
-    </li>
-    <li>
-      <article class="c" id="fa">
-        <div class="rw">
-          <span class="day">Tue–Fri · 8:00 AM</span>
-          <span class="m">Last run Oct 22</span>
-        </div>
-        <h3>Top-30 free agents</h3>
-        <p>Tuesday and Wednesday cover availability and new drops; Thursday and Friday cover lineup fill-ins for injured, doubtful, or bye starters.</p>
-        <p><a href="#fa-radar">Latest report</a></p>
-      </article>
-    </li>
-    <li>
-      <article class="c" id="trades">
-        <div class="rw">
-          <span class="day">Wed · ~8:00 AM</span>
-          <span class="pending">Not run yet</span>
-        </div>
-        <h3>Trade watch</h3>
-        <p>Trade partners by roster depth and weakness, with one or two fair trades per league.</p>
-      </article>
-    </li>
-  </ol>
-
-  <h2>LATEST REPORTS</h2>
-  <p class="m">Open a league for the details. League names are yellow. Dots: red out, orange questionable, green clear.</p>
+  <h1>Fantasy Football</h1>
 
   <section class="report" id="bye-planner" data-kind="bye" data-file="data/bye_planner.json">
     <div class="report-head">
@@ -349,64 +275,6 @@
     <div class="mount"></div>
   </section>
 
-  <h2>GRAPHICS</h2>
-  <p class="m">Tap a graphic to open it full size.</p>
-
-  <figure class="c shot" id="bye-planner-graphic">
-    <figcaption>
-      <div class="rw">
-        <b class="league">Bye week planner</b>
-        <span class="m">Mon Oct 26</span>
-      </div>
-      <span class="m">Weeks 8–10 · built Mon Oct 26, 2026 · read-only, nothing added</span>
-    </figcaption>
-    <a href="img/bye_planner_1026.png">
-      <img src="img/bye_planner_1026.png" width="1300" height="1822" alt="Bye week planner for weeks 8 through 10, built Monday Oct 26, 2026. Bye holes and free agents to stash for TRUMP, PCD, TRTOFF, Tomball Never Dies, Lonestar Dynasty, and Brews and Q's. Read-only, nothing added.">
-    </a>
-  </figure>
-
-  <figure class="c shot" id="lock-check-graphic">
-    <figcaption>
-      <div class="rw">
-        <b class="league">Lineup lock check</b>
-        <b class="st-ok">All clear</b>
-      </div>
-      <span class="m">Sunday run · Week 7 · Oct 25 · noon games lock 12:00 PM CT</span>
-    </figcaption>
-    <a href="img/lock_check_1025.png">
-      <img src="img/lock_check_1025.png" width="1100" height="928" alt="Lineup lock check for Week 7, Sunday Oct 25. Noon games lock at 12:00 PM CT. TRUMP, PCD, Tomball, Brews, TRTOFF, and Lonestar are all starters clear." loading="lazy">
-    </a>
-  </figure>
-
-  <figure class="c shot" id="ir-stash-graphic">
-    <figcaption>
-      <div class="rw">
-        <b class="league">IR stash radar</b>
-        <span class="m">Thu Oct 22</span>
-      </div>
-      <span class="m">Players nearing a return who are free agents · read-only, nothing added or claimed</span>
-    </figcaption>
-    <a href="img/ir_stash_1022.png">
-      <img src="img/ir_stash_1022.png" width="1100" height="1432" alt="IR stash radar for Thursday Oct 22. New stashes, deeper options, IDP stashes for MFL TRTOFF, and changes to earlier flags. Read-only, nothing added or claimed." loading="lazy">
-    </a>
-  </figure>
-
-  <figure class="c shot" id="fa-radar-graphic">
-    <figcaption>
-      <div class="rw">
-        <b class="league">Free agent radar</b>
-        <span class="m">Oct 22</span>
-      </div>
-      <span class="m">Week 7 · top 30 at each position across all six leagues</span>
-    </figcaption>
-    <a href="img/fa_week7_1022.png">
-      <img src="img/fa_week7_1022.png" width="3280" height="4754" alt="Free agent radar for Week 7, covering the top 30 available players at each position for TRUMP, PCD, TRTOFF, Lonestar Dynasty, Brews and Q's, and Tomball Never Dies." loading="lazy">
-    </a>
-  </figure>
-
-  <footer>
-    <p>Sample graphics from the latest runs, Oct 22–26, 2026.</p>
-  </footer>
 </main>
 <script src="app.js"></script>
 </body>
