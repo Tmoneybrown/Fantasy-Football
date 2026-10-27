@@ -208,6 +208,168 @@
     margin-top: -1px;
   }
   .pos-panel[hidden] { display: none; }
+  .pos-scroll, .fa-scroll { max-width: 100%; }
+  .nfl-team {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    white-space: nowrap;
+    vertical-align: middle;
+  }
+  .nfl-logo {
+    width: 18px;
+    height: 18px;
+    object-fit: contain;
+    flex: 0 0 18px;
+    display: block;
+  }
+  .fa-list { list-style: none; margin: 0; padding: 2px 0 0; max-width: 720px; }
+  .fa-row {
+    display: grid;
+    grid-template-columns: auto minmax(0, 1fr) 4.6em 3.6em 12.4em;
+    align-items: center;
+    column-gap: 10px;
+    min-height: 30px;
+    padding: 3px 0;
+    border-top: 1px solid rgba(146, 173, 214, 0.14);
+    font-size: 14px;
+    line-height: 1.2;
+  }
+  .fa-row:first-child { border-top: 0; }
+  .fa-pos {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    min-width: 30px;
+    height: 18px;
+    padding: 0 7px;
+    border-radius: 999px;
+    color: #0b1a33;
+    font-size: 11px;
+    font-weight: 800;
+    letter-spacing: .02em;
+    line-height: 1;
+  }
+  .fa-pos-qb { background: #FF6482; }
+  .fa-pos-wr { background: #64AAFF; }
+  .fa-pos-rb { background: #34C759; }
+  .fa-pos-te { background: #FF9F0A; }
+  .fa-pos-k { background: #d4af37; }
+  .fa-pos-dst { background: #5ac8fa; }
+  .fa-pos-idp { background: #AA82FF; }
+  .fa-who {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    min-width: 0;
+  }
+  .fa-name {
+    color: #f4f7fb;
+    font-weight: 600;
+    letter-spacing: -.01em;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    min-width: 0;
+  }
+  .fa-team, .fa-rank {
+    color: #8b9cb3;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: .03em;
+  }
+  .fa-team { flex: 0 0 auto; }
+  .fa-rank, .fa-pts { font-variant-numeric: tabular-nums; }
+  .fa-rank { text-align: left; }
+  .fa-pts {
+    color: #f4f7fb;
+    font-size: 14px;
+    font-weight: 700;
+    text-align: right;
+  }
+  .fa-badges {
+    display: inline-flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 6px;
+    min-width: 0;
+  }
+  .fa-pill {
+    display: inline-flex;
+    align-items: center;
+    height: 16px;
+    padding: 0 6px;
+    border-radius: 999px;
+    color: #fff;
+    font-size: 10px;
+    font-weight: 800;
+    letter-spacing: .04em;
+    line-height: 1;
+  }
+  .fa-pill-fa { background: #1e9c54; }
+  .fa-pill-drop { background: #e23b3b; }
+  .fa-just {
+    color: #ef4444;
+    font-size: 12px;
+    font-weight: 700;
+    white-space: nowrap;
+  }
+  .fa-inj {
+    color: #f5a623;
+    font-size: 11px;
+    font-weight: 700;
+    white-space: nowrap;
+  }
+  .fa-empty { color: var(--muted); font-size: 13px; padding: 6px 0; }
+  .ir-list { list-style: none; margin: 0; padding: 2px 0 0; }
+  .ir-row {
+    display: grid;
+    grid-template-columns: auto minmax(0, 1.15fr) 5.4em 7.6em 4.8em minmax(0, 1.25fr);
+    align-items: center;
+    column-gap: 10px;
+    min-height: 32px;
+    padding: 5px 0;
+    border-top: 1px solid rgba(146, 173, 214, 0.14);
+    font-size: 14px;
+  }
+  .ir-row:first-child { border-top: 0; }
+  .ir-name {
+    color: #f4f7fb;
+    font-weight: 700;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .ir-team {
+    color: #8b9cb3;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: .03em;
+  }
+  .ir-flag {
+    font-size: 14px;
+    font-weight: 800;
+    letter-spacing: .01em;
+    white-space: nowrap;
+  }
+  .ir-flag-week { color: #ffe14a; }
+  .ir-flag-active { color: #34c759; }
+  .ir-cat {
+    color: #9fb0c8;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: .04em;
+    text-transform: uppercase;
+    white-space: nowrap;
+  }
+  .ir-note {
+    color: #9aa8bc;
+    font-size: 13px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
   .panel {
     background: #0e2244;
     border: 1px solid var(--line);
@@ -294,6 +456,22 @@
       max-width: none;
       text-align: left;
     }
+    .fa-row {
+      grid-template-columns: auto minmax(0, 1fr) 3.3em 3.1em;
+      column-gap: 8px;
+      row-gap: 2px;
+    }
+    .fa-badges {
+      grid-column: 2 / -1;
+      justify-content: flex-start;
+      margin-left: 0;
+    }
+    .ir-row {
+      grid-template-columns: auto minmax(0, 1fr) auto max-content;
+      column-gap: 8px;
+      row-gap: 2px;
+    }
+    .ir-cat, .ir-note { grid-column: 2 / -1; }
   }
 </style>
 </head>
