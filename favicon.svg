@@ -1,11 +1,30 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 192">
-  <rect width="192" height="192" rx="42" fill="#0b1a33"/>
-  <g transform="translate(96 96) rotate(-28)">
-    <ellipse rx="72" ry="42" fill="#6a3b1f"/>
-    <ellipse rx="68" ry="38" fill="#8b5a2b"/>
-    <path d="M-48 -16 Q-54 0 -48 16" fill="none" stroke="#f4f1ea" stroke-width="5" stroke-linecap="round"/>
-    <path d="M48 -16 Q54 0 48 16" fill="none" stroke="#f4f1ea" stroke-width="5" stroke-linecap="round"/>
-    <path d="M-16 0 H16" fill="none" stroke="#f4f1ea" stroke-width="7" stroke-linecap="round"/>
-    <path d="M-10 -12 V12 M-3 -14 V14 M4 -14 V14 M11 -12 V12" fill="none" stroke="#f4f1ea" stroke-width="6" stroke-linecap="round"/>
+  <defs>
+    <linearGradient id="leather" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#d9a56c"/>
+      <stop offset="0.42" stop-color="#a56b38"/>
+      <stop offset="1" stop-color="#643618"/>
+    </linearGradient>
+    <radialGradient id="sheen" cx="38%" cy="36%" r="48%">
+      <stop offset="0" stop-color="#fff0dc" stop-opacity="0.42"/>
+      <stop offset="0.55" stop-color="#fff0dc" stop-opacity="0.08"/>
+      <stop offset="1" stop-color="#fff0dc" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <g transform="translate(96 96) rotate(-45)">
+    <ellipse rx="80" ry="46" fill="url(#leather)"/>
+    <ellipse rx="80" ry="46" fill="url(#sheen)"/>
+    <ellipse rx="80" ry="46" fill="none" stroke="#4e2a12" stroke-opacity="0.45" stroke-width="1.5"/>
+    <path d="M-58 -18 C-68 -6 -68 6 -58 18" fill="none" stroke="#f7f5f0" stroke-width="5" stroke-linecap="round"/>
+    <path d="M58 -18 C68 -6 68 6 58 18" fill="none" stroke="#f7f5f0" stroke-width="5" stroke-linecap="round"/>
+    <path d="M-18 0 H18" fill="none" stroke="#f4efe6" stroke-width="2.4" stroke-linecap="round" opacity="0.85"/>
+    <g fill="none" stroke="#f7f5f0" stroke-width="3.1" stroke-linecap="round">
+      <path d="M-14 -10 V10"/>
+      <path d="M-8 -12 V12"/>
+      <path d="M-2 -13 V13"/>
+      <path d="M4 -13 V13"/>
+      <path d="M10 -12 V12"/>
+      <path d="M16 -10 V10"/>
+    </g>
   </g>
 </svg>
