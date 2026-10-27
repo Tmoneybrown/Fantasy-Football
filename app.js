@@ -7,6 +7,48 @@
     });
   }
 
+  var NFL_SLUG = {
+    ari: "ari", atl: "atl", bal: "bal", buf: "buf", car: "car", chi: "chi",
+    cin: "cin", cle: "cle", dal: "dal", den: "den", det: "det", gb: "gb",
+    hou: "hou", ind: "ind", jax: "jax", jac: "jax", kc: "kc", lv: "lv",
+    lac: "lac", lar: "lar", mia: "mia", min: "min", ne: "ne", no: "no",
+    nyg: "nyg", nyj: "nyj", phi: "phi", pit: "pit", sea: "sea", sf: "sf",
+    tb: "tb", ten: "ten", was: "wsh", wsh: "wsh",
+    blt: "bal", clv: "cle", hst: "hou", kan: "kc", lvr: "lv", oak: "lv",
+    sd: "lac", ram: "lar", stl: "lar", nwe: "ne", nor: "no", sfo: "sf",
+    tam: "tb", gbp: "gb", ariz: "ari"
+  };
+
+  function nflSlug(abbr) {
+    return NFL_SLUG[String(abbr || "").trim().toLowerCase()] || "";
+  }
+
+  function teamMark(abbr) {
+    var label = String(abbr || "").trim();
+    if (!label) return "";
+    var text = '<span class="nfl-abbr">' + esc(label) + "</span>";
+    var slug = nflSlug(label);
+    if (!slug) return '<span class="nfl-team">' + text + "</span>";
+    var src = "https://a.espncdn.com/i/teamlogos/nfl/500/" + slug + ".png";
+    return '<span class="nfl-team"><img class="nfl-logo" alt="" width="18" height="18" referrerpolicy="no-referrer" src="' + esc(src) + '">' + text + "</span>";
+  }
+
+  function withTeamLogos(text) {
+    var source = String(text || "");
+    var html = "";
+    var last = 0;
+    var match;
+    var re = /\b([A-Z]{2,3})\b/g;
+    while ((match = re.exec(source))) {
+      if (!nflSlug(match[1])) continue;
+      html += esc(source.slice(last, match.index));
+      html += teamMark(match[1]);
+      last = match.index + match[1].length;
+    }
+    html += esc(source.slice(last));
+    return html;
+  }
+
   function fmtDate(iso) {
     var parts = String(iso || "").split("-");
     if (parts.length !== 3) return esc(iso);
@@ -151,8 +193,8 @@
       var slot = item.slot ? '<span class="meta">' + esc(item.slot) + "</span>" : "";
       return '<article class="detail sev-' + sev + '">' +
         '<div class="rw"><b class="wk">Week ' + esc(item.week) + "</b>" + slot + "</div>" +
-        "<p>" + esc(item.issue) + "</p>" +
-        '<p class="meta">' + esc(item.suggestion) + "</p>" +
+        "<p>" + withTeamLogos(item.issue) + "</p>" +
+        '<p class="meta">' + withTeamLogos(item.suggestion) + "</p>" +
         "</article>";
     }).join("");
   }
@@ -213,15 +255,14 @@
     return '<li class="ir-row">' +
       posPill(player.pos) +
       '<span class="ir-name">' + esc(player.player) + "</span>" +
-      '<span class="ir-team">' + esc(player.team || "") + "</span>" +
+      '<span class="ir-team">' + teamMark(player.team) + "</span>" +
       '<span class="ir-flag' + (flag.kind ? " ir-flag-" + flag.kind : "") + '">' + esc(flag.text) + "</span>" +
       '<span class="ir-cat">' + esc(irCatTag(player._cat)) + "</span>" +
       '<span class="ir-note">' + esc(aside) + "</span>" +
       "</li>";
   }
 
-  function irGroup(labelHtml, count, rowsHtml) {
-    var id = "ir-group-" + (irGroupSeq++);
+  function posGroup(id, labelHtml, count, listHtml) {
     var noun = count === 1 ? "player" : "players";
     return '<div class="pos-group">' +
       '<button type="button" class="pos-btn" aria-expanded="false" aria-controls="' + id + '">' +
@@ -229,9 +270,14 @@
         '<span class="pos-count">' + count + " " + noun + "</span>" +
         '<span class="chev" aria-hidden="true">▸</span>' +
       "</button>" +
-      '<div class="pos-panel" id="' + id + '" hidden><ul class="ir-list">' +
-        rowsHtml +
-      "</ul></div></div>";
+      '<div class="pos-panel" id="' + id + '" hidden><div class="pos-scroll">' +
+        listHtml +
+      "</div></div></div>";
+  }
+
+  function irGroup(labelHtml, count, rowsHtml) {
+    var id = "ir-group-" + (irGroupSeq++);
+    return posGroup(id, labelHtml, count, '<ul class="ir-list">' + rowsHtml + "</ul>");
   }
 
   function irDetails(league) {
@@ -335,7 +381,7 @@
     return '<li class="fa-row">' +
       faPosPill(position) +
       '<span class="fa-who"><span class="fa-name">' + esc(player.player) + "</span>" +
-      '<span class="fa-team">' + esc(player.team || "") + "</span></span>" +
+      '<span class="fa-team">' + teamMark(player.team) + "</span></span>" +
       '<span class="fa-rank">' + (rank == null ? "" : esc(faPosLabel(position) + rank)) + "</span>" +
       '<span class="fa-pts">' + faPts(player.pts) + "</span>" +
       '<span class="fa-badges">' + faBadges(player, forceDrop) + "</span>" +
@@ -346,16 +392,8 @@
 
   function faGroup(labelHtml, count, rowsHtml) {
     var id = "fa-group-" + (faGroupSeq++);
-    var noun = count === 1 ? "player" : "players";
-    return '<div class="pos-group">' +
-      '<button type="button" class="pos-btn" aria-expanded="false" aria-controls="' + id + '">' +
-        labelHtml +
-        '<span class="pos-count">' + count + " " + noun + "</span>" +
-        '<span class="chev" aria-hidden="true">▸</span>' +
-      "</button>" +
-      '<div class="pos-panel" id="' + id + '" hidden><div class="fa-scroll"><ul class="fa-list">' +
-        (rowsHtml || '<li class="fa-empty">None</li>') +
-      "</ul></div></div></div>";
+    var list = '<ul class="fa-list">' + (rowsHtml || '<li class="fa-empty">None</li>') + "</ul>";
+    return posGroup(id, labelHtml, count, list);
   }
 
   function faDetails(league) {
@@ -510,6 +548,12 @@
   })).then(renderTeams).catch(function () {
     root.innerHTML = '<p class="m">Could not load the reports.</p>';
   });
+
+  document.addEventListener("error", function (event) {
+    var img = event.target;
+    if (!img || !img.classList || !img.classList.contains("nfl-logo")) return;
+    img.remove();
+  }, true);
 
   document.addEventListener("click", function (event) {
     var button = event.target.closest(".pos-btn") || event.target.closest(".league-btn");
