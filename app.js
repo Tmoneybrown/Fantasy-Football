@@ -28,12 +28,6 @@
     return '<span class="dot' + (kind ? " " + kind : "") + '" aria-hidden="true"></span>';
   }
 
-  function tag(text, status) {
-    if (!text) return "";
-    var kind = tone(status || text);
-    return '<span class="tag' + (kind ? " " + kind : "") + '">' + esc(text) + "</span>";
-  }
-
   function posPill(pos) {
     if (!pos) return "";
     var key = String(pos).toUpperCase();
@@ -53,16 +47,68 @@
     return name;
   }
 
+  function irTokens(league) {
+    var tokens = [];
+    function add(value) {
+      var text = String(value || "").trim().toLowerCase();
+      if (text && tokens.indexOf(text) === -1) tokens.push(text);
+    }
+    add(league.league);
+    add(league.platform);
+    var aliases = {
+      "TRTOFF": ["mfl"],
+      "Lonestar Dynasty": ["lonestar"],
+      "Brews and Q's": ["brews"],
+      "Tomball Never Dies": ["tomball"]
+    };
+    (aliases[league.league] || []).forEach(add);
+    var first = String(league.league || "").split(/\s+/)[0];
+    if (first.length >= 3) add(first);
+    return tokens;
+  }
+
+  function irRosteredHere(note, league) {
+    var text = String(note || "");
+    var at = text.toLowerCase().indexOf("rostered");
+    if (at === -1) return false;
+    var after = text.slice(at);
+    return irTokens(league).some(function (token) {
+      var escaped = token.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+      return new RegExp("\\b" + escaped + "\\b", "i").test(after);
+    });
+  }
+
+  function irPlayers(league) {
+    var list = [];
+    var index = 0;
+    (league.categories || []).forEach(function (cat) {
+      var label = catLabel(cat.category);
+      (cat.players || []).forEach(function (player) {
+        var copy = {};
+        Object.keys(player).forEach(function (key) { copy[key] = player[key]; });
+        copy._cat = label;
+        copy._i = index++;
+        if (!irRosteredHere(copy.note, league)) list.push(copy);
+      });
+    });
+    return list;
+  }
+
   function irSummary(league) {
-    return league.categories.map(function (cat) {
-      return cat.players.length + " " + catLabel(cat.category);
-    }).join(" · ");
+    var counts = {};
+    var order = [];
+    irPlayers(league).forEach(function (player) {
+      if (!counts[player._cat]) {
+        counts[player._cat] = 0;
+        order.push(player._cat);
+      }
+      counts[player._cat] += 1;
+    });
+    return order.map(function (label) { return counts[label] + " " + label; }).join(" · ");
   }
 
   function irStatus(league) {
-    var players = league.categories.reduce(function (all, cat) {
-      return all.concat(cat.players);
-    }, []);
+    var players = irPlayers(league);
     if (players.some(function (player) { return /out/i.test(player.status || "") || /out/i.test(player.injury || ""); })) return "red";
     if (players.some(function (player) { return /questionable/i.test(player.injury || "") || /questionable/i.test(player.status || ""); })) return "orange";
     return "green";
@@ -111,22 +157,101 @@
     }).join("");
   }
 
+  var IR_POS_ORDER = ["QB", "RB", "WR", "TE", "K", "D/ST", "DST", "DEF", "DL", "LB", "DB", "DE", "DT", "NT", "CB", "S"];
+  var IR_CAT_ORDER = ["Top Stashes", "Deeper Options", "IDP", "Off IR Now"];
+  var irGroupSeq = 0;
+
+  function irRankNum(player) {
+    if (player.rank == null || player.rank === "") return null;
+    var n = Number(player.rank);
+    return isFinite(n) ? n : null;
+  }
+
+  function irSort(players) {
+    return players.slice().sort(function (a, b) {
+      var ar = irRankNum(a);
+      var br = irRankNum(b);
+      if (ar != null && br != null && ar !== br) return ar - br;
+      if ((ar != null) !== (br != null)) return ar != null ? -1 : 1;
+      var ac = IR_CAT_ORDER.indexOf(a._cat);
+      var bc = IR_CAT_ORDER.indexOf(b._cat);
+      if (ac === -1) ac = IR_CAT_ORDER.length;
+      if (bc === -1) bc = IR_CAT_ORDER.length;
+      if (ac !== bc) return ac - bc;
+      return a._i - b._i;
+    });
+  }
+
+  function irCatTag(label) {
+    if (label === "Top Stashes") return "Top";
+    if (label === "Deeper Options") return "Deeper";
+    if (label === "IDP") return "IDP";
+    if (label === "Off IR Now") return "Off IR";
+    return label;
+  }
+
+  function irFlag(player) {
+    var ret = player.ret_wk;
+    var status = String(player.status || "");
+    if (String(ret).toLowerCase() === "active" || status.toLowerCase() === "active") {
+      return { text: "Active", kind: "active" };
+    }
+    var week = "";
+    if (typeof ret === "number" && isFinite(ret)) week = String(ret);
+    else if (typeof ret === "string" && /^\d+$/.test(ret)) week = ret;
+    var extra = "";
+    if (/pup/i.test(status)) extra = " (PUP)";
+    else if (/nfi/i.test(status)) extra = " (NFI)";
+    if (week) return { text: "W" + week + extra, kind: "week" };
+    if (status) return { text: status, kind: "week" };
+    return { text: "", kind: "" };
+  }
+
+  function irRow(player) {
+    var flag = irFlag(player);
+    var aside = player.note || player.injury || "";
+    return '<li class="ir-row">' +
+      posPill(player.pos) +
+      '<span class="ir-name">' + esc(player.player) + "</span>" +
+      '<span class="ir-team">' + esc(player.team || "") + "</span>" +
+      '<span class="ir-flag' + (flag.kind ? " ir-flag-" + flag.kind : "") + '">' + esc(flag.text) + "</span>" +
+      '<span class="ir-cat">' + esc(irCatTag(player._cat)) + "</span>" +
+      '<span class="ir-note">' + esc(aside) + "</span>" +
+      "</li>";
+  }
+
+  function irGroup(labelHtml, count, rowsHtml) {
+    var id = "ir-group-" + (irGroupSeq++);
+    var noun = count === 1 ? "player" : "players";
+    return '<div class="pos-group">' +
+      '<button type="button" class="pos-btn" aria-expanded="false" aria-controls="' + id + '">' +
+        labelHtml +
+        '<span class="pos-count">' + count + " " + noun + "</span>" +
+        '<span class="chev" aria-hidden="true">▸</span>' +
+      "</button>" +
+      '<div class="pos-panel" id="' + id + '" hidden><ul class="ir-list">' +
+        rowsHtml +
+      "</ul></div></div>";
+  }
+
   function irDetails(league) {
-    return league.categories.map(function (cat) {
-      var rows = cat.players.map(function (player) {
-        var status = player.status || player.ret_1019 || "";
-        var bits = [
-          player.team,
-          player.injury,
-          player.ret_wk != null ? "return W" + player.ret_wk : ""
-        ].filter(Boolean);
-        return "<li>" + posPill(player.pos) + "<b>" + esc(player.player) + "</b>" +
-          tag(status, status) +
-          '<span class="meta">' + esc(bits.join(" · ")) + "</span>" +
-          (player.note ? '<span class="meta">' + esc(player.note) + "</span>" : "") +
-          "</li>";
-      }).join("");
-      return "<h4>" + esc(catLabel(cat.category)) + '</h4><ul class="plist">' + rows + "</ul>";
+    var groups = {};
+    irPlayers(league).forEach(function (player) {
+      var key = String(player.pos || "").toUpperCase();
+      if (!key) return;
+      if (!groups[key]) groups[key] = [];
+      groups[key].push(player);
+    });
+    return Object.keys(groups).sort(function (a, b) {
+      var ia = IR_POS_ORDER.indexOf(a);
+      var ib = IR_POS_ORDER.indexOf(b);
+      if (ia === -1) ia = IR_POS_ORDER.length;
+      if (ib === -1) ib = IR_POS_ORDER.length;
+      if (ia !== ib) return ia - ib;
+      return a.localeCompare(b);
+    }).map(function (pos) {
+      var players = irSort(groups[pos]);
+      return irGroup(posPill(pos), players.length, players.map(irRow).join(""));
     }).join("");
   }
 
@@ -294,10 +419,9 @@
 
   function shortIr(league) {
     if (!league) return "";
-    var top = (league.categories || []).filter(function (cat) {
-      return catLabel(cat.category) === "Top Stashes";
-    })[0];
-    var count = top ? top.players.length : 0;
+    var count = irPlayers(league).filter(function (player) {
+      return player._cat === "Top Stashes";
+    }).length;
     return count + " top stash" + (count === 1 ? "" : "es");
   }
 

@@ -308,6 +308,54 @@
     white-space: nowrap;
   }
   .fa-empty { color: var(--muted); font-size: 13px; padding: 6px 0; }
+  .ir-list { list-style: none; margin: 0; padding: 2px 0 0; }
+  .ir-row {
+    display: grid;
+    grid-template-columns: auto minmax(0, 1.15fr) 3em 7.6em 4.8em minmax(0, 1.25fr);
+    align-items: center;
+    column-gap: 10px;
+    min-height: 32px;
+    padding: 5px 0;
+    border-top: 1px solid rgba(146, 173, 214, 0.14);
+    font-size: 14px;
+  }
+  .ir-row:first-child { border-top: 0; }
+  .ir-name {
+    color: #f4f7fb;
+    font-weight: 700;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .ir-team {
+    color: #8b9cb3;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: .03em;
+  }
+  .ir-flag {
+    font-size: 14px;
+    font-weight: 800;
+    letter-spacing: .01em;
+    white-space: nowrap;
+  }
+  .ir-flag-week { color: #ffe14a; }
+  .ir-flag-active { color: #34c759; }
+  .ir-cat {
+    color: #9fb0c8;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: .04em;
+    text-transform: uppercase;
+    white-space: nowrap;
+  }
+  .ir-note {
+    color: #9aa8bc;
+    font-size: 13px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
   .panel {
     background: #0e2244;
     border: 1px solid var(--line);
@@ -404,6 +452,12 @@
       justify-content: flex-start;
       margin-left: 0;
     }
+    .ir-row {
+      grid-template-columns: auto minmax(0, 1fr) 2.6em max-content;
+      column-gap: 8px;
+      row-gap: 2px;
+    }
+    .ir-cat, .ir-note { grid-column: 2 / -1; }
   }
 </style>
 </head>
