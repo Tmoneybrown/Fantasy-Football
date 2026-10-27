@@ -130,18 +130,90 @@
     }).join("");
   }
 
+  var FA_POS_ORDER = ["QB", "RB", "WR", "TE", "K", "D/ST", "DST", "DEF", "DL", "LB", "DB"];
+
+  function faPosKey(pos) {
+    return String(pos || "").toUpperCase();
+  }
+
+  function faPosIndex(pos) {
+    var i = FA_POS_ORDER.indexOf(faPosKey(pos));
+    return i === -1 ? FA_POS_ORDER.length : i;
+  }
+
+  function faPosKind(pos) {
+    var key = faPosKey(pos);
+    if (key === "TE") return "te";
+    if (key === "WR") return "wr";
+    if (key === "RB") return "rb";
+    if (key === "QB") return "qb";
+    if (key === "K") return "k";
+    if (key === "D/ST" || key === "DST" || key === "DEF") return "dst";
+    return "idp";
+  }
+
+  function faPosLabel(pos) {
+    var key = faPosKey(pos);
+    if (key === "DST" || key === "DEF" || key === "D/ST") return "D/ST";
+    return key;
+  }
+
+  function faPosPill(pos) {
+    if (!pos) return "";
+    return '<span class="fa-pos fa-pos-' + faPosKind(pos) + '">' + esc(faPosLabel(pos)) + "</span>";
+  }
+
+  function faPts(pts) {
+    if (pts == null || pts === "") return "";
+    var n = Number(pts);
+    if (!isFinite(n)) return esc(pts);
+    if (Math.abs(n - Math.round(n)) < 1e-9) return String(Math.round(n));
+    return String(Math.round(n * 10) / 10);
+  }
+
+  function faRankNum(player) {
+    if (player.rank == null || player.rank === "") return null;
+    var n = Number(player.rank);
+    return isFinite(n) ? n : null;
+  }
+
+  function faSort(players, byPos) {
+    return players.slice().sort(function (a, b) {
+      if (byPos) {
+        var posDelta = faPosIndex(a.pos) - faPosIndex(b.pos);
+        if (posDelta) return posDelta;
+      }
+      var ar = faRankNum(a);
+      var br = faRankNum(b);
+      if (ar != null && br != null && ar !== br) return ar - br;
+      if ((ar != null) !== (br != null)) return ar != null ? -1 : 1;
+      var ap = a.pts == null || a.pts === "" ? -Infinity : Number(a.pts);
+      var bp = b.pts == null || b.pts === "" ? -Infinity : Number(b.pts);
+      if (ap !== bp) return bp - ap;
+      return String(a.player || "").localeCompare(String(b.player || ""));
+    });
+  }
+
+  function faBadges(player, forceDrop) {
+    var html = "";
+    var dropped = forceDrop || player.status === "drop";
+    if (!dropped && player.status === "fa") html += '<span class="fa-pill fa-pill-fa">FA</span>';
+    if (dropped) html += '<span class="fa-just">Just dropped</span>';
+    if (String(player.tag || "").toUpperCase() === "DROP") html += '<span class="fa-pill fa-pill-drop">DROP</span>';
+    if (player.injury) html += '<span class="fa-inj">' + esc(player.injury) + "</span>";
+    return html;
+  }
+
   function faRow(player, pos, forceDrop) {
-    var bits = ["#" + player.rank];
-    if (pos) bits.push(pos);
-    if (player.team) bits.push(player.team);
-    if (player.pts != null) bits.push(player.pts + " pts");
-    var statusText = player.tag || (player.status === "drop" || forceDrop ? "DROP" : player.status === "fa" ? "FA" : player.status || "");
-    var tags = tag(statusText, player.status || (forceDrop ? "drop" : ""));
-    if (player.injury) tags += " " + tag(player.injury, player.injury);
-    return "<li><b>" + esc(player.player) + "</b>" +
-      '<span class="meta">' + esc(bits.join(" · ")) + "</span>" +
-      tags +
-      (player.note ? '<span class="meta">' + esc(player.note) + "</span>" : "") +
+    var position = pos || player.pos || "";
+    var rank = faRankNum(player);
+    return '<li class="fa-row">' +
+      faPosPill(position) +
+      '<span class="fa-name">' + esc(player.player) + "</span>" +
+      '<span class="fa-team">' + esc(player.team || "") + "</span>" +
+      '<span class="fa-rank">' + (rank == null ? "" : esc(faPosLabel(position) + rank)) + "</span>" +
+      '<span class="fa-pts">' + faPts(player.pts) + "</span>" +
+      '<span class="fa-badges">' + faBadges(player, forceDrop) + "</span>" +
       "</li>";
   }
 
@@ -156,18 +228,22 @@
         '<span class="pos-count">' + count + " " + noun + "</span>" +
         '<span class="chev" aria-hidden="true">▸</span>' +
       "</button>" +
-      '<div class="pos-panel" id="' + id + '" hidden><ul class="plist">' +
-        (rowsHtml || '<li class="meta">None</li>') +
-      "</ul></div></div>";
+      '<div class="pos-panel" id="' + id + '" hidden><div class="fa-scroll"><ul class="fa-list">' +
+        (rowsHtml || '<li class="fa-empty">None</li>') +
+      "</ul></div></div></div>";
   }
 
   function faDetails(league) {
-    var groups = Object.keys(league.top_by_pos || {}).map(function (pos) {
-      var players = league.top_by_pos[pos] || [];
+    var map = league.top_by_pos || {};
+    var groups = Object.keys(map).sort(function (a, b) {
+      var delta = faPosIndex(a) - faPosIndex(b);
+      return delta || a.localeCompare(b);
+    }).map(function (pos) {
+      var players = faSort(map[pos] || []);
       var rows = players.map(function (player) { return faRow(player, pos); }).join("");
-      return faGroup(posPill(pos), players.length, rows);
+      return faGroup(faPosPill(pos), players.length, rows);
     }).join("");
-    var drops = league.new_drops || [];
+    var drops = faSort(league.new_drops || [], true);
     var dropRows = drops.map(function (player) { return faRow(player, player.pos, true); }).join("");
     return groups + faGroup('<b class="pos-title">New Drops</b>', drops.length, dropRows);
   }
