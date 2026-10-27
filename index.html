@@ -209,16 +209,16 @@
   }
   .pos-panel[hidden] { display: none; }
   .fa-scroll { max-width: 100%; }
-  .fa-list { list-style: none; margin: 0; padding: 2px 0 0; }
+  .fa-list { list-style: none; margin: 0; padding: 2px 0 0; max-width: 720px; }
   .fa-row {
     display: grid;
-    grid-template-columns: 42px minmax(0, 1fr) 2.7em 3.5em 3.4em max-content;
+    grid-template-columns: auto minmax(0, 1fr) 4.6em 3.6em 12.4em;
     align-items: center;
     column-gap: 10px;
-    min-height: 28px;
-    padding: 4px 0;
+    min-height: 30px;
+    padding: 3px 0;
     border-top: 1px solid rgba(146, 173, 214, 0.14);
-    font-size: 13.5px;
+    font-size: 14px;
     line-height: 1.2;
   }
   .fa-row:first-child { border-top: 0; }
@@ -227,14 +227,14 @@
     align-items: center;
     justify-content: center;
     box-sizing: border-box;
-    min-width: 28px;
+    min-width: 30px;
     height: 18px;
-    padding: 0 6px;
+    padding: 0 7px;
     border-radius: 999px;
     color: #0b1a33;
-    font-size: 10px;
+    font-size: 11px;
     font-weight: 800;
-    letter-spacing: .03em;
+    letter-spacing: .02em;
     line-height: 1;
   }
   .fa-pos-qb { background: #FF6482; }
@@ -244,6 +244,12 @@
   .fa-pos-k { background: #d4af37; }
   .fa-pos-dst { background: #5ac8fa; }
   .fa-pos-idp { background: #AA82FF; }
+  .fa-who {
+    display: flex;
+    align-items: baseline;
+    gap: 8px;
+    min-width: 0;
+  }
   .fa-name {
     color: #f4f7fb;
     font-weight: 600;
@@ -251,25 +257,29 @@
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
+    min-width: 0;
   }
   .fa-team, .fa-rank {
     color: #8b9cb3;
     font-size: 12px;
     font-weight: 600;
-    letter-spacing: .02em;
+    letter-spacing: .03em;
   }
-  .fa-rank, .fa-pts { font-variant-numeric: tabular-nums; text-align: right; }
+  .fa-team { flex: 0 0 auto; }
+  .fa-rank, .fa-pts { font-variant-numeric: tabular-nums; }
+  .fa-rank { text-align: left; }
   .fa-pts {
     color: #f4f7fb;
-    font-size: 13.5px;
+    font-size: 14px;
     font-weight: 700;
+    text-align: right;
   }
   .fa-badges {
     display: inline-flex;
     align-items: center;
-    justify-content: flex-end;
+    justify-content: flex-start;
     gap: 6px;
-    margin-left: 4px;
+    min-width: 0;
   }
   .fa-pill {
     display: inline-flex;
@@ -384,8 +394,16 @@
       max-width: none;
       text-align: left;
     }
-    .fa-scroll { overflow-x: auto; }
-    .fa-list { min-width: 540px; }
+    .fa-row {
+      grid-template-columns: auto minmax(0, 1fr) 3.3em 3.1em;
+      column-gap: 8px;
+      row-gap: 2px;
+    }
+    .fa-badges {
+      grid-column: 2 / -1;
+      justify-content: flex-start;
+      margin-left: 0;
+    }
   }
 </style>
 </head>

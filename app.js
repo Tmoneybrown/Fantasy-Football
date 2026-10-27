@@ -209,8 +209,8 @@
     var rank = faRankNum(player);
     return '<li class="fa-row">' +
       faPosPill(position) +
-      '<span class="fa-name">' + esc(player.player) + "</span>" +
-      '<span class="fa-team">' + esc(player.team || "") + "</span>" +
+      '<span class="fa-who"><span class="fa-name">' + esc(player.player) + "</span>" +
+      '<span class="fa-team">' + esc(player.team || "") + "</span></span>" +
       '<span class="fa-rank">' + (rank == null ? "" : esc(faPosLabel(position) + rank)) + "</span>" +
       '<span class="fa-pts">' + faPts(player.pts) + "</span>" +
       '<span class="fa-badges">' + faBadges(player, forceDrop) + "</span>" +
