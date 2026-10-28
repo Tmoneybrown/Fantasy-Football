@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-27",
+ "updated": "2026-10-28",
  "through_week": 7,
  "leagues": [
   {
@@ -10,19 +10,20 @@
    "top_by_pos": {
     "QB": [
      {
+      "player": "Aaron Rodgers",
+      "team": "PIT",
+      "rank": 14,
+      "pts": 133.3,
+      "status": "drop",
+      "note": "dropped Wed 10/28",
+      "tag": "DROP"
+     },
+     {
       "player": "Geno Smith",
       "team": "NYJ",
       "rank": 15,
       "pts": 126.1,
       "status": "fa"
-     },
-     {
-      "player": "Jacoby Brissett",
-      "team": "ARI",
-      "rank": 17,
-      "pts": 121.7,
-      "status": "drop",
-      "note": "dropped Wed 10/21"
      },
      {
       "player": "Malik Willis",
@@ -51,8 +52,7 @@
       "rank": 26,
       "pts": 91.8,
       "status": "drop",
-      "note": "dropped Sun 10/25",
-      "tag": "DROP"
+      "note": "dropped Sun 10/25"
      }
     ],
     "TE": [
@@ -62,8 +62,7 @@
       "rank": 23,
       "pts": 54.0,
       "status": "drop",
-      "note": "dropped Sat 10/24",
-      "tag": "DROP"
+      "note": "dropped Sat 10/24"
      },
      {
       "player": "Darnell Washington",
@@ -73,12 +72,12 @@
       "status": "fa"
      },
      {
-      "player": "Kenyon Sadiq",
-      "team": "NYJ",
-      "rank": 26,
-      "pts": 45.7,
+      "player": "Jake Ferguson",
+      "team": "DAL",
+      "rank": 27,
+      "pts": 44.5,
       "status": "drop",
-      "note": "dropped Sun 10/25",
+      "note": "dropped Wed 10/28",
       "tag": "DROP"
      },
      {
@@ -106,12 +105,12 @@
    },
    "new_drops": [
     {
-     "player": "Jacoby Brissett",
+     "player": "Aaron Rodgers",
      "pos": "QB",
-     "team": "ARI",
-     "rank": 17,
-     "pts": 121.7,
-     "note": "dropped Wed 10/21"
+     "team": "PIT",
+     "rank": 14,
+     "pts": 133.3,
+     "note": "dropped Wed 10/28"
     },
     {
      "player": "Tyler Higbee",
@@ -122,14 +121,6 @@
      "note": "dropped Sat 10/24"
     },
     {
-     "player": "Kenyon Sadiq",
-     "pos": "TE",
-     "team": "NYJ",
-     "rank": 26,
-     "pts": 45.7,
-     "note": "dropped Sun 10/25"
-    },
-    {
      "player": "Sam Darnold",
      "pos": "QB",
      "team": "SEA",
@@ -138,12 +129,12 @@
      "note": "dropped Sun 10/25"
     },
     {
-     "player": "Jameis Winston",
-     "pos": "QB",
-     "team": "NYG",
-     "rank": 28,
-     "pts": 80.3,
-     "note": "dropped Wed 10/21"
+     "player": "Jake Ferguson",
+     "pos": "TE",
+     "team": "DAL",
+     "rank": 27,
+     "pts": 44.5,
+     "note": "dropped Wed 10/28"
     }
    ]
   },
@@ -154,6 +145,15 @@
    "scoring": "Half PPR",
    "top_by_pos": {
     "QB": [
+     {
+      "player": "Tyler Shough",
+      "team": "NO",
+      "rank": 9,
+      "pts": 131.9,
+      "status": "drop",
+      "note": "dropped Wed 10/28",
+      "tag": "DROP"
+     },
      {
       "player": "Aaron Rodgers",
       "team": "PIT",
@@ -188,13 +188,17 @@
       "rank": 20,
       "pts": 90.6,
       "status": "fa"
-     },
+     }
+    ],
+    "WR": [
      {
-      "player": "Jalen Hurts",
-      "team": "PHI",
-      "rank": 24,
-      "pts": 83.0,
-      "status": "fa"
+      "player": "Davante Adams",
+      "team": "LAR",
+      "rank": 11,
+      "pts": 87.0,
+      "status": "drop",
+      "note": "dropped Wed 10/28",
+      "tag": "DROP"
      }
     ],
     "TE": [
@@ -220,20 +224,12 @@
       "status": "fa"
      },
      {
-      "player": "Brenton Strange",
-      "team": "JAX",
-      "rank": 20,
-      "pts": 46.9,
-      "status": "fa"
-     },
-     {
       "player": "Darren Waller",
       "team": "CAR",
       "rank": 22,
       "pts": 44.8,
       "status": "drop",
-      "note": "dropped Sun 10/25",
-      "tag": "DROP"
+      "note": "dropped Sun 10/25"
      },
      {
       "player": "Darnell Washington",
@@ -241,10 +237,33 @@
       "rank": 23,
       "pts": 42.0,
       "status": "fa"
+     },
+     {
+      "player": "Mark Andrews",
+      "team": "BAL",
+      "rank": 25,
+      "pts": 37.4,
+      "status": "fa"
      }
     ]
    },
    "new_drops": [
+    {
+     "player": "Tyler Shough",
+     "pos": "QB",
+     "team": "NO",
+     "rank": 9,
+     "pts": 131.9,
+     "note": "dropped Wed 10/28"
+    },
+    {
+     "player": "Davante Adams",
+     "pos": "WR",
+     "team": "LAR",
+     "rank": 11,
+     "pts": 87.0,
+     "note": "dropped Wed 10/28"
+    },
     {
      "player": "Darren Waller",
      "pos": "TE",
@@ -357,8 +376,7 @@
       "rank": 6,
       "pts": 38.0,
       "status": "drop",
-      "note": "dropped Sat 10/24",
-      "tag": "DROP"
+      "note": "dropped Sat 10/24"
      },
      {
       "player": "Tuli Tuipulotu",
@@ -553,13 +571,6 @@
     ],
     "TE": [
      {
-      "player": "Harold Fannin Jr.",
-      "team": "CLE",
-      "rank": 12,
-      "pts": 54.2,
-      "status": "fa"
-     },
-     {
       "player": "Mike Gesicki",
       "team": "CIN",
       "rank": 14,
@@ -588,6 +599,15 @@
       "status": "fa"
      },
      {
+      "player": "Jake Ferguson",
+      "team": "DAL",
+      "rank": 26,
+      "pts": 36.0,
+      "status": "drop",
+      "note": "dropped since 10/26",
+      "tag": "DROP"
+     },
+     {
       "player": "Eli Raridon",
       "team": "NE",
       "rank": 27,
@@ -596,7 +616,16 @@
      }
     ]
    },
-   "new_drops": []
+   "new_drops": [
+    {
+     "player": "Jake Ferguson",
+     "pos": "TE",
+     "team": "DAL",
+     "rank": 26,
+     "pts": 36.0,
+     "note": "dropped since 10/26"
+    }
+   ]
   },
   {
    "league": "Brews and Q's",
@@ -613,13 +642,6 @@
       "status": "fa"
      },
      {
-      "player": "Geno Smith",
-      "team": "NYJ",
-      "rank": 15,
-      "pts": 143.35,
-      "status": "fa"
-     },
-     {
       "player": "Jacoby Brissett",
       "team": "ARI",
       "rank": 16,
@@ -630,7 +652,7 @@
       "player": "Bo Nix",
       "team": "DEN",
       "rank": 19,
-      "pts": 126.65,
+      "pts": 126.55,
       "status": "fa"
      },
      {
@@ -646,6 +668,13 @@
       "rank": 21,
       "pts": 109.15,
       "status": "fa"
+     },
+     {
+      "player": "Cam Ward",
+      "team": "TEN",
+      "rank": 27,
+      "pts": 94.05,
+      "status": "fa"
      }
     ],
     "WR": [
@@ -655,6 +684,25 @@
       "rank": 23,
       "pts": 52.8,
       "status": "fa"
+     },
+     {
+      "player": "Jaylin Noel",
+      "team": "HOU",
+      "rank": 26,
+      "pts": 47.7,
+      "status": "drop",
+      "injury": "Questionable",
+      "note": "dropped since 10/26",
+      "tag": "DROP"
+     },
+     {
+      "player": "Keon Coleman",
+      "team": "BUF",
+      "rank": 29,
+      "pts": 46.3,
+      "status": "drop",
+      "note": "dropped since 10/26",
+      "tag": "DROP"
      }
     ],
     "TE": [
@@ -666,11 +714,13 @@
       "status": "fa"
      },
      {
-      "player": "Hunter Henry",
-      "team": "NE",
-      "rank": 12,
-      "pts": 41.6,
-      "status": "fa"
+      "player": "Juwan Johnson",
+      "team": "NO",
+      "rank": 13,
+      "pts": 41.5,
+      "status": "drop",
+      "note": "dropped since 10/26",
+      "tag": "DROP"
      },
      {
       "player": "Darren Waller",
@@ -687,29 +737,55 @@
       "status": "fa"
      },
      {
+      "player": "Dallas Goedert",
+      "team": "PHI",
+      "rank": 20,
+      "pts": 34.8,
+      "status": "drop",
+      "note": "dropped since 10/26",
+      "tag": "DROP"
+     },
+     {
       "player": "Darnell Washington",
       "team": "PIT",
       "rank": 21,
       "pts": 34.0,
-      "status": "fa"
-     },
-     {
-      "player": "Dalton Schultz",
-      "team": "HOU",
-      "rank": 23,
-      "pts": 32.2,
       "status": "fa"
      }
     ]
    },
    "new_drops": [
     {
-     "player": "Kenyon Sadiq",
+     "player": "Juwan Johnson",
      "pos": "TE",
-     "team": "NYJ",
-     "rank": 27,
-     "pts": 26.7,
-     "note": "dropped since 10/22"
+     "team": "NO",
+     "rank": 13,
+     "pts": 41.5,
+     "note": "dropped since 10/26"
+    },
+    {
+     "player": "Dallas Goedert",
+     "pos": "TE",
+     "team": "PHI",
+     "rank": 20,
+     "pts": 34.8,
+     "note": "dropped since 10/26"
+    },
+    {
+     "player": "Jaylin Noel",
+     "pos": "WR",
+     "team": "HOU",
+     "rank": 26,
+     "pts": 47.7,
+     "note": "dropped since 10/26"
+    },
+    {
+     "player": "Keon Coleman",
+     "pos": "WR",
+     "team": "BUF",
+     "rank": 29,
+     "pts": 46.3,
+     "note": "dropped since 10/26"
     }
    ]
   },
@@ -726,6 +802,15 @@
       "rank": 6,
       "pts": 137.48,
       "status": "fa"
+     },
+     {
+      "player": "Aaron Rodgers",
+      "team": "PIT",
+      "rank": 14,
+      "pts": 112.26,
+      "status": "drop",
+      "note": "dropped since 10/26",
+      "tag": "DROP"
      },
      {
       "player": "Deshaun Watson",
@@ -745,7 +830,7 @@
       "player": "Bo Nix",
       "team": "DEN",
       "rank": 19,
-      "pts": 95.94,
+      "pts": 95.84,
       "status": "fa"
      },
      {
@@ -753,13 +838,6 @@
       "team": "MIA",
       "rank": 22,
       "pts": 86.58,
-      "status": "fa"
-     },
-     {
-      "player": "Michael Penix Jr.",
-      "team": "ATL",
-      "rank": 23,
-      "pts": 84.68,
       "status": "fa"
      }
     ],
@@ -772,11 +850,13 @@
       "status": "fa"
      },
      {
-      "player": "Hunter Henry",
-      "team": "NE",
-      "rank": 10,
-      "pts": 67.6,
-      "status": "fa"
+      "player": "Juwan Johnson",
+      "team": "NO",
+      "rank": 11,
+      "pts": 67.5,
+      "status": "drop",
+      "note": "dropped since 10/26",
+      "tag": "DROP"
      },
      {
       "player": "Pat Freiermuth",
@@ -797,8 +877,7 @@
       "team": "BUF",
       "rank": 16,
       "pts": 63.5,
-      "status": "fa",
-      "injury": "Questionable"
+      "status": "fa"
      },
      {
       "player": "Brenton Strange",
@@ -811,12 +890,20 @@
    },
    "new_drops": [
     {
-     "player": "Jalen Hurts",
+     "player": "Juwan Johnson",
+     "pos": "TE",
+     "team": "NO",
+     "rank": 11,
+     "pts": 67.5,
+     "note": "dropped since 10/26"
+    },
+    {
+     "player": "Aaron Rodgers",
      "pos": "QB",
-     "team": "PHI",
-     "rank": 25,
-     "pts": 80.02,
-     "note": "dropped since 10/22"
+     "team": "PIT",
+     "rank": 14,
+     "pts": 112.26,
+     "note": "dropped since 10/26"
     }
    ]
   }
