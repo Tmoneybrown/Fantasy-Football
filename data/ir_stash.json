@@ -1,6 +1,6 @@
 {
- "updated": "2026-10-27",
- "graphic_date": "2026-10-27",
+ "updated": "2026-10-28",
+ "graphic_date": "2026-10-28",
  "weeks": {
   "W8": "Oct 29-Nov 2",
   "W9": "Nov 5-9",
@@ -20,7 +20,8 @@
        "pos": "TE",
        "team": "LAC",
        "injury": "Lower Leg",
-       "ret_wk": 8
+       "ret_wk": 8,
+       "rank": 1
       },
       {
        "player": "James Conner",
@@ -29,7 +30,8 @@
        "status": "IR-R",
        "injury": "Foot",
        "ret_wk": 8,
-       "note": "designated to return; return moved Oct 25\u2192Nov 1"
+       "note": "designated to return; return moved Oct 25\u2192Nov 1",
+       "rank": 1
       },
       {
        "player": "Jack Bech",
@@ -37,14 +39,16 @@
        "team": "LV",
        "status": "IR-R",
        "injury": "Forearm",
-       "ret_wk": 8
+       "ret_wk": 8,
+       "rank": 1
       },
       {
        "player": "Andrei Iosivas",
        "pos": "WR",
        "team": "CIN",
        "injury": "Thumb",
-       "ret_wk": 8
+       "ret_wk": 8,
+       "rank": 2
       },
       {
        "player": "Michael Pittman",
@@ -52,35 +56,40 @@
        "team": "PIT",
        "injury": "Foot",
        "ret_wk": 10,
-       "note": "now rostered in MFL"
+       "note": "now rostered in MFL",
+       "rank": 3
       },
       {
        "player": "Xavier Legette",
        "pos": "WR",
        "team": "CAR",
        "injury": "Knee",
-       "ret_wk": 9
+       "ret_wk": 9,
+       "rank": 4
       },
       {
        "player": "Tank Bigsby",
        "pos": "RB",
        "team": "PHI",
        "injury": "Abdomen",
-       "ret_wk": 9
+       "ret_wk": 9,
+       "rank": 2
       },
       {
        "player": "Chris Brooks",
        "pos": "RB",
        "team": "GB",
        "injury": "Ankle",
-       "ret_wk": 9
+       "ret_wk": 9,
+       "rank": 3
       },
       {
        "player": "Demarcus Robinson",
        "pos": "WR",
        "team": "SF",
        "injury": "Ankle",
-       "ret_wk": 9
+       "ret_wk": 9,
+       "rank": 5
       },
       {
        "player": "Isaac Guerendo",
@@ -88,7 +97,8 @@
        "team": "SF",
        "status": "IR-PUP",
        "injury": "Pectoral",
-       "ret_wk": 9
+       "ret_wk": 9,
+       "rank": 4
       }
      ]
     },
@@ -101,7 +111,8 @@
        "team": "DEN",
        "status": "IR-R",
        "injury": "Lower Body",
-       "ret_wk": 8
+       "ret_wk": 8,
+       "rank": 2
       },
       {
        "player": "Tip Reiman",
@@ -109,7 +120,8 @@
        "team": "ARI",
        "status": "IR-PUP",
        "injury": "Ankle",
-       "ret_wk": 8
+       "ret_wk": 8,
+       "rank": 3
       },
       {
        "player": "Carter Runyon",
@@ -117,14 +129,16 @@
        "team": "LV",
        "status": "IR-R",
        "injury": "Foot",
-       "ret_wk": 8
+       "ret_wk": 8,
+       "rank": 4
       },
       {
        "player": "Hunter Long",
        "pos": "TE",
        "team": "ARI",
        "injury": "Knee",
-       "ret_wk": 9
+       "ret_wk": 9,
+       "rank": 5
       },
       {
        "player": "Joe Royer",
@@ -132,15 +146,8 @@
        "team": "CLE",
        "status": "IR-NFI",
        "injury": "Personal",
-       "ret_wk": 8
-      },
-      {
-       "player": "Dont'e Thornton",
-       "pos": "WR",
-       "team": "LV",
-       "status": "IR-R",
-       "injury": "Hamstring",
-       "ret_wk": 8
+       "ret_wk": 8,
+       "rank": 6
       },
       {
        "player": "Beaux Collins",
@@ -148,7 +155,8 @@
        "team": "ATL",
        "status": "IR-R",
        "injury": "Hip",
-       "ret_wk": 8
+       "ret_wk": 8,
+       "rank": 6
       },
       {
        "player": "Tyrell Shavers",
@@ -156,7 +164,8 @@
        "team": "BUF",
        "status": "IR-PUP",
        "injury": "Knee - ACL",
-       "ret_wk": 8
+       "ret_wk": 8,
+       "rank": 7
       },
       {
        "player": "Mason Tipton",
@@ -164,14 +173,16 @@
        "team": "NO",
        "status": "IR-PUP",
        "injury": "Leg",
-       "ret_wk": 9
+       "ret_wk": 9,
+       "rank": 8
       },
       {
        "player": "Skyy Moore",
        "pos": "WR",
        "team": "GB",
        "injury": "Ankle",
-       "ret_wk": 10
+       "ret_wk": 10,
+       "rank": 9
       },
       {
        "player": "Adam Randall",
@@ -179,42 +190,48 @@
        "team": "BAL",
        "status": "IR-R",
        "injury": "Undisclosed",
-       "ret_wk": 8
+       "ret_wk": 8,
+       "rank": 5
       },
       {
        "player": "Ronnie Rivers",
        "pos": "RB",
        "team": "LAR",
        "injury": "Calf",
-       "ret_wk": 8
+       "ret_wk": 8,
+       "rank": 6
       },
       {
        "player": "British Brooks",
        "pos": "RB",
        "team": "HOU",
        "injury": "Hamstring",
-       "ret_wk": 9
+       "ret_wk": 9,
+       "rank": 7
       },
       {
        "player": "Reggie Gilliam",
        "pos": "RB",
        "team": "NE",
        "injury": "Ankle",
-       "ret_wk": 9
+       "ret_wk": 9,
+       "rank": 8
       },
       {
        "player": "Raheim Sanders",
        "pos": "RB",
        "team": "CLE",
        "injury": "Hip",
-       "ret_wk": 10
+       "ret_wk": 10,
+       "rank": 9
       },
       {
        "player": "Trey Lance",
        "pos": "QB",
        "team": "LAC",
        "injury": "Groin",
-       "ret_wk": 10
+       "ret_wk": 10,
+       "rank": 1
       }
      ]
     },
@@ -226,35 +243,48 @@
        "pos": "RB",
        "team": "CLE",
        "ret_wk": "Active",
-       "note": "off IR, activated by Oct 27"
+       "note": "off IR, activated by Oct 27",
+       "rank": 10
       },
       {
        "player": "Eli Stowers",
        "pos": "TE",
        "team": "PHI",
        "ret_wk": "Active",
-       "note": "off IR, activated by Oct 27"
+       "note": "off IR, activated by Oct 27",
+       "rank": 7
       },
       {
        "player": "Grant Calcaterra",
        "pos": "TE",
        "team": "PHI",
        "ret_wk": "Active",
-       "note": "off IR, activated by Oct 27"
+       "note": "off IR, activated by Oct 27",
+       "rank": 8
       },
       {
        "player": "Dillon Gabriel",
        "pos": "QB",
        "team": "CLE",
        "ret_wk": "Active",
-       "note": "off IR, activated by Oct 27"
+       "note": "off IR, activated by Oct 27",
+       "rank": 2
       },
       {
        "player": "David Sills",
        "pos": "WR",
        "team": "TB",
        "ret_wk": "Active",
-       "note": "off IR, activated by Oct 27"
+       "note": "off IR, activated by Oct 27",
+       "rank": 10
+      },
+      {
+       "player": "Dont'e Thornton",
+       "pos": "WR",
+       "team": "LV",
+       "ret_wk": "Active",
+       "note": "off IR, activated by Oct 28",
+       "rank": 11
       }
      ]
     }
@@ -273,7 +303,8 @@
        "pos": "TE",
        "team": "LAC",
        "injury": "Lower Leg",
-       "ret_wk": 8
+       "ret_wk": 8,
+       "rank": 1
       },
       {
        "player": "Terrance Ferguson",
@@ -281,7 +312,8 @@
        "team": "LAR",
        "injury": "Ankle",
        "ret_wk": 9,
-       "note": "newly dropped in PCD"
+       "note": "newly dropped in PCD",
+       "rank": 2
       },
       {
        "player": "James Conner",
@@ -290,7 +322,8 @@
        "status": "IR-R",
        "injury": "Foot",
        "ret_wk": 8,
-       "note": "designated to return; return moved Oct 25\u2192Nov 1"
+       "note": "designated to return; return moved Oct 25\u2192Nov 1",
+       "rank": 1
       },
       {
        "player": "Jack Bech",
@@ -298,56 +331,64 @@
        "team": "LV",
        "status": "IR-R",
        "injury": "Forearm",
-       "ret_wk": 8
+       "ret_wk": 8,
+       "rank": 1
       },
       {
        "player": "Andrei Iosivas",
        "pos": "WR",
        "team": "CIN",
        "injury": "Thumb",
-       "ret_wk": 8
+       "ret_wk": 8,
+       "rank": 2
       },
       {
        "player": "Xavier Legette",
        "pos": "WR",
        "team": "CAR",
        "injury": "Knee",
-       "ret_wk": 9
+       "ret_wk": 9,
+       "rank": 3
       },
       {
        "player": "Pat Bryant",
        "pos": "WR",
        "team": "DEN",
        "injury": "Ankle",
-       "ret_wk": 9
+       "ret_wk": 9,
+       "rank": 4
       },
       {
        "player": "Mack Hollins",
        "pos": "WR",
        "team": "NE",
        "injury": "Calf",
-       "ret_wk": 9
+       "ret_wk": 9,
+       "rank": 5
       },
       {
        "player": "Jonathon Brooks",
        "pos": "RB",
        "team": "CAR",
        "injury": "Abdomen",
-       "ret_wk": 9
+       "ret_wk": 9,
+       "rank": 2
       },
       {
        "player": "Chris Brooks",
        "pos": "RB",
        "team": "GB",
        "injury": "Ankle",
-       "ret_wk": 9
+       "ret_wk": 9,
+       "rank": 3
       },
       {
        "player": "Demarcus Robinson",
        "pos": "WR",
        "team": "SF",
        "injury": "Ankle",
-       "ret_wk": 9
+       "ret_wk": 9,
+       "rank": 6
       },
       {
        "player": "Isaac Guerendo",
@@ -355,7 +396,8 @@
        "team": "SF",
        "status": "IR-PUP",
        "injury": "Pectoral",
-       "ret_wk": 9
+       "ret_wk": 9,
+       "rank": 4
       }
      ]
     },
@@ -368,7 +410,8 @@
        "team": "DEN",
        "status": "IR-R",
        "injury": "Lower Body",
-       "ret_wk": 8
+       "ret_wk": 8,
+       "rank": 3
       },
       {
        "player": "Tip Reiman",
@@ -376,7 +419,8 @@
        "team": "ARI",
        "status": "IR-PUP",
        "injury": "Ankle",
-       "ret_wk": 8
+       "ret_wk": 8,
+       "rank": 4
       },
       {
        "player": "Carter Runyon",
@@ -384,14 +428,16 @@
        "team": "LV",
        "status": "IR-R",
        "injury": "Foot",
-       "ret_wk": 8
+       "ret_wk": 8,
+       "rank": 5
       },
       {
        "player": "Hunter Long",
        "pos": "TE",
        "team": "ARI",
        "injury": "Knee",
-       "ret_wk": 9
+       "ret_wk": 9,
+       "rank": 6
       },
       {
        "player": "Joe Royer",
@@ -399,15 +445,8 @@
        "team": "CLE",
        "status": "IR-NFI",
        "injury": "Personal",
-       "ret_wk": 8
-      },
-      {
-       "player": "Dont'e Thornton",
-       "pos": "WR",
-       "team": "LV",
-       "status": "IR-R",
-       "injury": "Hamstring",
-       "ret_wk": 8
+       "ret_wk": 8,
+       "rank": 7
       },
       {
        "player": "Beaux Collins",
@@ -415,7 +454,8 @@
        "team": "ATL",
        "status": "IR-R",
        "injury": "Hip",
-       "ret_wk": 8
+       "ret_wk": 8,
+       "rank": 7
       },
       {
        "player": "Tyrell Shavers",
@@ -423,7 +463,8 @@
        "team": "BUF",
        "status": "IR-PUP",
        "injury": "Knee - ACL",
-       "ret_wk": 8
+       "ret_wk": 8,
+       "rank": 8
       },
       {
        "player": "Mason Tipton",
@@ -431,14 +472,16 @@
        "team": "NO",
        "status": "IR-PUP",
        "injury": "Leg",
-       "ret_wk": 9
+       "ret_wk": 9,
+       "rank": 9
       },
       {
        "player": "Skyy Moore",
        "pos": "WR",
        "team": "GB",
        "injury": "Ankle",
-       "ret_wk": 10
+       "ret_wk": 10,
+       "rank": 10
       },
       {
        "player": "Adam Randall",
@@ -446,42 +489,48 @@
        "team": "BAL",
        "status": "IR-R",
        "injury": "Undisclosed",
-       "ret_wk": 8
+       "ret_wk": 8,
+       "rank": 5
       },
       {
        "player": "Ronnie Rivers",
        "pos": "RB",
        "team": "LAR",
        "injury": "Calf",
-       "ret_wk": 8
+       "ret_wk": 8,
+       "rank": 6
       },
       {
        "player": "British Brooks",
        "pos": "RB",
        "team": "HOU",
        "injury": "Hamstring",
-       "ret_wk": 9
+       "ret_wk": 9,
+       "rank": 7
       },
       {
        "player": "Reggie Gilliam",
        "pos": "RB",
        "team": "NE",
        "injury": "Ankle",
-       "ret_wk": 9
+       "ret_wk": 9,
+       "rank": 8
       },
       {
        "player": "Raheim Sanders",
        "pos": "RB",
        "team": "CLE",
        "injury": "Hip",
-       "ret_wk": 10
+       "ret_wk": 10,
+       "rank": 9
       },
       {
        "player": "Trey Lance",
        "pos": "QB",
        "team": "LAC",
        "injury": "Groin",
-       "ret_wk": 10
+       "ret_wk": 10,
+       "rank": 1
       }
      ]
     },
@@ -493,49 +542,56 @@
        "pos": "WR",
        "team": "HOU",
        "ret_wk": "Active",
-       "note": "off IR, activated by Oct 27"
+       "note": "off IR, activated by Oct 27",
+       "rank": 11
       },
       {
        "player": "Christian Kirk",
        "pos": "WR",
        "team": "SF",
        "ret_wk": "Active",
-       "note": "off IR, activated by Oct 27"
-      },
-      {
-       "player": "Jonah Coleman",
-       "pos": "RB",
-       "team": "DEN",
-       "ret_wk": "Active",
-       "note": "off IR, activated by Oct 27"
+       "note": "off IR, activated by Oct 27",
+       "rank": 12
       },
       {
        "player": "Eli Stowers",
        "pos": "TE",
        "team": "PHI",
        "ret_wk": "Active",
-       "note": "off IR, activated by Oct 27"
+       "note": "off IR, activated by Oct 27",
+       "rank": 8
       },
       {
        "player": "Grant Calcaterra",
        "pos": "TE",
        "team": "PHI",
        "ret_wk": "Active",
-       "note": "off IR, activated by Oct 27"
+       "note": "off IR, activated by Oct 27",
+       "rank": 9
       },
       {
        "player": "Dillon Gabriel",
        "pos": "QB",
        "team": "CLE",
        "ret_wk": "Active",
-       "note": "off IR, activated by Oct 27"
+       "note": "off IR, activated by Oct 27",
+       "rank": 2
       },
       {
        "player": "David Sills",
        "pos": "WR",
        "team": "TB",
        "ret_wk": "Active",
-       "note": "off IR, activated by Oct 27"
+       "note": "off IR, activated by Oct 27",
+       "rank": 13
+      },
+      {
+       "player": "Dont'e Thornton",
+       "pos": "WR",
+       "team": "LV",
+       "ret_wk": "Active",
+       "note": "off IR, activated by Oct 28",
+       "rank": 14
       }
      ]
     }
@@ -554,7 +610,8 @@
        "pos": "TE",
        "team": "LAC",
        "injury": "Lower Leg",
-       "ret_wk": 8
+       "ret_wk": 8,
+       "rank": 1
       },
       {
        "player": "Terrance Ferguson",
@@ -562,7 +619,8 @@
        "team": "LAR",
        "injury": "Ankle",
        "ret_wk": 9,
-       "note": "newly dropped in PCD"
+       "note": "newly dropped in PCD",
+       "rank": 2
       },
       {
        "player": "James Conner",
@@ -571,7 +629,8 @@
        "status": "IR-R",
        "injury": "Foot",
        "ret_wk": 8,
-       "note": "designated to return; return moved Oct 25\u2192Nov 1"
+       "note": "designated to return; return moved Oct 25\u2192Nov 1",
+       "rank": 1
       },
       {
        "player": "Jack Bech",
@@ -579,14 +638,16 @@
        "team": "LV",
        "status": "IR-R",
        "injury": "Forearm",
-       "ret_wk": 8
+       "ret_wk": 8,
+       "rank": 1
       },
       {
        "player": "Andrei Iosivas",
        "pos": "WR",
        "team": "CIN",
        "injury": "Thumb",
-       "ret_wk": 8
+       "ret_wk": 8,
+       "rank": 2
       },
       {
        "player": "Michael Pittman",
@@ -594,7 +655,8 @@
        "team": "PIT",
        "injury": "Foot",
        "ret_wk": 10,
-       "note": "now rostered in MFL"
+       "note": "now rostered in MFL",
+       "rank": 3
       },
       {
        "player": "Alec Pierce",
@@ -602,49 +664,56 @@
        "team": "IND",
        "injury": "Heel",
        "ret_wk": 9,
-       "note": "return moved Nov 1\u2192Nov 8"
+       "note": "return moved Nov 1\u2192Nov 8",
+       "rank": 4
       },
       {
        "player": "Xavier Legette",
        "pos": "WR",
        "team": "CAR",
        "injury": "Knee",
-       "ret_wk": 9
+       "ret_wk": 9,
+       "rank": 5
       },
       {
        "player": "Pat Bryant",
        "pos": "WR",
        "team": "DEN",
        "injury": "Ankle",
-       "ret_wk": 9
+       "ret_wk": 9,
+       "rank": 6
       },
       {
        "player": "Mack Hollins",
        "pos": "WR",
        "team": "NE",
        "injury": "Calf",
-       "ret_wk": 9
+       "ret_wk": 9,
+       "rank": 7
       },
       {
        "player": "Tank Bigsby",
        "pos": "RB",
        "team": "PHI",
        "injury": "Abdomen",
-       "ret_wk": 9
+       "ret_wk": 9,
+       "rank": 2
       },
       {
        "player": "Chris Brooks",
        "pos": "RB",
        "team": "GB",
        "injury": "Ankle",
-       "ret_wk": 9
+       "ret_wk": 9,
+       "rank": 3
       },
       {
        "player": "Demarcus Robinson",
        "pos": "WR",
        "team": "SF",
        "injury": "Ankle",
-       "ret_wk": 9
+       "ret_wk": 9,
+       "rank": 8
       },
       {
        "player": "Isaac Guerendo",
@@ -652,7 +721,8 @@
        "team": "SF",
        "status": "IR-PUP",
        "injury": "Pectoral",
-       "ret_wk": 9
+       "ret_wk": 9,
+       "rank": 4
       }
      ]
     },
@@ -665,7 +735,8 @@
        "team": "DEN",
        "status": "IR-R",
        "injury": "Lower Body",
-       "ret_wk": 8
+       "ret_wk": 8,
+       "rank": 3
       },
       {
        "player": "Tip Reiman",
@@ -673,7 +744,8 @@
        "team": "ARI",
        "status": "IR-PUP",
        "injury": "Ankle",
-       "ret_wk": 8
+       "ret_wk": 8,
+       "rank": 4
       },
       {
        "player": "Carter Runyon",
@@ -681,14 +753,16 @@
        "team": "LV",
        "status": "IR-R",
        "injury": "Foot",
-       "ret_wk": 8
+       "ret_wk": 8,
+       "rank": 5
       },
       {
        "player": "Hunter Long",
        "pos": "TE",
        "team": "ARI",
        "injury": "Knee",
-       "ret_wk": 9
+       "ret_wk": 9,
+       "rank": 6
       },
       {
        "player": "Joe Royer",
@@ -696,15 +770,8 @@
        "team": "CLE",
        "status": "IR-NFI",
        "injury": "Personal",
-       "ret_wk": 8
-      },
-      {
-       "player": "Dont'e Thornton",
-       "pos": "WR",
-       "team": "LV",
-       "status": "IR-R",
-       "injury": "Hamstring",
-       "ret_wk": 8
+       "ret_wk": 8,
+       "rank": 7
       },
       {
        "player": "Beaux Collins",
@@ -712,7 +779,8 @@
        "team": "ATL",
        "status": "IR-R",
        "injury": "Hip",
-       "ret_wk": 8
+       "ret_wk": 8,
+       "rank": 9
       },
       {
        "player": "Tyrell Shavers",
@@ -720,7 +788,8 @@
        "team": "BUF",
        "status": "IR-PUP",
        "injury": "Knee - ACL",
-       "ret_wk": 8
+       "ret_wk": 8,
+       "rank": 10
       },
       {
        "player": "Mason Tipton",
@@ -728,14 +797,16 @@
        "team": "NO",
        "status": "IR-PUP",
        "injury": "Leg",
-       "ret_wk": 9
+       "ret_wk": 9,
+       "rank": 11
       },
       {
        "player": "Skyy Moore",
        "pos": "WR",
        "team": "GB",
        "injury": "Ankle",
-       "ret_wk": 10
+       "ret_wk": 10,
+       "rank": 12
       },
       {
        "player": "Adam Randall",
@@ -743,42 +814,48 @@
        "team": "BAL",
        "status": "IR-R",
        "injury": "Undisclosed",
-       "ret_wk": 8
+       "ret_wk": 8,
+       "rank": 5
       },
       {
        "player": "Ronnie Rivers",
        "pos": "RB",
        "team": "LAR",
        "injury": "Calf",
-       "ret_wk": 8
+       "ret_wk": 8,
+       "rank": 6
       },
       {
        "player": "British Brooks",
        "pos": "RB",
        "team": "HOU",
        "injury": "Hamstring",
-       "ret_wk": 9
+       "ret_wk": 9,
+       "rank": 7
       },
       {
        "player": "Reggie Gilliam",
        "pos": "RB",
        "team": "NE",
        "injury": "Ankle",
-       "ret_wk": 9
+       "ret_wk": 9,
+       "rank": 8
       },
       {
        "player": "Raheim Sanders",
        "pos": "RB",
        "team": "CLE",
        "injury": "Hip",
-       "ret_wk": 10
+       "ret_wk": 10,
+       "rank": 9
       },
       {
        "player": "Trey Lance",
        "pos": "QB",
        "team": "LAC",
        "injury": "Groin",
-       "ret_wk": 10
+       "ret_wk": 10,
+       "rank": 1
       }
      ]
     },
@@ -791,7 +868,9 @@
        "team": "GB",
        "status": "IR-PUP",
        "injury": "Knee - ACL",
-       "ret_wk": 8
+       "ret_wk": 9,
+       "note": "return moved Oct 29\u2192Nov 8",
+       "rank": 1
       },
       {
        "player": "Kerby Joseph",
@@ -799,7 +878,8 @@
        "team": "DET",
        "status": "IR-PUP",
        "injury": "Knee",
-       "ret_wk": 8
+       "ret_wk": 8,
+       "rank": 1
       },
       {
        "player": "Harold Landry",
@@ -807,7 +887,8 @@
        "team": "NE",
        "status": "IR-PUP",
        "injury": "Undisclosed",
-       "ret_wk": 8
+       "ret_wk": 8,
+       "rank": 2
       },
       {
        "player": "Collin Oliver",
@@ -815,15 +896,17 @@
        "team": "GB",
        "status": "IR-R",
        "injury": "Achilles",
-       "ret_wk": 8,
-       "note": "designated to return"
+       "ret_wk": 9,
+       "note": "designated to return; return moved Oct 29\u2192Nov 8",
+       "rank": 3
       },
       {
        "player": "Denzel Perryman",
        "pos": "LB",
        "team": "LAC",
        "injury": "Undisclosed",
-       "ret_wk": 8
+       "ret_wk": 8,
+       "rank": 1
       },
       {
        "player": "Tony Fields",
@@ -831,7 +914,8 @@
        "team": "CHI",
        "status": "IR-R",
        "injury": "Undisclosed",
-       "ret_wk": 8
+       "ret_wk": 8,
+       "rank": 2
       },
       {
        "player": "P.J. Locke",
@@ -840,56 +924,64 @@
        "status": "IR-R",
        "injury": "Foot",
        "ret_wk": 8,
-       "note": "designated to return"
+       "note": "designated to return",
+       "rank": 2
       },
       {
        "player": "Jalen Thompson",
        "pos": "S",
        "team": "DAL",
        "injury": "Hamstring",
-       "ret_wk": 8
+       "ret_wk": 8,
+       "rank": 3
       },
       {
        "player": "Ronnie Harrison",
        "pos": "S",
        "team": "MIA",
        "injury": "Hamstring",
-       "ret_wk": 8
+       "ret_wk": 8,
+       "rank": 4
       },
       {
        "player": "Nate Hobbs",
        "pos": "CB",
        "team": "SF",
        "injury": "Groin",
-       "ret_wk": 9
+       "ret_wk": 9,
+       "rank": 1
       },
       {
        "player": "Arden Key",
        "pos": "DE",
        "team": "IND",
        "injury": "Hamstring",
-       "ret_wk": 9
+       "ret_wk": 9,
+       "rank": 4
       },
       {
        "player": "Jaycee Horn",
        "pos": "CB",
        "team": "CAR",
        "injury": "Quadriceps",
-       "ret_wk": 10
+       "ret_wk": 10,
+       "rank": 2
       },
       {
        "player": "Derrick Harmon",
        "pos": "DT",
        "team": "PIT",
        "injury": "Foot",
-       "ret_wk": 10
+       "ret_wk": 10,
+       "rank": 1
       },
       {
        "player": "Chauncey Golston",
        "pos": "DE",
        "team": "NYG",
        "injury": "Neck",
-       "ret_wk": 10
+       "ret_wk": 10,
+       "rank": 5
       }
      ]
     },
@@ -901,63 +993,80 @@
        "pos": "RB",
        "team": "CLE",
        "ret_wk": "Active",
-       "note": "off IR, activated by Oct 27"
+       "note": "off IR, activated by Oct 27",
+       "rank": 10
       },
       {
        "player": "Eli Stowers",
        "pos": "TE",
        "team": "PHI",
        "ret_wk": "Active",
-       "note": "off IR, activated by Oct 27"
+       "note": "off IR, activated by Oct 27",
+       "rank": 8
       },
       {
        "player": "Grant Calcaterra",
        "pos": "TE",
        "team": "PHI",
        "ret_wk": "Active",
-       "note": "off IR, activated by Oct 27"
+       "note": "off IR, activated by Oct 27",
+       "rank": 9
       },
       {
        "player": "Dillon Gabriel",
        "pos": "QB",
        "team": "CLE",
        "ret_wk": "Active",
-       "note": "off IR, activated by Oct 27"
+       "note": "off IR, activated by Oct 27",
+       "rank": 2
       },
       {
        "player": "David Sills",
        "pos": "WR",
        "team": "TB",
        "ret_wk": "Active",
-       "note": "off IR, activated by Oct 27"
+       "note": "off IR, activated by Oct 27",
+       "rank": 13
       },
       {
        "player": "Brian Branch",
        "pos": "S",
        "team": "DET",
        "ret_wk": "Active",
-       "note": "off IR, activated by Oct 27"
+       "note": "off IR, activated by Oct 27",
+       "rank": 5
       },
       {
        "player": "A.J. Terrell",
        "pos": "CB",
        "team": "ATL",
        "ret_wk": "Active",
-       "note": "off IR, activated by Oct 27"
+       "note": "off IR, activated by Oct 27",
+       "rank": 3
       },
       {
        "player": "Paulson Adebo",
        "pos": "CB",
        "team": "NYG",
        "ret_wk": "Active",
-       "note": "off IR, activated by Oct 27"
+       "note": "off IR, activated by Oct 27",
+       "rank": 4
       },
       {
        "player": "DeShon Elliott",
        "pos": "S",
        "team": "PIT",
        "ret_wk": "Active",
-       "note": "off IR, activated by Oct 27"
+       "note": "off IR, activated by Oct 27",
+       "rank": 6
+      },
+      {
+       "player": "Dont'e Thornton",
+       "pos": "WR",
+       "team": "LV",
+       "ret_wk": "Active",
+       "note": "off IR, activated by Oct 28",
+       "rank": 14
       }
      ]
     }
@@ -976,7 +1085,8 @@
        "pos": "TE",
        "team": "LAC",
        "injury": "Lower Leg",
-       "ret_wk": 8
+       "ret_wk": 8,
+       "rank": 1
       },
       {
        "player": "Terrance Ferguson",
@@ -984,7 +1094,8 @@
        "team": "LAR",
        "injury": "Ankle",
        "ret_wk": 9,
-       "note": "newly dropped in PCD"
+       "note": "newly dropped in PCD",
+       "rank": 2
       },
       {
        "player": "Jack Bech",
@@ -992,49 +1103,56 @@
        "team": "LV",
        "status": "IR-R",
        "injury": "Forearm",
-       "ret_wk": 8
+       "ret_wk": 8,
+       "rank": 1
       },
       {
        "player": "Andrei Iosivas",
        "pos": "WR",
        "team": "CIN",
        "injury": "Thumb",
-       "ret_wk": 8
+       "ret_wk": 8,
+       "rank": 2
       },
       {
        "player": "Xavier Legette",
        "pos": "WR",
        "team": "CAR",
        "injury": "Knee",
-       "ret_wk": 9
+       "ret_wk": 9,
+       "rank": 3
       },
       {
        "player": "Pat Bryant",
        "pos": "WR",
        "team": "DEN",
        "injury": "Ankle",
-       "ret_wk": 9
+       "ret_wk": 9,
+       "rank": 4
       },
       {
        "player": "Mack Hollins",
        "pos": "WR",
        "team": "NE",
        "injury": "Calf",
-       "ret_wk": 9
+       "ret_wk": 9,
+       "rank": 5
       },
       {
        "player": "Chris Brooks",
        "pos": "RB",
        "team": "GB",
        "injury": "Ankle",
-       "ret_wk": 9
+       "ret_wk": 9,
+       "rank": 1
       },
       {
        "player": "Demarcus Robinson",
        "pos": "WR",
        "team": "SF",
        "injury": "Ankle",
-       "ret_wk": 9
+       "ret_wk": 9,
+       "rank": 6
       },
       {
        "player": "Isaac Guerendo",
@@ -1042,7 +1160,8 @@
        "team": "SF",
        "status": "IR-PUP",
        "injury": "Pectoral",
-       "ret_wk": 9
+       "ret_wk": 9,
+       "rank": 2
       }
      ]
     },
@@ -1055,7 +1174,8 @@
        "team": "DEN",
        "status": "IR-R",
        "injury": "Lower Body",
-       "ret_wk": 8
+       "ret_wk": 8,
+       "rank": 3
       },
       {
        "player": "Tip Reiman",
@@ -1063,7 +1183,8 @@
        "team": "ARI",
        "status": "IR-PUP",
        "injury": "Ankle",
-       "ret_wk": 8
+       "ret_wk": 8,
+       "rank": 4
       },
       {
        "player": "Carter Runyon",
@@ -1071,14 +1192,16 @@
        "team": "LV",
        "status": "IR-R",
        "injury": "Foot",
-       "ret_wk": 8
+       "ret_wk": 8,
+       "rank": 5
       },
       {
        "player": "Hunter Long",
        "pos": "TE",
        "team": "ARI",
        "injury": "Knee",
-       "ret_wk": 9
+       "ret_wk": 9,
+       "rank": 6
       },
       {
        "player": "Joe Royer",
@@ -1086,15 +1209,8 @@
        "team": "CLE",
        "status": "IR-NFI",
        "injury": "Personal",
-       "ret_wk": 8
-      },
-      {
-       "player": "Dont'e Thornton",
-       "pos": "WR",
-       "team": "LV",
-       "status": "IR-R",
-       "injury": "Hamstring",
-       "ret_wk": 8
+       "ret_wk": 8,
+       "rank": 7
       },
       {
        "player": "Beaux Collins",
@@ -1102,7 +1218,8 @@
        "team": "ATL",
        "status": "IR-R",
        "injury": "Hip",
-       "ret_wk": 8
+       "ret_wk": 8,
+       "rank": 7
       },
       {
        "player": "Tyrell Shavers",
@@ -1110,7 +1227,8 @@
        "team": "BUF",
        "status": "IR-PUP",
        "injury": "Knee - ACL",
-       "ret_wk": 8
+       "ret_wk": 8,
+       "rank": 8
       },
       {
        "player": "Mason Tipton",
@@ -1118,14 +1236,16 @@
        "team": "NO",
        "status": "IR-PUP",
        "injury": "Leg",
-       "ret_wk": 9
+       "ret_wk": 9,
+       "rank": 9
       },
       {
        "player": "Skyy Moore",
        "pos": "WR",
        "team": "GB",
        "injury": "Ankle",
-       "ret_wk": 10
+       "ret_wk": 10,
+       "rank": 10
       },
       {
        "player": "Adam Randall",
@@ -1133,42 +1253,48 @@
        "team": "BAL",
        "status": "IR-R",
        "injury": "Undisclosed",
-       "ret_wk": 8
+       "ret_wk": 8,
+       "rank": 3
       },
       {
        "player": "Ronnie Rivers",
        "pos": "RB",
        "team": "LAR",
        "injury": "Calf",
-       "ret_wk": 8
+       "ret_wk": 8,
+       "rank": 4
       },
       {
        "player": "British Brooks",
        "pos": "RB",
        "team": "HOU",
        "injury": "Hamstring",
-       "ret_wk": 9
+       "ret_wk": 9,
+       "rank": 5
       },
       {
        "player": "Reggie Gilliam",
        "pos": "RB",
        "team": "NE",
        "injury": "Ankle",
-       "ret_wk": 9
+       "ret_wk": 9,
+       "rank": 6
       },
       {
        "player": "Raheim Sanders",
        "pos": "RB",
        "team": "CLE",
        "injury": "Hip",
-       "ret_wk": 10
+       "ret_wk": 10,
+       "rank": 7
       },
       {
        "player": "Trey Lance",
        "pos": "QB",
        "team": "LAC",
        "injury": "Groin",
-       "ret_wk": 10
+       "ret_wk": 10,
+       "rank": 1
       }
      ]
     },
@@ -1180,28 +1306,40 @@
        "pos": "TE",
        "team": "PHI",
        "ret_wk": "Active",
-       "note": "off IR, activated by Oct 27"
+       "note": "off IR, activated by Oct 27",
+       "rank": 8
       },
       {
        "player": "Grant Calcaterra",
        "pos": "TE",
        "team": "PHI",
        "ret_wk": "Active",
-       "note": "off IR, activated by Oct 27"
+       "note": "off IR, activated by Oct 27",
+       "rank": 9
       },
       {
        "player": "Dillon Gabriel",
        "pos": "QB",
        "team": "CLE",
        "ret_wk": "Active",
-       "note": "off IR, activated by Oct 27"
+       "note": "off IR, activated by Oct 27",
+       "rank": 2
       },
       {
        "player": "David Sills",
        "pos": "WR",
        "team": "TB",
        "ret_wk": "Active",
-       "note": "off IR, activated by Oct 27"
+       "note": "off IR, activated by Oct 27",
+       "rank": 11
+      },
+      {
+       "player": "Dont'e Thornton",
+       "pos": "WR",
+       "team": "LV",
+       "ret_wk": "Active",
+       "note": "off IR, activated by Oct 28",
+       "rank": 12
       }
      ]
     }
@@ -1220,7 +1358,8 @@
        "pos": "TE",
        "team": "LAC",
        "injury": "Lower Leg",
-       "ret_wk": 8
+       "ret_wk": 8,
+       "rank": 1
       },
       {
        "player": "Terrance Ferguson",
@@ -1228,7 +1367,8 @@
        "team": "LAR",
        "injury": "Ankle",
        "ret_wk": 9,
-       "note": "newly dropped in PCD"
+       "note": "newly dropped in PCD",
+       "rank": 2
       },
       {
        "player": "James Conner",
@@ -1237,7 +1377,8 @@
        "status": "IR-R",
        "injury": "Foot",
        "ret_wk": 8,
-       "note": "designated to return; return moved Oct 25\u2192Nov 1"
+       "note": "designated to return; return moved Oct 25\u2192Nov 1",
+       "rank": 1
       },
       {
        "player": "Jack Bech",
@@ -1245,14 +1386,16 @@
        "team": "LV",
        "status": "IR-R",
        "injury": "Forearm",
-       "ret_wk": 8
+       "ret_wk": 8,
+       "rank": 1
       },
       {
        "player": "Andrei Iosivas",
        "pos": "WR",
        "team": "CIN",
        "injury": "Thumb",
-       "ret_wk": 8
+       "ret_wk": 8,
+       "rank": 2
       },
       {
        "player": "Jordyn Tyson",
@@ -1260,42 +1403,48 @@
        "team": "NO",
        "status": "IR-R",
        "injury": "Hamstring",
-       "ret_wk": 9
+       "ret_wk": 9,
+       "rank": 3
       },
       {
        "player": "Xavier Legette",
        "pos": "WR",
        "team": "CAR",
        "injury": "Knee",
-       "ret_wk": 9
+       "ret_wk": 9,
+       "rank": 4
       },
       {
        "player": "Pat Bryant",
        "pos": "WR",
        "team": "DEN",
        "injury": "Ankle",
-       "ret_wk": 9
+       "ret_wk": 9,
+       "rank": 5
       },
       {
        "player": "Mack Hollins",
        "pos": "WR",
        "team": "NE",
        "injury": "Calf",
-       "ret_wk": 9
+       "ret_wk": 9,
+       "rank": 6
       },
       {
        "player": "Chris Brooks",
        "pos": "RB",
        "team": "GB",
        "injury": "Ankle",
-       "ret_wk": 9
+       "ret_wk": 9,
+       "rank": 2
       },
       {
        "player": "Demarcus Robinson",
        "pos": "WR",
        "team": "SF",
        "injury": "Ankle",
-       "ret_wk": 9
+       "ret_wk": 9,
+       "rank": 7
       },
       {
        "player": "Isaac Guerendo",
@@ -1303,7 +1452,8 @@
        "team": "SF",
        "status": "IR-PUP",
        "injury": "Pectoral",
-       "ret_wk": 9
+       "ret_wk": 9,
+       "rank": 3
       }
      ]
     },
@@ -1316,7 +1466,8 @@
        "team": "DEN",
        "status": "IR-R",
        "injury": "Lower Body",
-       "ret_wk": 8
+       "ret_wk": 8,
+       "rank": 3
       },
       {
        "player": "Tip Reiman",
@@ -1324,7 +1475,8 @@
        "team": "ARI",
        "status": "IR-PUP",
        "injury": "Ankle",
-       "ret_wk": 8
+       "ret_wk": 8,
+       "rank": 4
       },
       {
        "player": "Carter Runyon",
@@ -1332,14 +1484,16 @@
        "team": "LV",
        "status": "IR-R",
        "injury": "Foot",
-       "ret_wk": 8
+       "ret_wk": 8,
+       "rank": 5
       },
       {
        "player": "Hunter Long",
        "pos": "TE",
        "team": "ARI",
        "injury": "Knee",
-       "ret_wk": 9
+       "ret_wk": 9,
+       "rank": 6
       },
       {
        "player": "Joe Royer",
@@ -1347,15 +1501,8 @@
        "team": "CLE",
        "status": "IR-NFI",
        "injury": "Personal",
-       "ret_wk": 8
-      },
-      {
-       "player": "Dont'e Thornton",
-       "pos": "WR",
-       "team": "LV",
-       "status": "IR-R",
-       "injury": "Hamstring",
-       "ret_wk": 8
+       "ret_wk": 8,
+       "rank": 7
       },
       {
        "player": "Beaux Collins",
@@ -1363,7 +1510,8 @@
        "team": "ATL",
        "status": "IR-R",
        "injury": "Hip",
-       "ret_wk": 8
+       "ret_wk": 8,
+       "rank": 8
       },
       {
        "player": "Tyrell Shavers",
@@ -1371,7 +1519,8 @@
        "team": "BUF",
        "status": "IR-PUP",
        "injury": "Knee - ACL",
-       "ret_wk": 8
+       "ret_wk": 8,
+       "rank": 9
       },
       {
        "player": "Mason Tipton",
@@ -1379,14 +1528,16 @@
        "team": "NO",
        "status": "IR-PUP",
        "injury": "Leg",
-       "ret_wk": 9
+       "ret_wk": 9,
+       "rank": 10
       },
       {
        "player": "Skyy Moore",
        "pos": "WR",
        "team": "GB",
        "injury": "Ankle",
-       "ret_wk": 10
+       "ret_wk": 10,
+       "rank": 11
       },
       {
        "player": "Adam Randall",
@@ -1394,42 +1545,48 @@
        "team": "BAL",
        "status": "IR-R",
        "injury": "Undisclosed",
-       "ret_wk": 8
+       "ret_wk": 8,
+       "rank": 4
       },
       {
        "player": "Ronnie Rivers",
        "pos": "RB",
        "team": "LAR",
        "injury": "Calf",
-       "ret_wk": 8
+       "ret_wk": 8,
+       "rank": 5
       },
       {
        "player": "British Brooks",
        "pos": "RB",
        "team": "HOU",
        "injury": "Hamstring",
-       "ret_wk": 9
+       "ret_wk": 9,
+       "rank": 6
       },
       {
        "player": "Reggie Gilliam",
        "pos": "RB",
        "team": "NE",
        "injury": "Ankle",
-       "ret_wk": 9
+       "ret_wk": 9,
+       "rank": 7
       },
       {
        "player": "Raheim Sanders",
        "pos": "RB",
        "team": "CLE",
        "injury": "Hip",
-       "ret_wk": 10
+       "ret_wk": 10,
+       "rank": 8
       },
       {
        "player": "Trey Lance",
        "pos": "QB",
        "team": "LAC",
        "injury": "Groin",
-       "ret_wk": 10
+       "ret_wk": 10,
+       "rank": 1
       }
      ]
     },
@@ -1441,42 +1598,56 @@
        "pos": "WR",
        "team": "SF",
        "ret_wk": "Active",
-       "note": "off IR, activated by Oct 27"
+       "note": "off IR, activated by Oct 27",
+       "rank": 12
       },
       {
        "player": "Dylan Sampson",
        "pos": "RB",
        "team": "CLE",
        "ret_wk": "Active",
-       "note": "off IR, activated by Oct 27"
+       "note": "off IR, activated by Oct 27",
+       "rank": 9
       },
       {
        "player": "Eli Stowers",
        "pos": "TE",
        "team": "PHI",
        "ret_wk": "Active",
-       "note": "off IR, activated by Oct 27"
+       "note": "off IR, activated by Oct 27",
+       "rank": 8
       },
       {
        "player": "Grant Calcaterra",
        "pos": "TE",
        "team": "PHI",
        "ret_wk": "Active",
-       "note": "off IR, activated by Oct 27"
+       "note": "off IR, activated by Oct 27",
+       "rank": 9
       },
       {
        "player": "Dillon Gabriel",
        "pos": "QB",
        "team": "CLE",
        "ret_wk": "Active",
-       "note": "off IR, activated by Oct 27"
+       "note": "off IR, activated by Oct 27",
+       "rank": 2
       },
       {
        "player": "David Sills",
        "pos": "WR",
        "team": "TB",
        "ret_wk": "Active",
-       "note": "off IR, activated by Oct 27"
+       "note": "off IR, activated by Oct 27",
+       "rank": 13
+      },
+      {
+       "player": "Dont'e Thornton",
+       "pos": "WR",
+       "team": "LV",
+       "ret_wk": "Active",
+       "note": "off IR, activated by Oct 28",
+       "rank": 14
       }
      ]
     }
@@ -1495,7 +1666,8 @@
        "pos": "TE",
        "team": "LAC",
        "injury": "Lower Leg",
-       "ret_wk": 8
+       "ret_wk": 8,
+       "rank": 1
       },
       {
        "player": "Terrance Ferguson",
@@ -1503,7 +1675,8 @@
        "team": "LAR",
        "injury": "Ankle",
        "ret_wk": 9,
-       "note": "newly dropped in PCD"
+       "note": "newly dropped in PCD",
+       "rank": 2
       },
       {
        "player": "James Conner",
@@ -1512,14 +1685,16 @@
        "status": "IR-R",
        "injury": "Foot",
        "ret_wk": 8,
-       "note": "designated to return; return moved Oct 25\u2192Nov 1"
+       "note": "designated to return; return moved Oct 25\u2192Nov 1",
+       "rank": 1
       },
       {
        "player": "Jadarian Price",
        "pos": "RB",
        "team": "SEA",
        "injury": "Chest",
-       "ret_wk": 8
+       "ret_wk": 8,
+       "rank": 2
       },
       {
        "player": "Jack Bech",
@@ -1527,49 +1702,56 @@
        "team": "LV",
        "status": "IR-R",
        "injury": "Forearm",
-       "ret_wk": 8
+       "ret_wk": 8,
+       "rank": 1
       },
       {
        "player": "Andrei Iosivas",
        "pos": "WR",
        "team": "CIN",
        "injury": "Thumb",
-       "ret_wk": 8
+       "ret_wk": 8,
+       "rank": 2
       },
       {
        "player": "Xavier Legette",
        "pos": "WR",
        "team": "CAR",
        "injury": "Knee",
-       "ret_wk": 9
+       "ret_wk": 9,
+       "rank": 3
       },
       {
        "player": "Pat Bryant",
        "pos": "WR",
        "team": "DEN",
        "injury": "Ankle",
-       "ret_wk": 9
+       "ret_wk": 9,
+       "rank": 4
       },
       {
        "player": "Mack Hollins",
        "pos": "WR",
        "team": "NE",
        "injury": "Calf",
-       "ret_wk": 9
+       "ret_wk": 9,
+       "rank": 5
       },
       {
        "player": "Chris Brooks",
        "pos": "RB",
        "team": "GB",
        "injury": "Ankle",
-       "ret_wk": 9
+       "ret_wk": 9,
+       "rank": 3
       },
       {
        "player": "Demarcus Robinson",
        "pos": "WR",
        "team": "SF",
        "injury": "Ankle",
-       "ret_wk": 9
+       "ret_wk": 9,
+       "rank": 6
       },
       {
        "player": "Isaac Guerendo",
@@ -1577,7 +1759,8 @@
        "team": "SF",
        "status": "IR-PUP",
        "injury": "Pectoral",
-       "ret_wk": 9
+       "ret_wk": 9,
+       "rank": 4
       }
      ]
     },
@@ -1590,7 +1773,8 @@
        "team": "DEN",
        "status": "IR-R",
        "injury": "Lower Body",
-       "ret_wk": 8
+       "ret_wk": 8,
+       "rank": 3
       },
       {
        "player": "Tip Reiman",
@@ -1598,7 +1782,8 @@
        "team": "ARI",
        "status": "IR-PUP",
        "injury": "Ankle",
-       "ret_wk": 8
+       "ret_wk": 8,
+       "rank": 4
       },
       {
        "player": "Carter Runyon",
@@ -1606,14 +1791,16 @@
        "team": "LV",
        "status": "IR-R",
        "injury": "Foot",
-       "ret_wk": 8
+       "ret_wk": 8,
+       "rank": 5
       },
       {
        "player": "Hunter Long",
        "pos": "TE",
        "team": "ARI",
        "injury": "Knee",
-       "ret_wk": 9
+       "ret_wk": 9,
+       "rank": 6
       },
       {
        "player": "Joe Royer",
@@ -1621,15 +1808,8 @@
        "team": "CLE",
        "status": "IR-NFI",
        "injury": "Personal",
-       "ret_wk": 8
-      },
-      {
-       "player": "Dont'e Thornton",
-       "pos": "WR",
-       "team": "LV",
-       "status": "IR-R",
-       "injury": "Hamstring",
-       "ret_wk": 8
+       "ret_wk": 8,
+       "rank": 7
       },
       {
        "player": "Beaux Collins",
@@ -1637,7 +1817,8 @@
        "team": "ATL",
        "status": "IR-R",
        "injury": "Hip",
-       "ret_wk": 8
+       "ret_wk": 8,
+       "rank": 7
       },
       {
        "player": "Tyrell Shavers",
@@ -1645,7 +1826,8 @@
        "team": "BUF",
        "status": "IR-PUP",
        "injury": "Knee - ACL",
-       "ret_wk": 8
+       "ret_wk": 8,
+       "rank": 8
       },
       {
        "player": "Mason Tipton",
@@ -1653,14 +1835,16 @@
        "team": "NO",
        "status": "IR-PUP",
        "injury": "Leg",
-       "ret_wk": 9
+       "ret_wk": 9,
+       "rank": 9
       },
       {
        "player": "Skyy Moore",
        "pos": "WR",
        "team": "GB",
        "injury": "Ankle",
-       "ret_wk": 10
+       "ret_wk": 10,
+       "rank": 10
       },
       {
        "player": "Adam Randall",
@@ -1668,42 +1852,48 @@
        "team": "BAL",
        "status": "IR-R",
        "injury": "Undisclosed",
-       "ret_wk": 8
+       "ret_wk": 8,
+       "rank": 5
       },
       {
        "player": "Ronnie Rivers",
        "pos": "RB",
        "team": "LAR",
        "injury": "Calf",
-       "ret_wk": 8
+       "ret_wk": 8,
+       "rank": 6
       },
       {
        "player": "British Brooks",
        "pos": "RB",
        "team": "HOU",
        "injury": "Hamstring",
-       "ret_wk": 9
+       "ret_wk": 9,
+       "rank": 7
       },
       {
        "player": "Reggie Gilliam",
        "pos": "RB",
        "team": "NE",
        "injury": "Ankle",
-       "ret_wk": 9
+       "ret_wk": 9,
+       "rank": 8
       },
       {
        "player": "Raheim Sanders",
        "pos": "RB",
        "team": "CLE",
        "injury": "Hip",
-       "ret_wk": 10
+       "ret_wk": 10,
+       "rank": 9
       },
       {
        "player": "Trey Lance",
        "pos": "QB",
        "team": "LAC",
        "injury": "Groin",
-       "ret_wk": 10
+       "ret_wk": 10,
+       "rank": 1
       }
      ]
     },
@@ -1715,49 +1905,64 @@
        "pos": "WR",
        "team": "HOU",
        "ret_wk": "Active",
-       "note": "off IR, activated by Oct 27"
+       "note": "off IR, activated by Oct 27",
+       "rank": 11
       },
       {
        "player": "Christian Kirk",
        "pos": "WR",
        "team": "SF",
        "ret_wk": "Active",
-       "note": "off IR, activated by Oct 27"
+       "note": "off IR, activated by Oct 27",
+       "rank": 12
       },
       {
        "player": "Dylan Sampson",
        "pos": "RB",
        "team": "CLE",
        "ret_wk": "Active",
-       "note": "off IR, activated by Oct 27"
+       "note": "off IR, activated by Oct 27",
+       "rank": 10
       },
       {
        "player": "Eli Stowers",
        "pos": "TE",
        "team": "PHI",
        "ret_wk": "Active",
-       "note": "off IR, activated by Oct 27"
+       "note": "off IR, activated by Oct 27",
+       "rank": 8
       },
       {
        "player": "Grant Calcaterra",
        "pos": "TE",
        "team": "PHI",
        "ret_wk": "Active",
-       "note": "off IR, activated by Oct 27"
+       "note": "off IR, activated by Oct 27",
+       "rank": 9
       },
       {
        "player": "Dillon Gabriel",
        "pos": "QB",
        "team": "CLE",
        "ret_wk": "Active",
-       "note": "off IR, activated by Oct 27"
+       "note": "off IR, activated by Oct 27",
+       "rank": 2
       },
       {
        "player": "David Sills",
        "pos": "WR",
        "team": "TB",
        "ret_wk": "Active",
-       "note": "off IR, activated by Oct 27"
+       "note": "off IR, activated by Oct 27",
+       "rank": 13
+      },
+      {
+       "player": "Dont'e Thornton",
+       "pos": "WR",
+       "team": "LV",
+       "ret_wk": "Active",
+       "note": "off IR, activated by Oct 28",
+       "rank": 14
       }
      ]
     }
