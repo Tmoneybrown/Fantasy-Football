@@ -1,6 +1,6 @@
 {
- "updated": "2026-10-29",
- "graphic_date": "2026-10-29",
+ "updated": "2026-10-30",
+ "graphic_date": "2026-10-30",
  "weeks": {
   "W8": "Oct 29-Nov 2",
   "W9": "Nov 5-9",
@@ -22,8 +22,8 @@
        "team": "ARI",
        "status": "IR-R",
        "injury": "Foot",
-       "ret_wk": 8,
-       "note": "designated to return",
+       "ret_wk": 9,
+       "note": "designated to return; return moved Nov 1\u2192Nov 8",
        "rank": 1
       },
       {
@@ -32,7 +32,7 @@
        "team": "LAC",
        "injury": "Lower Leg",
        "ret_wk": 9,
-       "note": "return moved Nov 1\u2192Nov 8",
+       "note": "return moved Nov 1\u2192Nov 8 (Oct 29)",
        "rank": 1
       },
       {
@@ -49,7 +49,8 @@
        "pos": "WR",
        "team": "CIN",
        "injury": "Thumb",
-       "ret_wk": 8,
+       "ret_wk": 9,
+       "note": "return moved Nov 1\u2192Nov 8",
        "rank": 2
       },
       {
@@ -66,7 +67,6 @@
        "team": "TB",
        "injury": "Knee - PCL",
        "ret_wk": 11,
-       "note": "new",
        "rank": 4
       },
       {
@@ -91,7 +91,6 @@
        "team": "KC",
        "injury": "Hamstring",
        "ret_wk": 11,
-       "note": "new",
        "rank": 3
       },
       {
@@ -131,7 +130,6 @@
        "status": "IR-R",
        "injury": "Lower Body",
        "ret_wk": 9,
-       "note": "return moved Nov 1\u2192Nov 8",
        "rank": 2
       },
       {
@@ -140,7 +138,8 @@
        "team": "ARI",
        "status": "IR-PUP",
        "injury": "Ankle",
-       "ret_wk": 8,
+       "ret_wk": 9,
+       "note": "return moved Nov 1\u2192Nov 8",
        "rank": 3
       },
       {
@@ -167,7 +166,6 @@
        "status": "IR-NFI",
        "injury": "Personal",
        "ret_wk": 9,
-       "note": "return moved Nov 1\u2192Nov 8",
        "rank": 6
       },
       {
@@ -186,7 +184,6 @@
        "status": "IR-PUP",
        "injury": "Knee - ACL",
        "ret_wk": 9,
-       "note": "return moved Nov 1\u2192Nov 9",
        "rank": 8
       },
       {
@@ -212,7 +209,6 @@
        "team": "PIT",
        "injury": "Finger",
        "ret_wk": 11,
-       "note": "new",
        "rank": 11
       },
       {
@@ -229,7 +225,8 @@
        "pos": "RB",
        "team": "LAR",
        "injury": "Calf",
-       "ret_wk": 8,
+       "ret_wk": 9,
+       "note": "return moved Nov 1\u2192Nov 8",
        "rank": 7
       },
       {
@@ -254,7 +251,6 @@
        "team": "PHI",
        "injury": "Foot",
        "ret_wk": 11,
-       "note": "new",
        "rank": 10
       },
       {
@@ -278,14 +274,6 @@
     {
      "category": "Off IR Now (still available)",
      "players": [
-      {
-       "player": "Dylan Sampson",
-       "pos": "RB",
-       "team": "CLE",
-       "ret_wk": "Active",
-       "note": "off IR, activated by Oct 27",
-       "rank": 12
-      },
       {
        "player": "Eli Stowers",
        "pos": "TE",
@@ -344,8 +332,8 @@
        "team": "ARI",
        "status": "IR-R",
        "injury": "Foot",
-       "ret_wk": 8,
-       "note": "designated to return",
+       "ret_wk": 9,
+       "note": "designated to return; return moved Nov 1\u2192Nov 8",
        "rank": 1
       },
       {
@@ -354,7 +342,7 @@
        "team": "LAC",
        "injury": "Lower Leg",
        "ret_wk": 9,
-       "note": "return moved Nov 1\u2192Nov 8",
+       "note": "return moved Nov 1\u2192Nov 8 (Oct 29)",
        "rank": 1
       },
       {
@@ -371,7 +359,6 @@
        "team": "WAS",
        "injury": "Groin",
        "ret_wk": 11,
-       "note": "new: return window now within 3 weeks",
        "rank": 2
       },
       {
@@ -388,7 +375,8 @@
        "pos": "WR",
        "team": "CIN",
        "injury": "Thumb",
-       "ret_wk": 8,
+       "ret_wk": 9,
+       "note": "return moved Nov 1\u2192Nov 8",
        "rank": 2
       },
       {
@@ -397,7 +385,6 @@
        "team": "TB",
        "injury": "Knee - PCL",
        "ret_wk": 11,
-       "note": "new",
        "rank": 3
       },
       {
@@ -438,7 +425,6 @@
        "team": "KC",
        "injury": "Hamstring",
        "ret_wk": 11,
-       "note": "new",
        "rank": 4
       },
       {
@@ -478,7 +464,6 @@
        "status": "IR-R",
        "injury": "Lower Body",
        "ret_wk": 9,
-       "note": "return moved Nov 1\u2192Nov 8",
        "rank": 3
       },
       {
@@ -487,7 +472,8 @@
        "team": "ARI",
        "status": "IR-PUP",
        "injury": "Ankle",
-       "ret_wk": 8,
+       "ret_wk": 9,
+       "note": "return moved Nov 1\u2192Nov 8",
        "rank": 4
       },
       {
@@ -514,7 +500,6 @@
        "status": "IR-NFI",
        "injury": "Personal",
        "ret_wk": 9,
-       "note": "return moved Nov 1\u2192Nov 8",
        "rank": 7
       },
       {
@@ -533,7 +518,6 @@
        "status": "IR-PUP",
        "injury": "Knee - ACL",
        "ret_wk": 9,
-       "note": "return moved Nov 1\u2192Nov 9",
        "rank": 9
       },
       {
@@ -559,7 +543,6 @@
        "team": "PIT",
        "injury": "Finger",
        "ret_wk": 11,
-       "note": "new",
        "rank": 12
       },
       {
@@ -568,7 +551,6 @@
        "team": "SF",
        "injury": "Ankle",
        "ret_wk": 11,
-       "note": "new",
        "rank": 13
       },
       {
@@ -585,7 +567,8 @@
        "pos": "RB",
        "team": "LAR",
        "injury": "Calf",
-       "ret_wk": 8,
+       "ret_wk": 9,
+       "note": "return moved Nov 1\u2192Nov 8",
        "rank": 8
       },
       {
@@ -610,7 +593,6 @@
        "team": "PHI",
        "injury": "Foot",
        "ret_wk": 11,
-       "note": "new",
        "rank": 11
       },
       {
@@ -708,8 +690,8 @@
        "team": "ARI",
        "status": "IR-R",
        "injury": "Foot",
-       "ret_wk": 8,
-       "note": "designated to return",
+       "ret_wk": 9,
+       "note": "designated to return; return moved Nov 1\u2192Nov 8",
        "rank": 1
       },
       {
@@ -718,7 +700,7 @@
        "team": "LAC",
        "injury": "Lower Leg",
        "ret_wk": 9,
-       "note": "return moved Nov 1\u2192Nov 8",
+       "note": "return moved Nov 1\u2192Nov 8 (Oct 29)",
        "rank": 1
       },
       {
@@ -735,7 +717,6 @@
        "team": "WAS",
        "injury": "Groin",
        "ret_wk": 11,
-       "note": "new: return window now within 3 weeks",
        "rank": 2
       },
       {
@@ -752,7 +733,8 @@
        "pos": "WR",
        "team": "CIN",
        "injury": "Thumb",
-       "ret_wk": 8,
+       "ret_wk": 9,
+       "note": "return moved Nov 1\u2192Nov 8",
        "rank": 2
       },
       {
@@ -777,7 +759,6 @@
        "team": "TB",
        "injury": "Knee - PCL",
        "ret_wk": 11,
-       "note": "new",
        "rank": 5
       },
       {
@@ -818,7 +799,6 @@
        "team": "KC",
        "injury": "Hamstring",
        "ret_wk": 11,
-       "note": "new",
        "rank": 4
       },
       {
@@ -858,7 +838,6 @@
        "status": "IR-R",
        "injury": "Lower Body",
        "ret_wk": 9,
-       "note": "return moved Nov 1\u2192Nov 8",
        "rank": 3
       },
       {
@@ -867,7 +846,8 @@
        "team": "ARI",
        "status": "IR-PUP",
        "injury": "Ankle",
-       "ret_wk": 8,
+       "ret_wk": 9,
+       "note": "return moved Nov 1\u2192Nov 8",
        "rank": 4
       },
       {
@@ -894,7 +874,6 @@
        "status": "IR-NFI",
        "injury": "Personal",
        "ret_wk": 9,
-       "note": "return moved Nov 1\u2192Nov 8",
        "rank": 7
       },
       {
@@ -913,7 +892,6 @@
        "status": "IR-PUP",
        "injury": "Knee - ACL",
        "ret_wk": 9,
-       "note": "return moved Nov 1\u2192Nov 9",
        "rank": 11
       },
       {
@@ -939,7 +917,6 @@
        "team": "PIT",
        "injury": "Finger",
        "ret_wk": 11,
-       "note": "new",
        "rank": 14
       },
       {
@@ -948,7 +925,6 @@
        "team": "SF",
        "injury": "Ankle",
        "ret_wk": 11,
-       "note": "new",
        "rank": 15
       },
       {
@@ -965,7 +941,8 @@
        "pos": "RB",
        "team": "LAR",
        "injury": "Calf",
-       "ret_wk": 8,
+       "ret_wk": 9,
+       "note": "return moved Nov 1\u2192Nov 8",
        "rank": 8
       },
       {
@@ -990,7 +967,6 @@
        "team": "PHI",
        "injury": "Foot",
        "ret_wk": 11,
-       "note": "new",
        "rank": 11
       },
       {
@@ -1021,7 +997,6 @@
        "status": "IR-PUP",
        "injury": "Knee - ACL",
        "ret_wk": 9,
-       "note": "return moved Oct 29\u2192Nov 8",
        "rank": 1
       },
       {
@@ -1040,7 +1015,6 @@
        "status": "IR-PUP",
        "injury": "Undisclosed",
        "ret_wk": 9,
-       "note": "return moved Nov 1\u2192Nov 8",
        "rank": 2
       },
       {
@@ -1050,7 +1024,7 @@
        "status": "IR-R",
        "injury": "Pectoral",
        "ret_wk": 8,
-       "note": "designated to return; return moved Nov 23\u2192Nov 1",
+       "note": "designated to return",
        "rank": 1
       },
       {
@@ -1060,7 +1034,7 @@
        "status": "IR-R",
        "injury": "Achilles",
        "ret_wk": 9,
-       "note": "designated to return; return moved Oct 29\u2192Nov 8",
+       "note": "designated to return",
        "rank": 3
       },
       {
@@ -1069,7 +1043,6 @@
        "team": "LAC",
        "injury": "Undisclosed",
        "ret_wk": 9,
-       "note": "return moved Nov 1\u2192Nov 8",
        "rank": 1
       },
       {
@@ -1078,7 +1051,6 @@
        "team": "DET",
        "injury": "Forearm",
        "ret_wk": 11,
-       "note": "new",
        "rank": 2
       },
       {
@@ -1096,7 +1068,6 @@
        "team": "CHI",
        "injury": "Quadriceps",
        "ret_wk": 11,
-       "note": "new",
        "rank": 4
       },
       {
@@ -1114,7 +1085,8 @@
        "pos": "S",
        "team": "DAL",
        "injury": "Hamstring",
-       "ret_wk": 8,
+       "ret_wk": 9,
+       "note": "return moved Nov 1\u2192Nov 8",
        "rank": 3
       },
       {
@@ -1123,7 +1095,6 @@
        "team": "MIA",
        "injury": "Hamstring",
        "ret_wk": 9,
-       "note": "return moved Nov 1\u2192Nov 8",
        "rank": 4
       },
       {
@@ -1172,7 +1143,6 @@
        "team": "NYJ",
        "injury": "Quadriceps",
        "ret_wk": 11,
-       "note": "new",
        "rank": 4
       }
      ]
@@ -1278,7 +1248,7 @@
        "team": "LAC",
        "injury": "Lower Leg",
        "ret_wk": 9,
-       "note": "return moved Nov 1\u2192Nov 8",
+       "note": "return moved Nov 1\u2192Nov 8 (Oct 29)",
        "rank": 1
       },
       {
@@ -1303,7 +1273,8 @@
        "pos": "WR",
        "team": "CIN",
        "injury": "Thumb",
-       "ret_wk": 8,
+       "ret_wk": 9,
+       "note": "return moved Nov 1\u2192Nov 8",
        "rank": 2
       },
       {
@@ -1312,7 +1283,6 @@
        "team": "TB",
        "injury": "Knee - PCL",
        "ret_wk": 11,
-       "note": "new",
        "rank": 3
       },
       {
@@ -1345,7 +1315,6 @@
        "team": "KC",
        "injury": "Hamstring",
        "ret_wk": 11,
-       "note": "new",
        "rank": 1
       },
       {
@@ -1385,7 +1354,6 @@
        "status": "IR-R",
        "injury": "Lower Body",
        "ret_wk": 9,
-       "note": "return moved Nov 1\u2192Nov 8",
        "rank": 3
       },
       {
@@ -1394,7 +1362,8 @@
        "team": "ARI",
        "status": "IR-PUP",
        "injury": "Ankle",
-       "ret_wk": 8,
+       "ret_wk": 9,
+       "note": "return moved Nov 1\u2192Nov 8",
        "rank": 4
       },
       {
@@ -1421,7 +1390,6 @@
        "status": "IR-NFI",
        "injury": "Personal",
        "ret_wk": 9,
-       "note": "return moved Nov 1\u2192Nov 8",
        "rank": 7
       },
       {
@@ -1440,7 +1408,6 @@
        "status": "IR-PUP",
        "injury": "Knee - ACL",
        "ret_wk": 9,
-       "note": "return moved Nov 1\u2192Nov 9",
        "rank": 9
       },
       {
@@ -1474,7 +1441,8 @@
        "pos": "RB",
        "team": "LAR",
        "injury": "Calf",
-       "ret_wk": 8,
+       "ret_wk": 9,
+       "note": "return moved Nov 1\u2192Nov 8",
        "rank": 5
       },
       {
@@ -1499,7 +1467,6 @@
        "team": "PHI",
        "injury": "Foot",
        "ret_wk": 11,
-       "note": "new",
        "rank": 8
       },
       {
@@ -1589,8 +1556,8 @@
        "team": "ARI",
        "status": "IR-R",
        "injury": "Foot",
-       "ret_wk": 8,
-       "note": "designated to return",
+       "ret_wk": 9,
+       "note": "designated to return; return moved Nov 1\u2192Nov 8",
        "rank": 1
       },
       {
@@ -1599,7 +1566,7 @@
        "team": "LAC",
        "injury": "Lower Leg",
        "ret_wk": 9,
-       "note": "return moved Nov 1\u2192Nov 8",
+       "note": "return moved Nov 1\u2192Nov 8 (Oct 29)",
        "rank": 1
       },
       {
@@ -1624,7 +1591,8 @@
        "pos": "WR",
        "team": "CIN",
        "injury": "Thumb",
-       "ret_wk": 8,
+       "ret_wk": 9,
+       "note": "return moved Nov 1\u2192Nov 8",
        "rank": 2
       },
       {
@@ -1642,7 +1610,6 @@
        "team": "TB",
        "injury": "Knee - PCL",
        "ret_wk": 11,
-       "note": "new",
        "rank": 4
       },
       {
@@ -1675,7 +1642,6 @@
        "team": "KC",
        "injury": "Hamstring",
        "ret_wk": 11,
-       "note": "new",
        "rank": 2
       },
       {
@@ -1715,7 +1681,6 @@
        "status": "IR-R",
        "injury": "Lower Body",
        "ret_wk": 9,
-       "note": "return moved Nov 1\u2192Nov 8",
        "rank": 3
       },
       {
@@ -1724,7 +1689,8 @@
        "team": "ARI",
        "status": "IR-PUP",
        "injury": "Ankle",
-       "ret_wk": 8,
+       "ret_wk": 9,
+       "note": "return moved Nov 1\u2192Nov 8",
        "rank": 4
       },
       {
@@ -1751,7 +1717,6 @@
        "status": "IR-NFI",
        "injury": "Personal",
        "ret_wk": 9,
-       "note": "return moved Nov 1\u2192Nov 8",
        "rank": 7
       },
       {
@@ -1770,7 +1735,6 @@
        "status": "IR-PUP",
        "injury": "Knee - ACL",
        "ret_wk": 9,
-       "note": "return moved Nov 1\u2192Nov 9",
        "rank": 10
       },
       {
@@ -1796,7 +1760,6 @@
        "team": "PIT",
        "injury": "Finger",
        "ret_wk": 11,
-       "note": "new",
        "rank": 13
       },
       {
@@ -1805,7 +1768,6 @@
        "team": "SF",
        "injury": "Ankle",
        "ret_wk": 11,
-       "note": "new",
        "rank": 14
       },
       {
@@ -1822,7 +1784,8 @@
        "pos": "RB",
        "team": "LAR",
        "injury": "Calf",
-       "ret_wk": 8,
+       "ret_wk": 9,
+       "note": "return moved Nov 1\u2192Nov 8",
        "rank": 6
       },
       {
@@ -1847,7 +1810,6 @@
        "team": "PHI",
        "injury": "Foot",
        "ret_wk": 11,
-       "note": "new",
        "rank": 9
       },
       {
@@ -1945,8 +1907,8 @@
        "team": "ARI",
        "status": "IR-R",
        "injury": "Foot",
-       "ret_wk": 8,
-       "note": "designated to return",
+       "ret_wk": 9,
+       "note": "designated to return; return moved Nov 1\u2192Nov 8",
        "rank": 1
       },
       {
@@ -1955,7 +1917,7 @@
        "team": "LAC",
        "injury": "Lower Leg",
        "ret_wk": 9,
-       "note": "return moved Nov 1\u2192Nov 8",
+       "note": "return moved Nov 1\u2192Nov 8 (Oct 29)",
        "rank": 1
       },
       {
@@ -1970,8 +1932,10 @@
        "player": "Jadarian Price",
        "pos": "RB",
        "team": "SEA",
+       "status": "IR-R",
        "injury": "Chest",
        "ret_wk": 8,
+       "note": "designated to return",
        "rank": 2
       },
       {
@@ -1980,7 +1944,6 @@
        "team": "WAS",
        "injury": "Groin",
        "ret_wk": 11,
-       "note": "new: return window now within 3 weeks",
        "rank": 3
       },
       {
@@ -1997,7 +1960,8 @@
        "pos": "WR",
        "team": "CIN",
        "injury": "Thumb",
-       "ret_wk": 8,
+       "ret_wk": 9,
+       "note": "return moved Nov 1\u2192Nov 8",
        "rank": 2
       },
       {
@@ -2006,7 +1970,6 @@
        "team": "TB",
        "injury": "Knee - PCL",
        "ret_wk": 11,
-       "note": "new",
        "rank": 3
       },
       {
@@ -2039,7 +2002,6 @@
        "team": "KC",
        "injury": "Hamstring",
        "ret_wk": 11,
-       "note": "new",
        "rank": 4
       },
       {
@@ -2079,7 +2041,6 @@
        "status": "IR-R",
        "injury": "Lower Body",
        "ret_wk": 9,
-       "note": "return moved Nov 1\u2192Nov 8",
        "rank": 3
       },
       {
@@ -2088,7 +2049,8 @@
        "team": "ARI",
        "status": "IR-PUP",
        "injury": "Ankle",
-       "ret_wk": 8,
+       "ret_wk": 9,
+       "note": "return moved Nov 1\u2192Nov 8",
        "rank": 4
       },
       {
@@ -2115,7 +2077,6 @@
        "status": "IR-NFI",
        "injury": "Personal",
        "ret_wk": 9,
-       "note": "return moved Nov 1\u2192Nov 8",
        "rank": 7
       },
       {
@@ -2134,7 +2095,6 @@
        "status": "IR-PUP",
        "injury": "Knee - ACL",
        "ret_wk": 9,
-       "note": "return moved Nov 1\u2192Nov 9",
        "rank": 9
       },
       {
@@ -2160,7 +2120,6 @@
        "team": "SF",
        "injury": "Ankle",
        "ret_wk": 11,
-       "note": "new",
        "rank": 12
       },
       {
@@ -2177,7 +2136,8 @@
        "pos": "RB",
        "team": "LAR",
        "injury": "Calf",
-       "ret_wk": 8,
+       "ret_wk": 9,
+       "note": "return moved Nov 1\u2192Nov 8",
        "rank": 8
       },
       {
@@ -2202,7 +2162,6 @@
        "team": "PHI",
        "injury": "Foot",
        "ret_wk": 11,
-       "note": "new",
        "rank": 11
       },
       {
