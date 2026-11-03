@@ -1,6 +1,6 @@
 {
- "updated": "2026-10-30",
- "through_week": 7,
+ "updated": "2026-11-03",
+ "through_week": 8,
  "leagues": [
   {
    "league": "TRUMP",
@@ -13,118 +13,109 @@
       "player": "Malik Willis",
       "team": "MIA",
       "rank": 20,
-      "pts": 100.6,
+      "pts": 118.2,
+      "status": "fa"
+     },
+     {
+      "player": "Sam Darnold",
+      "team": "SEA",
+      "rank": 21,
+      "pts": 115.3,
+      "status": "drop",
+      "note": "dropped Fri 10/30"
+     },
+     {
+      "player": "Cam Ward",
+      "team": "TEN",
+      "rank": 22,
+      "pts": 114.5,
       "status": "fa"
      },
      {
       "player": "Jalen Hurts",
       "team": "PHI",
-      "rank": 21,
+      "rank": 25,
       "pts": 97.0,
       "status": "fa"
      },
      {
       "player": "Michael Penix Jr.",
       "team": "ATL",
-      "rank": 24,
-      "pts": 94.7,
-      "status": "fa"
-     },
-     {
-      "player": "Sam Darnold",
-      "team": "SEA",
       "rank": 26,
-      "pts": 91.8,
-      "status": "drop",
-      "note": "dropped Fri 10/30",
-      "tag": "DROP"
-     },
-     {
-      "player": "Cam Ward",
-      "team": "TEN",
-      "rank": 27,
-      "pts": 83.3,
+      "pts": 96.8,
       "status": "fa"
      },
      {
-      "player": "Jameis Winston",
-      "team": "NYG",
+      "player": "Justin Herbert",
+      "team": "LAC",
       "rank": 28,
-      "pts": 80.3,
+      "pts": 85.2,
       "status": "fa"
      }
     ],
     "TE": [
      {
-      "player": "Tyler Higbee",
-      "team": "LAR",
-      "rank": 23,
-      "pts": 54.0,
-      "status": "drop",
-      "note": "dropped Sat 10/24"
-     },
-     {
       "player": "Darnell Washington",
       "team": "PIT",
-      "rank": 25,
-      "pts": 50.0,
+      "rank": 22,
+      "pts": 62.4,
       "status": "fa"
      },
      {
-      "player": "Jake Ferguson",
-      "team": "DAL",
-      "rank": 27,
-      "pts": 44.5,
-      "status": "drop",
-      "note": "dropped Wed 10/28"
+      "player": "Tyler Higbee",
+      "team": "LAR",
+      "rank": 24,
+      "pts": 56.4,
+      "status": "fa"
      },
      {
-      "player": "Tommy Tremble",
-      "team": "CAR",
-      "rank": 28,
-      "pts": 44.5,
+      "player": "Mark Andrews",
+      "team": "BAL",
+      "rank": 25,
+      "pts": 54.8,
+      "status": "drop",
+      "note": "dropped Sun 11/01",
+      "tag": "DROP"
+     },
+     {
+      "player": "Greg Dulcich",
+      "team": "MIA",
+      "rank": 26,
+      "pts": 49.6,
       "status": "fa"
      },
      {
       "player": "AJ Barner",
       "team": "SEA",
-      "rank": 29,
-      "pts": 43.5,
+      "rank": 28,
+      "pts": 47.8,
       "status": "fa"
      },
      {
-      "player": "Greg Dulcich",
-      "team": "MIA",
+      "player": "Jake Ferguson",
+      "team": "DAL",
       "rank": 30,
-      "pts": 41.3,
+      "pts": 44.5,
       "status": "fa"
      }
     ]
    },
    "new_drops": [
     {
-     "player": "Tyler Higbee",
-     "pos": "TE",
-     "team": "LAR",
-     "rank": 23,
-     "pts": 54.0,
-     "note": "dropped Sat 10/24"
-    },
-    {
      "player": "Sam Darnold",
      "pos": "QB",
      "team": "SEA",
-     "rank": 26,
-     "pts": 91.8,
+     "rank": 21,
+     "pts": 115.3,
      "note": "dropped Fri 10/30"
     },
     {
-     "player": "Jake Ferguson",
+     "player": "Mark Andrews",
      "pos": "TE",
-     "team": "DAL",
-     "rank": 27,
-     "pts": 44.5,
-     "note": "dropped Wed 10/28"
+     "team": "BAL",
+     "rank": 25,
+     "pts": 54.8,
+     "note": "dropped Sun 11/01"
     }
    ]
   },
@@ -138,45 +129,44 @@
      {
       "player": "Tyler Shough",
       "team": "NO",
-      "rank": 9,
+      "rank": 11,
       "pts": 131.9,
-      "status": "drop",
-      "note": "dropped Wed 10/28"
+      "status": "fa"
      },
      {
       "player": "Aaron Rodgers",
       "team": "PIT",
-      "rank": 14,
-      "pts": 117.3,
-      "status": "fa"
-     },
-     {
-      "player": "Jacoby Brissett",
-      "team": "ARI",
-      "rank": 15,
-      "pts": 113.2,
+      "rank": 16,
+      "pts": 123.1,
       "status": "fa"
      },
      {
       "player": "Deshaun Watson",
       "team": "CLE",
-      "rank": 16,
-      "pts": 109.8,
+      "rank": 17,
+      "pts": 120.9,
       "status": "fa"
      },
      {
       "player": "Bo Nix",
       "team": "DEN",
-      "rank": 19,
-      "pts": 98.8,
+      "rank": 18,
+      "pts": 118.1,
       "status": "drop",
       "note": "dropped Wed 10/28"
      },
      {
-      "player": "Jalen Hurts",
-      "team": "PHI",
-      "rank": 24,
-      "pts": 83.0,
+      "player": "Jacoby Brissett",
+      "team": "ARI",
+      "rank": 19,
+      "pts": 117.7,
+      "status": "fa"
+     },
+     {
+      "player": "Cam Ward",
+      "team": "TEN",
+      "rank": 21,
+      "pts": 105.5,
       "status": "fa"
      }
     ],
@@ -184,90 +174,71 @@
      {
       "player": "Davante Adams",
       "team": "LAR",
-      "rank": 12,
+      "rank": 17,
       "pts": 87.0,
-      "status": "drop",
-      "note": "dropped Wed 10/28"
+      "status": "fa"
+     },
+     {
+      "player": "DeMario Douglas",
+      "team": "NE",
+      "rank": 27,
+      "pts": 68.2,
+      "status": "fa"
      }
     ],
     "TE": [
      {
       "player": "Pat Freiermuth",
       "team": "PIT",
-      "rank": 8,
-      "pts": 55.9,
+      "rank": 10,
+      "pts": 66.5,
       "status": "fa"
      },
      {
       "player": "Michael Mayer",
       "team": "LV",
-      "rank": 15,
-      "pts": 51.3,
+      "rank": 13,
+      "pts": 59.1,
+      "status": "fa"
+     },
+     {
+      "player": "Darnell Washington",
+      "team": "PIT",
+      "rank": 20,
+      "pts": 52.9,
       "status": "fa"
      },
      {
       "player": "Dalton Schultz",
       "team": "HOU",
-      "rank": 19,
+      "rank": 22,
       "pts": 48.7,
       "status": "fa"
      },
      {
       "player": "Darren Waller",
       "team": "CAR",
-      "rank": 21,
-      "pts": 46.4,
-      "status": "drop",
-      "note": "dropped Sun 10/25"
-     },
-     {
-      "player": "Darnell Washington",
-      "team": "PIT",
       "rank": 23,
-      "pts": 42.0,
+      "pts": 46.4,
       "status": "fa"
      },
      {
       "player": "Mark Andrews",
       "team": "BAL",
       "rank": 25,
-      "pts": 37.4,
+      "pts": 40.3,
       "status": "fa"
      }
     ]
    },
    "new_drops": [
     {
-     "player": "Tyler Shough",
-     "pos": "QB",
-     "team": "NO",
-     "rank": 9,
-     "pts": 131.9,
-     "note": "dropped Wed 10/28"
-    },
-    {
-     "player": "Davante Adams",
-     "pos": "WR",
-     "team": "LAR",
-     "rank": 12,
-     "pts": 87.0,
-     "note": "dropped Wed 10/28"
-    },
-    {
      "player": "Bo Nix",
      "pos": "QB",
      "team": "DEN",
-     "rank": 19,
-     "pts": 98.8,
+     "rank": 18,
+     "pts": 118.1,
      "note": "dropped Wed 10/28"
-    },
-    {
-     "player": "Darren Waller",
-     "pos": "TE",
-     "team": "CAR",
-     "rank": 21,
-     "pts": 46.4,
-     "note": "dropped Sun 10/25"
     }
    ]
   },
@@ -279,54 +250,54 @@
    "top_by_pos": {
     "QB": [
      {
+      "player": "Geno Smith",
+      "team": "NYJ",
+      "rank": 16,
+      "pts": 100.45,
+      "status": "fa"
+     },
+     {
       "player": "Deshaun Watson",
       "team": "CLE",
-      "rank": 15,
-      "pts": 91.56,
+      "rank": 17,
+      "pts": 98.86,
       "status": "fa"
      },
      {
       "player": "Jacoby Brissett",
       "team": "ARI",
-      "rank": 16,
-      "pts": 90.71,
-      "status": "fa"
-     },
-     {
-      "player": "Geno Smith",
-      "team": "NYJ",
-      "rank": 18,
-      "pts": 84.8,
+      "rank": 19,
+      "pts": 94.39,
       "status": "fa"
      },
      {
       "player": "Malik Willis",
       "team": "MIA",
       "rank": 20,
-      "pts": 78.74,
-      "status": "fa"
-     },
-     {
-      "player": "Michael Penix Jr.",
-      "team": "ATL",
-      "rank": 25,
-      "pts": 67.34,
+      "pts": 92.22,
       "status": "fa"
      },
      {
       "player": "Cam Ward",
       "team": "TEN",
-      "rank": 26,
-      "pts": 65.59,
+      "rank": 21,
+      "pts": 87.29,
+      "status": "fa"
+     },
+     {
+      "player": "Justin Herbert",
+      "team": "LAC",
+      "rank": 27,
+      "pts": 67.27,
       "status": "fa"
      }
     ],
-    "WR": [
+    "RB": [
      {
-      "player": "Jaylin Noel",
-      "team": "HOU",
-      "rank": 27,
-      "pts": 47.7,
+      "player": "Tyler Allgeier",
+      "team": "ARI",
+      "rank": 24,
+      "pts": 63.1,
       "status": "drop",
       "note": "dropped Wed 10/28"
      }
@@ -335,43 +306,43 @@
      {
       "player": "Mike Gesicki",
       "team": "CIN",
-      "rank": 7,
-      "pts": 46.5,
-      "status": "fa"
-     },
-     {
-      "player": "Kyle Pitts",
-      "team": "ATL",
-      "rank": 11,
-      "pts": 44.1,
-      "status": "fa"
-     },
-     {
-      "player": "Hunter Henry",
-      "team": "NE",
-      "rank": 12,
-      "pts": 43.6,
+      "rank": 5,
+      "pts": 60.1,
       "status": "fa"
      },
      {
       "player": "Harold Fannin",
       "team": "CLE",
+      "rank": 6,
+      "pts": 57.1,
+      "status": "fa"
+     },
+     {
+      "player": "T.J. Hockenson",
+      "team": "MIN",
+      "rank": 12,
+      "pts": 48.5,
+      "status": "fa"
+     },
+     {
+      "player": "Hunter Henry",
+      "team": "NE",
       "rank": 13,
-      "pts": 42.7,
+      "pts": 46.6,
       "status": "fa"
      },
      {
-      "player": "Darren Waller",
-      "team": "CAR",
-      "rank": 15,
-      "pts": 38.9,
+      "player": "Kyle Pitts",
+      "team": "ATL",
+      "rank": 14,
+      "pts": 44.7,
       "status": "fa"
      },
      {
-      "player": "Michael Mayer",
-      "team": "LV",
-      "rank": 17,
-      "pts": 36.8,
+      "player": "Darnell Washington",
+      "team": "PIT",
+      "rank": 16,
+      "pts": 43.4,
       "status": "fa"
      }
     ],
@@ -379,157 +350,138 @@
      {
       "player": "Lukas Van Ness",
       "team": "GB",
-      "rank": 4,
+      "rank": 7,
       "pts": 42.0,
+      "status": "fa"
+     },
+     {
+      "player": "Quinnen Williams",
+      "team": "DAL",
+      "rank": 11,
+      "pts": 39.0,
+      "status": "fa"
+     },
+     {
+      "player": "Donovan Ezeiruaku",
+      "team": "DAL",
+      "rank": 12,
+      "pts": 38.0,
       "status": "fa"
      },
      {
       "player": "Tommy Togiai",
       "team": "HOU",
-      "rank": 7,
-      "pts": 38.0,
-      "status": "drop",
-      "note": "dropped Sat 10/24"
-     },
-     {
-      "player": "Donovan Ezeiruaku",
-      "team": "DAL",
       "rank": 13,
-      "pts": 33.0,
+      "pts": 38.0,
       "status": "fa"
      },
      {
-      "player": "Quandarrius Robinson",
-      "team": "DEN",
+      "player": "Dexter Lawrence",
+      "team": "CIN",
       "rank": 14,
-      "pts": 32.0,
+      "pts": 37.0,
       "status": "fa"
      },
      {
-      "player": "Jowon Briggs",
-      "team": "NYJ",
+      "player": "Josh Uche",
+      "team": "MIA",
       "rank": 16,
-      "pts": 31.0,
-      "status": "fa"
-     },
-     {
-      "player": "Akheem Mesidor",
-      "team": "LAC",
-      "rank": 18,
-      "pts": 30.0,
+      "pts": 35.0,
       "status": "fa"
      }
     ],
     "LB": [
      {
-      "player": "Bobby Okereke",
-      "team": "CAR",
-      "rank": 22,
-      "pts": 56.0,
+      "player": "Jack Gibbens",
+      "team": "ARI",
+      "rank": 23,
+      "pts": 61.0,
       "status": "fa"
      },
      {
-      "player": "Jihaad Campbell",
-      "team": "PHI",
-      "rank": 29,
-      "pts": 52.0,
-      "status": "drop",
-      "note": "dropped Thu 10/29",
-      "tag": "DROP"
+      "player": "Kendal Daniels",
+      "team": "ATL",
+      "rank": 27,
+      "pts": 59.0,
+      "status": "fa"
      }
     ],
     "DB": [
      {
-      "player": "Jonas Sanker",
-      "team": "NO",
-      "rank": 10,
-      "pts": 50.0,
-      "status": "fa"
-     },
-     {
       "player": "Xavier Watts",
       "team": "ATL",
-      "rank": 11,
-      "pts": 50.0,
+      "rank": 9,
+      "pts": 59.0,
       "status": "fa"
      },
      {
       "player": "Ronnie Hickman",
       "team": "CLE",
-      "rank": 13,
-      "pts": 49.0,
+      "rank": 12,
+      "pts": 56.0,
       "status": "fa"
      },
      {
       "player": "Jessie Bates",
       "team": "ATL",
+      "rank": 13,
+      "pts": 56.0,
+      "status": "fa"
+     },
+     {
+      "player": "Malaki Starks",
+      "team": "BAL",
       "rank": 14,
-      "pts": 49.0,
+      "pts": 55.0,
+      "status": "fa"
+     },
+     {
+      "player": "Jaquan Brisker",
+      "team": "PIT",
+      "rank": 17,
+      "pts": 53.0,
       "status": "fa"
      },
      {
       "player": "Jalen Ramsey",
       "team": "PIT",
-      "rank": 15,
-      "pts": 49.0,
-      "status": "fa"
-     },
-     {
-      "player": "Cooper DeJean",
-      "team": "PHI",
-      "rank": 16,
-      "pts": 48.0,
+      "rank": 18,
+      "pts": 53.0,
       "status": "fa"
      }
     ]
    },
    "new_drops": [
     {
-     "player": "Tommy Togiai",
-     "pos": "DL",
-     "team": "HOU",
-     "rank": 7,
-     "pts": 38.0,
-     "note": "dropped Sat 10/24"
-    },
-    {
-     "player": "Reed Blankenship",
-     "pos": "DB",
-     "team": "HOU",
-     "rank": 19,
-     "pts": 47.0,
-     "note": "dropped Thu 10/29"
-    },
-    {
-     "player": "Chuck Clark",
-     "pos": "DB",
-     "team": "DET",
-     "rank": 22,
-     "pts": 45.0,
-     "note": "dropped Wed 10/28"
-    },
-    {
-     "player": "Jaylin Noel",
-     "pos": "WR",
-     "team": "HOU",
-     "rank": 27,
-     "pts": 47.7,
+     "player": "Tyler Allgeier",
+     "pos": "RB",
+     "team": "ARI",
+     "rank": 24,
+     "pts": 63.1,
      "note": "dropped Wed 10/28"
     },
     {
      "player": "George Karlaftis",
      "pos": "DL",
      "team": "KC",
-     "rank": 27,
-     "pts": 28.0,
+     "rank": 26,
+     "pts": 33.0,
      "note": "dropped Wed 10/28"
     },
     {
-     "player": "Jihaad Campbell",
-     "pos": "LB",
-     "team": "PHI",
+     "player": "Chuck Clark",
+     "pos": "DB",
+     "team": "DET",
+     "rank": 27,
+     "pts": 48.0,
+     "note": "dropped Wed 10/28"
+    },
+    {
+     "player": "Reed Blankenship",
+     "pos": "DB",
+     "team": "HOU",
      "rank": 29,
-     "pts": 52.0,
+     "pts": 47.0,
      "note": "dropped Thu 10/29"
     }
    ]
@@ -545,28 +497,21 @@
       "player": "Geno Smith",
       "team": "NYJ",
       "rank": 15,
-      "pts": 123.2,
+      "pts": 144.6,
       "status": "fa"
      },
      {
       "player": "Cam Ward",
       "team": "TEN",
-      "rank": 27,
-      "pts": 79.1,
+      "rank": 22,
+      "pts": 109.2,
       "status": "fa"
      },
      {
       "player": "Jameis Winston",
       "team": "NYG",
-      "rank": 28,
+      "rank": 29,
       "pts": 78.0,
-      "status": "fa"
-     },
-     {
-      "player": "Daniel Jones",
-      "team": "IND",
-      "rank": 30,
-      "pts": 68.8,
       "status": "fa"
      }
     ],
@@ -574,43 +519,43 @@
      {
       "player": "Mike Gesicki",
       "team": "CIN",
-      "rank": 14,
-      "pts": 53.0,
+      "rank": 8,
+      "pts": 68.6,
       "status": "fa"
      },
      {
       "player": "Darnell Washington",
       "team": "PIT",
-      "rank": 23,
-      "pts": 42.0,
+      "rank": 20,
+      "pts": 52.9,
       "status": "fa"
      },
      {
       "player": "Tyler Higbee",
       "team": "LAR",
       "rank": 24,
-      "pts": 41.0,
+      "pts": 42.9,
       "status": "fa"
      },
      {
       "player": "Mark Andrews",
       "team": "BAL",
       "rank": 25,
-      "pts": 37.4,
+      "pts": 40.3,
       "status": "fa"
      },
      {
-      "player": "Jake Ferguson",
-      "team": "DAL",
+      "player": "Greg Dulcich",
+      "team": "MIA",
       "rank": 26,
-      "pts": 36.0,
+      "pts": 38.6,
       "status": "fa"
      },
      {
-      "player": "Eli Raridon",
-      "team": "NE",
-      "rank": 27,
-      "pts": 34.8,
+      "player": "Mason Taylor",
+      "team": "NYJ",
+      "rank": 29,
+      "pts": 36.1,
       "status": "fa"
      }
     ]
@@ -625,69 +570,64 @@
    "top_by_pos": {
     "QB": [
      {
-      "player": "Jacoby Brissett",
-      "team": "ARI",
-      "rank": 16,
-      "pts": 142.7,
-      "status": "fa"
-     },
-     {
       "player": "Bo Nix",
       "team": "DEN",
-      "rank": 19,
-      "pts": 126.55,
+      "rank": 17,
+      "pts": 152.05,
       "status": "fa"
      },
      {
-      "player": "Michael Penix Jr.",
-      "team": "ATL",
-      "rank": 20,
-      "pts": 114.25,
+      "player": "Jacoby Brissett",
+      "team": "ARI",
+      "rank": 19,
+      "pts": 147.35,
       "status": "fa"
      },
      {
       "player": "Malik Willis",
       "team": "MIA",
-      "rank": 21,
-      "pts": 109.15,
+      "rank": 20,
+      "pts": 129.9,
       "status": "fa"
      },
      {
       "player": "Cam Ward",
       "team": "TEN",
-      "rank": 27,
-      "pts": 94.05,
+      "rank": 21,
+      "pts": 127.35,
+      "status": "fa"
+     },
+     {
+      "player": "Michael Penix Jr.",
+      "team": "ATL",
+      "rank": 25,
+      "pts": 113.6,
       "status": "fa"
      },
      {
       "player": "Daniel Jones",
       "team": "IND",
-      "rank": 29,
-      "pts": 86.7,
+      "rank": 28,
+      "pts": 96.6,
       "status": "fa"
      }
     ],
     "WR": [
      {
+      "player": "Davante Adams",
+      "team": "LAR",
+      "rank": 14,
+      "pts": 72.0,
+      "status": "drop",
+      "injury": "IR",
+      "note": "dropped since 10/30",
+      "tag": "DROP"
+     },
+     {
       "player": "Devaughn Vele",
       "team": "NO",
-      "rank": 23,
+      "rank": 28,
       "pts": 52.8,
-      "status": "fa"
-     },
-     {
-      "player": "Jaylin Noel",
-      "team": "HOU",
-      "rank": 26,
-      "pts": 47.7,
-      "status": "fa",
-      "injury": "IR"
-     },
-     {
-      "player": "Keon Coleman",
-      "team": "BUF",
-      "rank": 29,
-      "pts": 46.3,
       "status": "fa"
      }
     ],
@@ -695,55 +635,65 @@
      {
       "player": "Mike Gesicki",
       "team": "CIN",
-      "rank": 6,
-      "pts": 46.5,
+      "rank": 5,
+      "pts": 60.1,
+      "status": "fa"
+     },
+     {
+      "player": "Pat Freiermuth",
+      "team": "PIT",
+      "rank": 8,
+      "pts": 54.0,
+      "status": "drop",
+      "note": "dropped since 10/30",
+      "tag": "DROP"
+     },
+     {
+      "player": "Darnell Washington",
+      "team": "PIT",
+      "rank": 15,
+      "pts": 43.4,
       "status": "fa"
      },
      {
       "player": "Juwan Johnson",
       "team": "NO",
-      "rank": 13,
+      "rank": 17,
       "pts": 41.5,
-      "status": "fa"
-     },
-     {
-      "player": "Darren Waller",
-      "team": "CAR",
-      "rank": 15,
-      "pts": 39.8,
       "status": "fa"
      },
      {
       "player": "Michael Mayer",
       "team": "LV",
       "rank": 18,
-      "pts": 35.8,
+      "pts": 41.1,
       "status": "fa"
      },
      {
-      "player": "Dallas Goedert",
-      "team": "PHI",
-      "rank": 20,
-      "pts": 34.8,
-      "status": "fa"
-     },
-     {
-      "player": "Darnell Washington",
-      "team": "PIT",
-      "rank": 21,
-      "pts": 34.0,
+      "player": "Darren Waller",
+      "team": "CAR",
+      "rank": 19,
+      "pts": 40.9,
       "status": "fa"
      }
     ]
    },
    "new_drops": [
     {
-     "player": "Justin Herbert",
-     "pos": "QB",
-     "team": "LAC",
-     "rank": 30,
-     "pts": 83.85,
-     "note": "dropped since 10/29"
+     "player": "Pat Freiermuth",
+     "pos": "TE",
+     "team": "PIT",
+     "rank": 8,
+     "pts": 54.0,
+     "note": "dropped since 10/30"
+    },
+    {
+     "player": "Davante Adams",
+     "pos": "WR",
+     "team": "LAR",
+     "rank": 14,
+     "pts": 72.0,
+     "note": "dropped since 10/30"
     }
    ]
   },
@@ -755,95 +705,116 @@
    "top_by_pos": {
     "QB": [
      {
-      "player": "Kirk Cousins",
-      "team": "LV",
-      "rank": 6,
-      "pts": 137.48,
-      "status": "fa"
-     },
-     {
-      "player": "Aaron Rodgers",
-      "team": "PIT",
-      "rank": 14,
-      "pts": 112.26,
+      "player": "Geno Smith",
+      "team": "NYJ",
+      "rank": 15,
+      "pts": 126.12,
       "status": "fa"
      },
      {
       "player": "Deshaun Watson",
       "team": "CLE",
-      "rank": 15,
-      "pts": 109.78,
+      "rank": 16,
+      "pts": 123.94,
       "status": "fa"
      },
      {
-      "player": "Geno Smith",
-      "team": "NYJ",
-      "rank": 16,
-      "pts": 108.12,
+      "player": "Aaron Rodgers",
+      "team": "PIT",
+      "rank": 17,
+      "pts": 117.14,
       "status": "fa"
      },
      {
       "player": "Bo Nix",
       "team": "DEN",
-      "rank": 19,
-      "pts": 95.84,
+      "rank": 18,
+      "pts": 115.12,
       "status": "fa"
      },
      {
-      "player": "Malik Willis",
-      "team": "MIA",
+      "player": "Caleb Williams",
+      "team": "CHI",
+      "rank": 21,
+      "pts": 103.58,
+      "status": "drop",
+      "note": "dropped since 10/30",
+      "tag": "DROP"
+     },
+     {
+      "player": "Cam Ward",
+      "team": "TEN",
       "rank": 22,
-      "pts": 86.58,
+      "pts": 103.52,
       "status": "fa"
      }
     ],
     "TE": [
      {
-      "player": "Dalton Schultz",
-      "team": "HOU",
+      "player": "Dalton Kincaid",
+      "team": "BUF",
       "rank": 9,
-      "pts": 68.2,
-      "status": "fa"
-     },
-     {
-      "player": "Juwan Johnson",
-      "team": "NO",
-      "rank": 11,
-      "pts": 67.5,
+      "pts": 82.1,
       "status": "fa"
      },
      {
       "player": "Pat Freiermuth",
       "team": "PIT",
+      "rank": 11,
+      "pts": 79.0,
+      "status": "fa"
+     },
+     {
+      "player": "Mike Gesicki",
+      "team": "CIN",
       "rank": 12,
-      "pts": 67.4,
+      "pts": 77.1,
       "status": "fa"
      },
      {
       "player": "Michael Mayer",
       "team": "LV",
-      "rank": 13,
-      "pts": 66.8,
+      "rank": 12,
+      "pts": 77.1,
       "status": "fa"
      },
      {
-      "player": "Dalton Kincaid",
-      "team": "BUF",
+      "player": "Hunter Henry",
+      "team": "NE",
       "rank": 16,
-      "pts": 63.5,
-      "status": "fa",
-      "injury": "Questionable"
+      "pts": 73.6,
+      "status": "drop",
+      "injury": "Out",
+      "note": "dropped since 10/30",
+      "tag": "DROP"
      },
      {
-      "player": "Brenton Strange",
-      "team": "JAX",
-      "rank": 19,
-      "pts": 59.9,
+      "player": "Dalton Schultz",
+      "team": "HOU",
+      "rank": 17,
+      "pts": 68.2,
       "status": "fa"
      }
     ]
    },
-   "new_drops": []
+   "new_drops": [
+    {
+     "player": "Hunter Henry",
+     "pos": "TE",
+     "team": "NE",
+     "rank": 16,
+     "pts": 73.6,
+     "note": "dropped since 10/30"
+    },
+    {
+     "player": "Caleb Williams",
+     "pos": "QB",
+     "team": "CHI",
+     "rank": 21,
+     "pts": 103.58,
+     "note": "dropped since 10/30"
+    }
+   ]
   }
  ]
 }
