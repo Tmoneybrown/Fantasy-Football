@@ -1,1 +1,186 @@
-{"updated": "2026-10-27", "weeks": "8-10", "leagues": [{"league": "TRUMP", "team": "BrownEnergy", "platform": "Sleeper", "status": "red", "summary": "W8-W10 WR hole", "items": [{"week": 8, "slot": "WR", "issue": "Evans (SF) is on bye and already out (Achilles), Deebo is on IR, Shaheed and McConkey are out. Dotson is still your only healthy WR, so one WR slot is empty", "suggestion": "Stash Rashod Bateman (BAL, 50.6, bye W13) now. Kalif Raymond (CHI, 59.2) is the best short-term pickup but has a W10 bye", "severity": "red"}, {"week": 9, "slot": "WR", "issue": "Same WR hole as W8 unless Evans or Shaheed return", "suggestion": "The Bateman stash covers it", "severity": "red"}, {"week": 10, "slot": "WR", "issue": "WR hole continues unless Evans or Shaheed return", "suggestion": "The Bateman stash covers it", "severity": "red"}]}, {"league": "PCD", "team": "Travis Brown*", "platform": "Sleeper", "status": "red", "summary": "W8 FLEX hole", "items": [{"week": 8, "slot": "FLEX", "issue": "Nico Collins and MHJ (HOU), Skattebo and Tracy (NYG), and Kamara (NO) are all on bye. Raymond moves to WR2, McGowan fills one FLEX and the other is empty", "suggestion": "Add DeMario Douglas (WR NE, 53.1, bye W11) as a keeper. Pat Freiermuth (TE PIT, 55.9) works for W8 only since he's off W9", "severity": "red"}, {"week": 9, "slot": null, "issue": "No starters on bye", "suggestion": "No move needed. If you add Freiermuth, he's off this week", "severity": "green"}, {"week": 10, "slot": null, "issue": "Kalif Raymond (CHI) on bye, a bench WR once HOU is back", "suggestion": "No move needed", "severity": "green"}]}, {"league": "TRTOFF", "team": "Travis***", "platform": "MFL", "status": "red", "summary": "W8 DL hole; W10 LB and DB holes", "items": [{"week": 8, "slot": "DL", "issue": "Will Anderson (HOU) is your only DL. Olave and Kamara (NO) are out too, but RB/WR are still covered", "suggestion": "Stash Tuli Tuipulotu (LAC, 36, bye done) or Lukas Van Ness (GB, 34, bye W11)", "severity": "red"}, {"week": 9, "slot": null, "issue": "No starters on bye (Dowdle is bench)", "suggestion": "No move needed", "severity": "green"}, {"week": 10, "slot": "LB", "issue": "Jihaad Campbell (PHI) on bye leaves only Drake Thomas (questionable, ankle) at LB. Brandon Jones (DEN) also off, so Chuck Clark is your only DB", "suggestion": "Stash LB Christian Elliss (NE, 54, bye W11) or Trenton Simpson (BAL, 53, bye W13), and DB Xavier Watts (ATL, 50, bye W11) or Jessie Bates (ATL, 49)", "severity": "red"}]}, {"league": "Lonestar Dynasty", "team": "Purdy Good***", "platform": "ESPN", "status": "orange", "summary": "W8 lineup covered/thin", "items": [{"week": 8, "slot": null, "issue": "Purdy, Kirk, 49ers D/ST (SF), Woody Marks and Jaylin Noel (HOU) and Kendre Miller (NO) all off", "suggestion": "Covered: Mahomes at QB, Keaton Mitchell RB2, Diggs and Raymond at WR, Bengals D/ST, Hunter Henry at FLEX. No move needed", "severity": "orange"}, {"week": 9, "slot": null, "issue": "No starters on bye", "suggestion": "No move needed", "severity": "green"}, {"week": 10, "slot": null, "issue": "No starters on bye", "suggestion": "No move needed", "severity": "green"}]}, {"league": "Brews and Q's", "team": "Action Jackson", "platform": "ESPN", "status": "orange", "summary": "W8 lineup covered/thin", "items": [{"week": 8, "slot": null, "issue": "Likely (NYG) and Noel (HOU) on bye, Deebo still on IR", "suggestion": "Covered but thin: Kelce at TE, Vidal (27.2) at FLEX. Optional upgrade: Mike Gesicki (TE CIN, 46.5)", "severity": "orange"}, {"week": 9, "slot": null, "issue": "Metcalf (PIT) on bye", "suggestion": "Kelce or Vidal slides into FLEX. No move needed", "severity": "green"}, {"week": 10, "slot": null, "issue": "No starters on bye", "suggestion": "No move needed", "severity": "green"}]}, {"league": "Tomball Never Dies", "team": "Baby Back Gibbs*", "platform": "ESPN", "status": "red", "summary": "W8 D/ST hole", "items": [{"week": 8, "slot": "D/ST", "issue": "Texans (HOU) on bye and they're your only defense. Skattebo (NYG) is a bench RB on bye", "suggestion": "Stream a defense: Packers (bye W11) or Browns (bye W11). Buccaneers rank higher but are off in W10", "severity": "red"}, {"week": 9, "slot": null, "issue": "No starters on bye", "suggestion": "No move needed", "severity": "green"}, {"week": 10, "slot": null, "issue": "Caleb Williams (CHI) and Waddle (DEN) on bye", "suggestion": "Josh Allen starts at QB and Denzel Boston at WR. No move needed", "severity": "green"}]}]}
+{
+ "updated": "2026-11-03",
+ "weeks": "9-11",
+ "leagues": [
+  {
+   "league": "TRUMP",
+   "team": "BrownEnergy",
+   "platform": "Sleeper",
+   "status": "red",
+   "summary": "W10 WR and D/ST holes",
+   "items": [
+    {
+     "week": 9,
+     "slot": null,
+     "issue": "No starters on bye, but WR is thin: Evans and Deebo are both out, so Raymond and McConkey are your only healthy WRs",
+     "suggestion": "Optional depth: Xavier Hutchinson (WR HOU, 54.4, bye already passed) or Rashod Bateman (WR BAL, 53.8, bye W13)",
+     "severity": "orange"
+    },
+    {
+     "week": 10,
+     "slot": "WR",
+     "issue": "Kalif Raymond (CHI) and your only defense, Buccaneers (TB), are both on bye. With Evans and Deebo out, that leaves one healthy WR and no D/ST",
+     "suggestion": "Stash Hutchinson (HOU, 54.4) or Bateman (BAL, 53.8, bye W13) at WR. Add the Raiders D/ST (LV, 71.0, bye W13) as your second defense. Tennessee is off in W9",
+     "severity": "red"
+    },
+    {
+     "week": 11,
+     "slot": null,
+     "issue": "Emanuel Wilson (SEA) is on bye but he's depth, not an RB starter",
+     "suggestion": "Covered by Justice Hill and Samaje Perine. No move needed",
+     "severity": "green"
+    }
+   ]
+  },
+  {
+   "league": "PCD",
+   "team": "Travis Brown*",
+   "platform": "Sleeper",
+   "status": "red",
+   "summary": "W11 D/ST hole",
+   "items": [
+    {
+     "week": 9,
+     "slot": null,
+     "issue": "No starters on bye",
+     "suggestion": "No move needed",
+     "severity": "green"
+    },
+    {
+     "week": 10,
+     "slot": null,
+     "issue": "Jonah Coleman (DEN) and Kalif Raymond (CHI) are on bye",
+     "suggestion": "Covered: Skattebo and Kamara fill RB/FLEX, Collins and Williams cover WR. No move needed",
+     "severity": "orange"
+    },
+    {
+     "week": 11,
+     "slot": "D/ST",
+     "issue": "Seahawks D/ST (SEA) is your only defense and is on bye. Kyren Williams (LAR) is also off, but Skattebo and Kamara cover RB",
+     "suggestion": "Stream a defense for W11: Bears (CHI, 59.0, bye W10 so they play W11) or Jets (NYJ, 48.0, bye W13) if you want one that is free of byes longer",
+     "severity": "red"
+    }
+   ]
+  },
+  {
+   "league": "TRTOFF",
+   "team": "Travis***",
+   "platform": "MFL",
+   "status": "red",
+   "summary": "W10 DB hole; W11 QB hole",
+   "items": [
+    {
+     "week": 9,
+     "slot": "DB",
+     "issue": "Brandon Jones (DEN, questionable) is your only DB. No starters on bye, but if he sits you have zero DBs",
+     "suggestion": "Stash DB Malaki Starks (BAL, 55, bye W13) or Josh Metellus (MIN, 51, bye passed)",
+     "severity": "orange"
+    },
+    {
+     "week": 10,
+     "slot": "DB",
+     "issue": "Brandon Jones (DEN) is on bye and he's your only DB. Kyle Monangai (CHI, questionable) is off too, but RB is covered by Henry and Kamara",
+     "suggestion": "Stash Starks (BAL, 55, bye W13) and a second DB: Metellus (MIN, 51) or Jonas Sanker (NO, 50)",
+     "severity": "red"
+    },
+    {
+     "week": 11,
+     "slot": "QB",
+     "issue": "Matthew Stafford (LAR) is on bye and he's your only QB. LB Drake Thomas (SEA) is off too, but Trenton Simpson still starts",
+     "suggestion": "Stash a QB now: Geno Smith (NYJ, 100.5, bye W13) or Jacoby Brissett (ARI, 94.4, bye W14). Optional LB depth: Jack Gibbens (ARI, 61, bye W14)",
+     "severity": "red"
+    }
+   ]
+  },
+  {
+   "league": "Lonestar Dynasty",
+   "team": "Purdy Good***",
+   "platform": "ESPN",
+   "status": "orange",
+   "summary": "W11 RB covered/thin",
+   "items": [
+    {
+     "week": 9,
+     "slot": null,
+     "issue": "No starters on bye",
+     "suggestion": "No move needed",
+     "severity": "green"
+    },
+    {
+     "week": 10,
+     "slot": null,
+     "issue": "No starters on bye",
+     "suggestion": "No move needed",
+     "severity": "green"
+    },
+    {
+     "week": 11,
+     "slot": null,
+     "issue": "Kyren Williams (LAR) is on bye, and Hunter Henry (NE) is out and also on bye",
+     "suggestion": "Covered: Woody Marks (questionable) and Emmett Johnson at RB, Flournoy at FLEX. Optional: Bateman (WR BAL, 44.3, bye W13) for depth",
+     "severity": "orange"
+    }
+   ]
+  },
+  {
+   "league": "Brews and Q's",
+   "team": "Action Jackson",
+   "platform": "ESPN",
+   "status": "red",
+   "summary": "W11 D/ST hole",
+   "items": [
+    {
+     "week": 9,
+     "slot": null,
+     "issue": "DK Metcalf (PIT) is on bye and A.J. Brown is out, so McConkey (34.6) slides in at WR2",
+     "suggestion": "Covered but thin. Optional upgrade: Devaughn Vele (WR NO, 52.8, bye passed)",
+     "severity": "orange"
+    },
+    {
+     "week": 10,
+     "slot": null,
+     "issue": "No starters on bye",
+     "suggestion": "No move needed",
+     "severity": "green"
+    },
+    {
+     "week": 11,
+     "slot": "D/ST",
+     "issue": "Seahawks D/ST (SEA) is your only defense and is on bye. A.J. Brown (NE) is off too and already out",
+     "suggestion": "Stream a defense: Bears (CHI, 79.0, bye W10 so they play W11) or Raiders (LV, 71.0, bye W13)",
+     "severity": "red"
+    }
+   ]
+  },
+  {
+   "league": "Tomball Never Dies",
+   "team": "Baby Back Gibbs*",
+   "platform": "ESPN",
+   "status": "red",
+   "summary": "W10 WR and D/ST holes; W11 WR hole",
+   "items": [
+    {
+     "week": 9,
+     "slot": null,
+     "issue": "No starters on bye",
+     "suggestion": "No move needed",
+     "severity": "green"
+    },
+    {
+     "week": 10,
+     "slot": "WR",
+     "issue": "Jaylen Waddle (DEN) and your only defense, Buccaneers (TB), are on bye. With Pierce on IR you have just two healthy WRs for three WR slots",
+     "suggestion": "Add a WR: Ryan Flournoy (DAL, 76.5, bye W14) or Keon Coleman (BUF, 69.7, bye passed). Add the Raiders D/ST (LV, 71.0, bye W13)",
+     "severity": "red"
+    },
+    {
+     "week": 11,
+     "slot": "WR",
+     "issue": "Denzel Boston (CLE) is on bye and Josh Jacobs (GB) is off, so you are down to Waddle and Addison at WR",
+     "suggestion": "The Flournoy or Coleman add fixes this too. Skattebo covers RB/FLEX",
+     "severity": "red"
+    }
+   ]
+  }
+ ]
+}
