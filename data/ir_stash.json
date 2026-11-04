@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-03",
- "graphic_date": "2026-11-03",
+ "updated": "2026-11-04",
+ "graphic_date": "2026-11-04",
  "weeks": {
   "W9": "Nov 5-9",
   "W10": "Nov 12-16",
@@ -21,8 +21,8 @@
        "team": "ARI",
        "status": "IR-R",
        "injury": "Foot",
-       "ret_wk": 9,
-       "note": "designated to return (Nov 8)",
+       "ret_wk": 10,
+       "note": "return moved Nov 8\u2192Nov 15 (designated to return)",
        "rank": 1
       },
       {
@@ -136,7 +136,7 @@
        "status": "IR-R",
        "injury": "Foot",
        "ret_wk": 9,
-       "note": "return moved Nov 1\u2192Nov 8 (designated to return)",
+       "note": "designated to return (Nov 8)",
        "rank": 4
       },
       {
@@ -163,7 +163,7 @@
        "status": "IR-R",
        "injury": "Hip",
        "ret_wk": 9,
-       "note": "return moved Nov 1\u2192Nov 8 (designated to return)",
+       "note": "designated to return (Nov 8)",
        "rank": 6
       },
       {
@@ -207,7 +207,7 @@
        "status": "IR-R",
        "injury": "Neck",
        "ret_wk": 9,
-       "note": "return moved Nov 1\u2192Nov 5 (designated to return)",
+       "note": "designated to return (Nov 5)",
        "rank": 6
       },
       {
@@ -272,14 +272,6 @@
        "rank": 11
       },
       {
-       "player": "Dylan Sampson",
-       "pos": "RB",
-       "team": "CLE",
-       "ret_wk": "Active",
-       "note": "off IR, activated by Oct 27",
-       "rank": 12
-      },
-      {
        "player": "Eli Stowers",
        "pos": "TE",
        "team": "PHI",
@@ -337,8 +329,8 @@
        "team": "ARI",
        "status": "IR-R",
        "injury": "Foot",
-       "ret_wk": 9,
-       "note": "designated to return (Nov 8)",
+       "ret_wk": 10,
+       "note": "return moved Nov 8\u2192Nov 15 (designated to return)",
        "rank": 1
       },
       {
@@ -476,7 +468,7 @@
        "status": "IR-R",
        "injury": "Foot",
        "ret_wk": 9,
-       "note": "return moved Nov 1\u2192Nov 8 (designated to return)",
+       "note": "designated to return (Nov 8)",
        "rank": 5
       },
       {
@@ -503,7 +495,7 @@
        "status": "IR-R",
        "injury": "Hip",
        "ret_wk": 9,
-       "note": "return moved Nov 1\u2192Nov 8 (designated to return)",
+       "note": "designated to return (Nov 8)",
        "rank": 7
       },
       {
@@ -555,7 +547,7 @@
        "status": "IR-R",
        "injury": "Neck",
        "ret_wk": 9,
-       "note": "return moved Nov 1\u2192Nov 5 (designated to return)",
+       "note": "designated to return (Nov 5)",
        "rank": 7
       },
       {
@@ -693,8 +685,8 @@
        "team": "ARI",
        "status": "IR-R",
        "injury": "Foot",
-       "ret_wk": 9,
-       "note": "designated to return (Nov 8)",
+       "ret_wk": 10,
+       "note": "return moved Nov 8\u2192Nov 15 (designated to return)",
        "rank": 1
       },
       {
@@ -848,7 +840,7 @@
        "status": "IR-R",
        "injury": "Foot",
        "ret_wk": 9,
-       "note": "return moved Nov 1\u2192Nov 8 (designated to return)",
+       "note": "designated to return (Nov 8)",
        "rank": 5
       },
       {
@@ -875,7 +867,7 @@
        "status": "IR-R",
        "injury": "Hip",
        "ret_wk": 9,
-       "note": "return moved Nov 1\u2192Nov 8 (designated to return)",
+       "note": "designated to return (Nov 8)",
        "rank": 9
       },
       {
@@ -927,7 +919,7 @@
        "status": "IR-R",
        "injury": "Neck",
        "ret_wk": 9,
-       "note": "return moved Nov 1\u2192Nov 5 (designated to return)",
+       "note": "designated to return (Nov 5)",
        "rank": 7
       },
       {
@@ -998,8 +990,8 @@
        "team": "DET",
        "status": "IR-PUP",
        "injury": "Knee",
-       "ret_wk": 9,
-       "note": "return moved Nov 1\u2192Nov 8",
+       "ret_wk": 10,
+       "note": "return moved Nov 8\u2192Nov 15",
        "rank": 1
       },
       {
@@ -1018,7 +1010,7 @@
        "status": "IR-R",
        "injury": "Pectoral",
        "ret_wk": 9,
-       "note": "return moved Nov 1\u2192Nov 8 (designated to return)",
+       "note": "designated to return (Nov 8)",
        "rank": 1
       },
       {
@@ -1054,7 +1046,7 @@
        "status": "IR-R",
        "injury": "Undisclosed",
        "ret_wk": 9,
-       "note": "return moved Nov 2\u2192Nov 8 (designated to return)",
+       "note": "designated to return (Nov 8)",
        "rank": 3
       },
       {
@@ -1361,7 +1353,7 @@
        "status": "IR-R",
        "injury": "Foot",
        "ret_wk": 9,
-       "note": "return moved Nov 1\u2192Nov 8 (designated to return)",
+       "note": "designated to return (Nov 8)",
        "rank": 5
       },
       {
@@ -1388,7 +1380,7 @@
        "status": "IR-R",
        "injury": "Hip",
        "ret_wk": 9,
-       "note": "return moved Nov 1\u2192Nov 8 (designated to return)",
+       "note": "designated to return (Nov 8)",
        "rank": 7
       },
       {
@@ -1424,7 +1416,7 @@
        "status": "IR-R",
        "injury": "Neck",
        "ret_wk": 9,
-       "note": "return moved Nov 1\u2192Nov 5 (designated to return)",
+       "note": "designated to return (Nov 5)",
        "rank": 4
       },
       {
@@ -1554,8 +1546,8 @@
        "team": "ARI",
        "status": "IR-R",
        "injury": "Foot",
-       "ret_wk": 9,
-       "note": "designated to return (Nov 8)",
+       "ret_wk": 10,
+       "note": "return moved Nov 8\u2192Nov 15 (designated to return)",
        "rank": 1
       },
       {
@@ -1686,7 +1678,7 @@
        "status": "IR-R",
        "injury": "Foot",
        "ret_wk": 9,
-       "note": "return moved Nov 1\u2192Nov 8 (designated to return)",
+       "note": "designated to return (Nov 8)",
        "rank": 5
       },
       {
@@ -1713,7 +1705,7 @@
        "status": "IR-R",
        "injury": "Hip",
        "ret_wk": 9,
-       "note": "return moved Nov 1\u2192Nov 8 (designated to return)",
+       "note": "designated to return (Nov 8)",
        "rank": 8
       },
       {
@@ -1765,7 +1757,7 @@
        "status": "IR-R",
        "injury": "Neck",
        "ret_wk": 9,
-       "note": "return moved Nov 1\u2192Nov 5 (designated to return)",
+       "note": "designated to return (Nov 5)",
        "rank": 5
       },
       {
@@ -1903,8 +1895,8 @@
        "team": "ARI",
        "status": "IR-R",
        "injury": "Foot",
-       "ret_wk": 9,
-       "note": "designated to return (Nov 8)",
+       "ret_wk": 10,
+       "note": "return moved Nov 8\u2192Nov 15 (designated to return)",
        "rank": 1
       },
       {
@@ -2034,7 +2026,7 @@
        "status": "IR-R",
        "injury": "Foot",
        "ret_wk": 9,
-       "note": "return moved Nov 1\u2192Nov 8 (designated to return)",
+       "note": "designated to return (Nov 8)",
        "rank": 5
       },
       {
@@ -2061,7 +2053,7 @@
        "status": "IR-R",
        "injury": "Hip",
        "ret_wk": 9,
-       "note": "return moved Nov 1\u2192Nov 8 (designated to return)",
+       "note": "designated to return (Nov 8)",
        "rank": 7
       },
       {
@@ -2105,7 +2097,7 @@
        "status": "IR-R",
        "injury": "Neck",
        "ret_wk": 9,
-       "note": "return moved Nov 1\u2192Nov 5 (designated to return)",
+       "note": "designated to return (Nov 5)",
        "rank": 6
       },
       {
