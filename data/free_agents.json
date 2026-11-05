@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-04",
+ "updated": "2026-11-05",
  "through_week": 8,
  "leagues": [
   {
@@ -15,8 +15,7 @@
       "rank": 14,
       "pts": 147.1,
       "status": "drop",
-      "note": "dropped Tue 11/03",
-      "tag": "DROP"
+      "note": "dropped Tue 11/03"
      },
      {
       "player": "Aaron Rodgers",
@@ -24,8 +23,7 @@
       "rank": 17,
       "pts": 139.1,
       "status": "drop",
-      "note": "dropped Wed 11/04",
-      "tag": "DROP"
+      "note": "dropped Wed 11/04"
      },
      {
       "player": "Sam Darnold",
@@ -55,6 +53,17 @@
       "rank": 26,
       "pts": 96.8,
       "status": "fa"
+     }
+    ],
+    "RB": [
+     {
+      "player": "Emanuel Wilson",
+      "team": "SEA",
+      "rank": 25,
+      "pts": 77.8,
+      "status": "drop",
+      "note": "dropped Wed 11/04",
+      "tag": "DROP"
      }
     ],
     "TE": [
@@ -135,6 +144,14 @@
      "rank": 25,
      "pts": 54.8,
      "note": "dropped Sun 11/01"
+    },
+    {
+     "player": "Emanuel Wilson",
+     "pos": "RB",
+     "team": "SEA",
+     "rank": 25,
+     "pts": 77.8,
+     "note": "dropped Wed 11/04"
     }
    ]
   },
@@ -225,8 +242,7 @@
       "rank": 19,
       "pts": 53.4,
       "status": "drop",
-      "note": "dropped Wed 11/04",
-      "tag": "DROP"
+      "note": "dropped Wed 11/04"
      },
      {
       "player": "Darnell Washington",
@@ -330,12 +346,13 @@
     ],
     "RB": [
      {
-      "player": "Tyler Allgeier",
-      "team": "ARI",
-      "rank": 24,
-      "pts": 63.1,
+      "player": "Emanuel Wilson",
+      "team": "SEA",
+      "rank": 20,
+      "pts": 70.8,
       "status": "drop",
-      "note": "dropped Wed 10/28"
+      "note": "dropped Wed 11/04",
+      "tag": "DROP"
      }
     ],
     "TE": [
@@ -489,28 +506,12 @@
    },
    "new_drops": [
     {
-     "player": "Tyler Allgeier",
+     "player": "Emanuel Wilson",
      "pos": "RB",
-     "team": "ARI",
-     "rank": 24,
-     "pts": 63.1,
-     "note": "dropped Wed 10/28"
-    },
-    {
-     "player": "George Karlaftis",
-     "pos": "DL",
-     "team": "KC",
-     "rank": 26,
-     "pts": 33.0,
-     "note": "dropped Wed 10/28"
-    },
-    {
-     "player": "Chuck Clark",
-     "pos": "DB",
-     "team": "DET",
-     "rank": 27,
-     "pts": 48.0,
-     "note": "dropped Wed 10/28"
+     "team": "SEA",
+     "rank": 20,
+     "pts": 70.8,
+     "note": "dropped Wed 11/04"
     },
     {
      "player": "Reed Blankenship",
@@ -534,9 +535,7 @@
       "team": "ARI",
       "rank": 19,
       "pts": 125.9,
-      "status": "drop",
-      "note": "dropped since Tue 11/03",
-      "tag": "DROP"
+      "status": "fa"
      },
      {
       "player": "Cam Ward",
@@ -594,20 +593,12 @@
       "team": "NYJ",
       "rank": 29,
       "pts": 36.1,
-      "status": "fa"
+      "status": "fa",
+      "injury": "Questionable"
      }
     ]
    },
-   "new_drops": [
-    {
-     "player": "Jacoby Brissett",
-     "pos": "QB",
-     "team": "ARI",
-     "rank": 19,
-     "pts": 125.9,
-     "note": "dropped since Tue 11/03"
-    }
-   ]
+   "new_drops": []
   },
   {
    "league": "Brews and Q's",
@@ -621,9 +612,7 @@
       "team": "NYJ",
       "rank": 15,
       "pts": 168.25,
-      "status": "drop",
-      "note": "dropped since Tue 11/03",
-      "tag": "DROP"
+      "status": "fa"
      },
      {
       "player": "Bo Nix",
@@ -631,6 +620,16 @@
       "rank": 17,
       "pts": 152.05,
       "status": "fa"
+     },
+     {
+      "player": "Deshaun Watson",
+      "team": "CLE",
+      "rank": 18,
+      "pts": 152.0,
+      "status": "drop",
+      "injury": "Questionable",
+      "note": "dropped since 11/04",
+      "tag": "DROP"
      },
      {
       "player": "Jacoby Brissett",
@@ -652,13 +651,6 @@
       "rank": 21,
       "pts": 127.35,
       "status": "fa"
-     },
-     {
-      "player": "Michael Penix Jr.",
-      "team": "ATL",
-      "rank": 25,
-      "pts": 113.6,
-      "status": "fa"
      }
     ],
     "RB": [
@@ -667,9 +659,7 @@
       "team": "SEA",
       "rank": 20,
       "pts": 68.8,
-      "status": "drop",
-      "note": "dropped since Tue 11/03",
-      "tag": "DROP"
+      "status": "fa"
      }
     ],
     "WR": [
@@ -702,19 +692,16 @@
       "team": "KC",
       "rank": 10,
       "pts": 53.0,
-      "status": "drop",
-      "note": "dropped since Tue 11/03",
-      "tag": "DROP"
+      "status": "fa",
+      "injury": "Questionable"
      },
      {
       "player": "Hunter Henry",
       "team": "NE",
       "rank": 13,
       "pts": 44.6,
-      "status": "drop",
-      "injury": "Questionable",
-      "note": "dropped since Tue 11/03",
-      "tag": "DROP"
+      "status": "fa",
+      "injury": "Questionable"
      },
      {
       "player": "Darnell Washington",
@@ -741,36 +728,12 @@
    },
    "new_drops": [
     {
-     "player": "Travis Kelce",
-     "pos": "TE",
-     "team": "KC",
-     "rank": 10,
-     "pts": 53.0,
-     "note": "dropped since Tue 11/03"
-    },
-    {
-     "player": "Hunter Henry",
-     "pos": "TE",
-     "team": "NE",
-     "rank": 13,
-     "pts": 44.6,
-     "note": "dropped since Tue 11/03"
-    },
-    {
-     "player": "Geno Smith",
+     "player": "Deshaun Watson",
      "pos": "QB",
-     "team": "NYJ",
-     "rank": 15,
-     "pts": 168.25,
-     "note": "dropped since Tue 11/03"
-    },
-    {
-     "player": "Emanuel Wilson",
-     "pos": "RB",
-     "team": "SEA",
-     "rank": 20,
-     "pts": 68.8,
-     "note": "dropped since Tue 11/03"
+     "team": "CLE",
+     "rank": 18,
+     "pts": 152.0,
+     "note": "dropped since 11/04"
     }
    ]
   },
@@ -793,7 +756,8 @@
       "team": "CLE",
       "rank": 16,
       "pts": 123.94,
-      "status": "fa"
+      "status": "fa",
+      "injury": "Questionable"
      },
      {
       "player": "Aaron Rodgers",
