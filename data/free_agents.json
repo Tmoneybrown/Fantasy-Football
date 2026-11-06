@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-05",
+ "updated": "2026-11-06",
  "through_week": 8,
  "leagues": [
   {
@@ -30,8 +30,7 @@
       "team": "SEA",
       "rank": 21,
       "pts": 115.3,
-      "status": "drop",
-      "note": "dropped Fri 10/30"
+      "status": "fa"
      },
      {
       "player": "Cam Ward",
@@ -62,8 +61,7 @@
       "rank": 25,
       "pts": 77.8,
       "status": "drop",
-      "note": "dropped Wed 11/04",
-      "tag": "DROP"
+      "note": "dropped Wed 11/04"
      }
     ],
     "TE": [
@@ -75,19 +73,19 @@
       "status": "fa"
      },
      {
-      "player": "Tyler Higbee",
-      "team": "LAR",
-      "rank": 24,
-      "pts": 56.4,
-      "status": "fa"
-     },
-     {
       "player": "Mark Andrews",
       "team": "BAL",
-      "rank": 25,
-      "pts": 54.8,
+      "rank": 23,
+      "pts": 58.7,
       "status": "drop",
       "note": "dropped Sun 11/01"
+     },
+     {
+      "player": "Tyler Higbee",
+      "team": "LAR",
+      "rank": 25,
+      "pts": 56.4,
+      "status": "fa"
      },
      {
       "player": "Greg Dulcich",
@@ -130,19 +128,11 @@
      "note": "dropped Wed 11/04"
     },
     {
-     "player": "Sam Darnold",
-     "pos": "QB",
-     "team": "SEA",
-     "rank": 21,
-     "pts": 115.3,
-     "note": "dropped Fri 10/30"
-    },
-    {
      "player": "Mark Andrews",
      "pos": "TE",
      "team": "BAL",
-     "rank": 25,
-     "pts": 54.8,
+     "rank": 23,
+     "pts": 58.7,
      "note": "dropped Sun 11/01"
     },
     {
@@ -209,7 +199,7 @@
      {
       "player": "Davante Adams",
       "team": "LAR",
-      "rank": 17,
+      "rank": 18,
       "pts": 87.0,
       "status": "fa"
      },
@@ -239,8 +229,8 @@
      {
       "player": "Brenton Strange",
       "team": "JAX",
-      "rank": 19,
-      "pts": 53.4,
+      "rank": 17,
+      "pts": 56.6,
       "status": "drop",
       "note": "dropped Wed 11/04"
      },
@@ -272,8 +262,8 @@
      "player": "Brenton Strange",
      "pos": "TE",
      "team": "JAX",
-     "rank": 19,
-     "pts": 53.4,
+     "rank": 17,
+     "pts": 56.6,
      "note": "dropped Wed 11/04"
     },
     {
@@ -351,8 +341,23 @@
       "rank": 20,
       "pts": 70.8,
       "status": "drop",
-      "note": "dropped Wed 11/04",
-      "tag": "DROP"
+      "note": "dropped Wed 11/04"
+     },
+     {
+      "player": "Chris Rodriguez",
+      "team": "JAX",
+      "rank": 30,
+      "pts": 50.4,
+      "status": "fa"
+     }
+    ],
+    "WR": [
+     {
+      "player": "Jakobi Meyers",
+      "team": "JAX",
+      "rank": 30,
+      "pts": 50.6,
+      "status": "fa"
      }
     ],
     "TE": [
@@ -401,6 +406,15 @@
     ],
     "DL": [
      {
+      "player": "Tuli Tuipulotu",
+      "team": "LAC",
+      "rank": 6,
+      "pts": 42.0,
+      "status": "drop",
+      "note": "dropped Thu 11/05",
+      "tag": "DROP"
+     },
+     {
       "player": "Lukas Van Ness",
       "team": "GB",
       "rank": 7,
@@ -434,58 +448,39 @@
       "rank": 14,
       "pts": 37.0,
       "status": "fa"
-     },
-     {
-      "player": "Josh Uche",
-      "team": "MIA",
-      "rank": 16,
-      "pts": 35.0,
-      "status": "fa"
      }
     ],
     "LB": [
      {
-      "player": "Jack Gibbens",
-      "team": "ARI",
-      "rank": 23,
-      "pts": 61.0,
-      "status": "fa"
-     },
-     {
       "player": "Kendal Daniels",
       "team": "ATL",
-      "rank": 27,
+      "rank": 29,
       "pts": 59.0,
       "status": "fa"
      }
     ],
     "DB": [
      {
-      "player": "Xavier Watts",
-      "team": "ATL",
+      "player": "Brandon Jones",
+      "team": "DEN",
+      "rank": 7,
+      "pts": 61.0,
+      "status": "drop",
+      "note": "dropped Thu 11/05",
+      "tag": "DROP"
+     },
+     {
+      "player": "Malaki Starks",
+      "team": "BAL",
       "rank": 9,
-      "pts": 59.0,
+      "pts": 60.0,
       "status": "fa"
      },
      {
       "player": "Ronnie Hickman",
       "team": "CLE",
-      "rank": 12,
-      "pts": 56.0,
-      "status": "fa"
-     },
-     {
-      "player": "Jessie Bates",
-      "team": "ATL",
       "rank": 13,
       "pts": 56.0,
-      "status": "fa"
-     },
-     {
-      "player": "Malaki Starks",
-      "team": "BAL",
-      "rank": 14,
-      "pts": 55.0,
       "status": "fa"
      },
      {
@@ -501,10 +496,33 @@
       "rank": 18,
       "pts": 53.0,
       "status": "fa"
+     },
+     {
+      "player": "Cooper DeJean",
+      "team": "PHI",
+      "rank": 19,
+      "pts": 51.0,
+      "status": "fa"
      }
     ]
    },
    "new_drops": [
+    {
+     "player": "Tuli Tuipulotu",
+     "pos": "DL",
+     "team": "LAC",
+     "rank": 6,
+     "pts": 42.0,
+     "note": "dropped Thu 11/05"
+    },
+    {
+     "player": "Brandon Jones",
+     "pos": "DB",
+     "team": "DEN",
+     "rank": 7,
+     "pts": 61.0,
+     "note": "dropped Thu 11/05"
+    },
     {
      "player": "Emanuel Wilson",
      "pos": "RB",
@@ -512,14 +530,6 @@
      "rank": 20,
      "pts": 70.8,
      "note": "dropped Wed 11/04"
-    },
-    {
-     "player": "Reed Blankenship",
-     "pos": "DB",
-     "team": "HOU",
-     "rank": 29,
-     "pts": 47.0,
-     "note": "dropped Thu 10/29"
     }
    ]
   },
@@ -593,8 +603,7 @@
       "team": "NYJ",
       "rank": 29,
       "pts": 36.1,
-      "status": "fa",
-      "injury": "Questionable"
+      "status": "fa"
      }
     ]
    },
@@ -626,10 +635,8 @@
       "team": "CLE",
       "rank": 18,
       "pts": 152.0,
-      "status": "drop",
-      "injury": "Questionable",
-      "note": "dropped since 11/04",
-      "tag": "DROP"
+      "status": "fa",
+      "injury": "Questionable"
      },
      {
       "player": "Jacoby Brissett",
@@ -692,8 +699,7 @@
       "team": "KC",
       "rank": 10,
       "pts": 53.0,
-      "status": "fa",
-      "injury": "Questionable"
+      "status": "fa"
      },
      {
       "player": "Hunter Henry",
@@ -726,16 +732,7 @@
      }
     ]
    },
-   "new_drops": [
-    {
-     "player": "Deshaun Watson",
-     "pos": "QB",
-     "team": "CLE",
-     "rank": 18,
-     "pts": 152.0,
-     "note": "dropped since 11/04"
-    }
-   ]
+   "new_drops": []
   },
   {
    "league": "Tomball Never Dies",
@@ -794,7 +791,8 @@
       "team": "BUF",
       "rank": 9,
       "pts": 82.1,
-      "status": "fa"
+      "status": "fa",
+      "injury": "Questionable"
      },
      {
       "player": "Pat Freiermuth",
