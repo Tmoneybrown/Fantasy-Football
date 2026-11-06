@@ -785,6 +785,17 @@
       "status": "fa"
      }
     ],
+    "RB": [
+     {
+      "player": "Emanuel Wilson",
+      "team": "SEA",
+      "rank": 25,
+      "pts": 77.8,
+      "status": "drop",
+      "note": "dropped since 11/05",
+      "tag": "DROP"
+     }
+    ],
     "TE": [
      {
       "player": "Dalton Kincaid",
@@ -831,7 +842,16 @@
      }
     ]
    },
-   "new_drops": []
+   "new_drops": [
+    {
+     "player": "Emanuel Wilson",
+     "pos": "RB",
+     "team": "SEA",
+     "rank": 25,
+     "pts": 77.8,
+     "note": "dropped since 11/05"
+    }
+   ]
   }
  ]
 }
