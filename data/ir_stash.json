@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-05",
- "graphic_date": "2026-11-05",
+ "updated": "2026-11-06",
+ "graphic_date": "2026-11-06",
  "weeks": {
   "W9": "Nov 5-9",
   "W10": "Nov 12-16",
@@ -202,8 +202,8 @@
        "team": "BAL",
        "status": "IR-R",
        "injury": "Neck",
-       "ret_wk": 9,
-       "note": "designated to return (Nov 5)",
+       "ret_wk": 10,
+       "note": "return moved Nov 5\u2192Nov 16 (W10)",
        "rank": 6
       },
       {
@@ -551,8 +551,8 @@
        "team": "BAL",
        "status": "IR-R",
        "injury": "Neck",
-       "ret_wk": 9,
-       "note": "designated to return (Nov 5)",
+       "ret_wk": 10,
+       "note": "return moved Nov 5\u2192Nov 16 (W10)",
        "rank": 7
       },
       {
@@ -940,8 +940,8 @@
        "team": "BAL",
        "status": "IR-R",
        "injury": "Neck",
-       "ret_wk": 9,
-       "note": "designated to return (Nov 5)",
+       "ret_wk": 10,
+       "note": "return moved Nov 5\u2192Nov 16 (W10)",
        "rank": 8
       },
       {
@@ -1246,8 +1246,8 @@
        "team": "BAL",
        "status": "IR-R",
        "injury": "Neck",
-       "ret_wk": 9,
-       "note": "designated to return (Nov 5)",
+       "ret_wk": 10,
+       "note": "return moved Nov 5\u2192Nov 16 (W10)",
        "rank": 4
       },
       {
@@ -1596,8 +1596,8 @@
        "team": "BAL",
        "status": "IR-R",
        "injury": "Neck",
-       "ret_wk": 9,
-       "note": "designated to return (Nov 5)",
+       "ret_wk": 10,
+       "note": "return moved Nov 5\u2192Nov 16 (W10)",
        "rank": 5
       },
       {
@@ -1945,8 +1945,8 @@
        "team": "BAL",
        "status": "IR-R",
        "injury": "Neck",
-       "ret_wk": 9,
-       "note": "designated to return (Nov 5)",
+       "ret_wk": 10,
+       "note": "return moved Nov 5\u2192Nov 16 (W10)",
        "rank": 6
       },
       {
