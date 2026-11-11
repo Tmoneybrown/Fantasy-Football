@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-10",
+ "updated": "2026-11-11",
  "through_week": 9,
  "leagues": [
   {
@@ -10,10 +10,17 @@
    "top_by_pos": {
     "QB": [
      {
-      "player": "Geno Smith",
-      "team": "NYJ",
-      "rank": 15,
-      "pts": 154.5,
+      "player": "Jacoby Brissett",
+      "team": "BAL",
+      "rank": 21,
+      "pts": 126.2,
+      "status": "fa"
+     },
+     {
+      "player": "Malik Willis",
+      "team": "MIA",
+      "rank": 22,
+      "pts": 123.0,
       "status": "fa"
      },
      {
@@ -43,13 +50,6 @@
       "rank": 26,
       "pts": 100.6,
       "status": "fa"
-     },
-     {
-      "player": "Daniel Jones",
-      "team": "IND",
-      "rank": 27,
-      "pts": 98.5,
-      "status": "fa"
      }
     ],
     "RB": [
@@ -63,15 +63,6 @@
      }
     ],
     "TE": [
-     {
-      "player": "Darren Waller",
-      "team": "CAR",
-      "rank": 16,
-      "pts": 79.9,
-      "status": "drop",
-      "note": "dropped Fri 11/06",
-      "tag": "DROP"
-     },
      {
       "player": "AJ Barner",
       "team": "SEA",
@@ -106,20 +97,18 @@
       "rank": 27,
       "pts": 57.8,
       "status": "drop",
-      "note": "dropped Sun 11/08",
-      "tag": "DROP"
+      "note": "dropped Sun 11/08"
+     },
+     {
+      "player": "Tommy Tremble",
+      "team": "CAR",
+      "rank": 28,
+      "pts": 56.9,
+      "status": "fa"
      }
     ]
    },
    "new_drops": [
-    {
-     "player": "Darren Waller",
-     "pos": "TE",
-     "team": "CAR",
-     "rank": 16,
-     "pts": 79.9,
-     "note": "dropped Fri 11/06"
-    },
     {
      "player": "Emanuel Wilson",
      "pos": "RB",
@@ -146,13 +135,6 @@
    "top_by_pos": {
     "QB": [
      {
-      "player": "Aaron Rodgers",
-      "team": "PIT",
-      "rank": 17,
-      "pts": 123.1,
-      "status": "fa"
-     },
-     {
       "player": "Deshaun Watson",
       "team": "CLE",
       "rank": 18,
@@ -174,6 +156,13 @@
       "status": "fa"
      },
      {
+      "player": "Michael Penix Jr.",
+      "team": "ATL",
+      "rank": 24,
+      "pts": 102.3,
+      "status": "fa"
+     },
+     {
       "player": "Justin Herbert",
       "team": "LAC",
       "rank": 26,
@@ -190,10 +179,24 @@
     ],
     "WR": [
      {
+      "player": "Michael Wilson",
+      "team": "ARI",
+      "rank": 15,
+      "pts": 95.2,
+      "status": "fa"
+     },
+     {
       "player": "Davante Adams",
       "team": "LAR",
       "rank": 20,
       "pts": 87.0,
+      "status": "fa"
+     },
+     {
+      "player": "DeMario Douglas",
+      "team": "NE",
+      "rank": 23,
+      "pts": 80.9,
       "status": "fa"
      }
     ],
@@ -206,20 +209,12 @@
       "status": "fa"
      },
      {
-      "player": "Darren Waller",
-      "team": "CAR",
-      "rank": 13,
-      "pts": 65.4,
-      "status": "fa"
-     },
-     {
       "player": "Juwan Johnson",
       "team": "NO",
       "rank": 15,
       "pts": 64.9,
       "status": "drop",
-      "note": "dropped Sat 11/07",
-      "tag": "DROP"
+      "note": "dropped Sat 11/07"
      },
      {
       "player": "Michael Mayer",
@@ -233,14 +228,20 @@
       "team": "JAX",
       "rank": 21,
       "pts": 56.6,
-      "status": "drop",
-      "note": "dropped Wed 11/04"
+      "status": "fa"
      },
      {
       "player": "Dalton Schultz",
       "team": "HOU",
       "rank": 22,
       "pts": 53.9,
+      "status": "fa"
+     },
+     {
+      "player": "Darnell Washington",
+      "team": "PIT",
+      "rank": 23,
+      "pts": 52.9,
       "status": "fa"
      }
     ]
@@ -253,14 +254,6 @@
      "rank": 15,
      "pts": 64.9,
      "note": "dropped Sat 11/07"
-    },
-    {
-     "player": "Brenton Strange",
-     "pos": "TE",
-     "team": "JAX",
-     "rank": 21,
-     "pts": 56.6,
-     "note": "dropped Wed 11/04"
     }
    ]
   },
@@ -510,11 +503,14 @@
    "top_by_pos": {
     "QB": [
      {
-      "player": "Jacoby Brissett",
-      "team": "BAL",
-      "rank": 19,
-      "pts": 125.9,
-      "status": "fa"
+      "player": "Malik Willis",
+      "team": "MIA",
+      "rank": 22,
+      "pts": 117.2,
+      "status": "drop",
+      "injury": "IR",
+      "note": "dropped since 11/10",
+      "tag": "DROP"
      },
      {
       "player": "Cam Ward",
@@ -584,7 +580,16 @@
      }
     ]
    },
-   "new_drops": []
+   "new_drops": [
+    {
+     "player": "Malik Willis",
+     "pos": "QB",
+     "team": "MIA",
+     "rank": 22,
+     "pts": 117.2,
+     "note": "dropped since 11/10"
+    }
+   ]
   },
   {
    "league": "Brews and Q's",
@@ -613,7 +618,7 @@
       "rank": 18,
       "pts": 152.0,
       "status": "fa",
-      "injury": "Out"
+      "injury": "Questionable"
      },
      {
       "player": "Jacoby Brissett",
@@ -628,7 +633,7 @@
       "rank": 22,
       "pts": 135.0,
       "status": "fa",
-      "injury": "Questionable"
+      "injury": "IR"
      },
      {
       "player": "Michael Penix Jr.",
@@ -666,11 +671,13 @@
     ],
     "TE": [
      {
-      "player": "Travis Kelce",
-      "team": "KC",
-      "rank": 5,
-      "pts": 66.3,
-      "status": "fa"
+      "player": "Mike Gesicki",
+      "team": "CIN",
+      "rank": 7,
+      "pts": 61.2,
+      "status": "drop",
+      "note": "dropped since 11/10",
+      "tag": "DROP"
      },
      {
       "player": "Darren Waller",
@@ -694,22 +701,39 @@
       "status": "fa"
      },
      {
-      "player": "Hunter Henry",
-      "team": "NE",
-      "rank": 15,
-      "pts": 48.1,
-      "status": "fa"
-     },
-     {
       "player": "Darnell Washington",
       "team": "PIT",
       "rank": 19,
       "pts": 43.4,
       "status": "fa"
+     },
+     {
+      "player": "Michael Mayer",
+      "team": "LV",
+      "rank": 21,
+      "pts": 42.8,
+      "status": "fa"
      }
     ]
    },
-   "new_drops": []
+   "new_drops": [
+    {
+     "player": "Mike Gesicki",
+     "pos": "TE",
+     "team": "CIN",
+     "rank": 7,
+     "pts": 61.2,
+     "note": "dropped since 11/10"
+    },
+    {
+     "player": "Sam Darnold",
+     "pos": "QB",
+     "team": "SEA",
+     "rank": 25,
+     "pts": 127.1,
+     "note": "dropped since 11/10"
+    }
+   ]
   },
   {
    "league": "Tomball Never Dies",
@@ -738,7 +762,7 @@
       "rank": 17,
       "pts": 123.94,
       "status": "fa",
-      "injury": "Out"
+      "injury": "Questionable"
      },
      {
       "player": "Aaron Rodgers",
@@ -753,7 +777,7 @@
       "rank": 22,
       "pts": 105.04,
       "status": "fa",
-      "injury": "Questionable"
+      "injury": "IR"
      },
      {
       "player": "Cam Ward",
@@ -772,7 +796,28 @@
       "status": "fa"
      }
     ],
+    "WR": [
+     {
+      "player": "Michael Wilson",
+      "team": "ARI",
+      "rank": 15,
+      "pts": 123.68,
+      "status": "drop",
+      "injury": "IR",
+      "note": "dropped since 11/10",
+      "tag": "DROP"
+     }
+    ],
     "TE": [
+     {
+      "player": "T.J. Hockenson",
+      "team": "MIN",
+      "rank": 9,
+      "pts": 88.8,
+      "status": "drop",
+      "note": "dropped since 11/10",
+      "tag": "DROP"
+     },
      {
       "player": "Dalton Kincaid",
       "team": "BUF",
@@ -807,17 +852,35 @@
       "rank": 17,
       "pts": 78.9,
       "status": "fa"
-     },
-     {
-      "player": "Darren Waller",
-      "team": "CAR",
-      "rank": 18,
-      "pts": 76.9,
-      "status": "fa"
      }
     ]
    },
-   "new_drops": []
+   "new_drops": [
+    {
+     "player": "T.J. Hockenson",
+     "pos": "TE",
+     "team": "MIN",
+     "rank": 9,
+     "pts": 88.8,
+     "note": "dropped since 11/10"
+    },
+    {
+     "player": "Michael Wilson",
+     "pos": "WR",
+     "team": "ARI",
+     "rank": 15,
+     "pts": 123.68,
+     "note": "dropped since 11/10"
+    },
+    {
+     "player": "Brenton Strange",
+     "pos": "TE",
+     "team": "JAX",
+     "rank": 21,
+     "pts": 71.6,
+     "note": "dropped since 11/10"
+    }
+   ]
   }
  ]
 }
