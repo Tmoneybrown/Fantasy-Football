@@ -1,26 +1,19 @@
 {
- "updated": "2026-11-10",
- "weeks": "10-12",
+ "updated": "2026-11-17",
+ "weeks": "11-13",
  "leagues": [
   {
    "league": "TRUMP",
    "team": "BrownEnergy",
    "platform": "Sleeper",
-   "status": "red",
-   "summary": "W10 D/ST hole",
+   "status": "orange",
+   "summary": "Covered all three weeks; W13 is thin",
    "items": [
-    {
-     "week": 10,
-     "slot": "D/ST",
-     "issue": "Your only defense, Buccaneers (TB), is on bye. Kalif Raymond (CHI) is also off, and Evans and Deebo are still out, so McConkey (questionable), Mitchell and Watkins are your healthy WRs",
-     "suggestion": "Add a second defense now: Bengals D/ST (CIN, 92.5, bye passed) is the best option, or Raiders (LV, 74.5, bye W13). Optional WR depth: Kayshon Boutte (HOU, 68.9) or Xavier Hutchinson (HOU, 66.3), both past their byes",
-     "severity": "red"
-    },
     {
      "week": 11,
      "slot": null,
      "issue": "Jadarian Price (SEA) and Hunter Henry (NE) are on bye",
-     "suggestion": "Covered: Vidal and Mitchell fill FLEX, Kincaid stays at TE. No move needed",
+     "suggestion": "Covered: Vidal and Jordan Watkins fill FLEX, Kincaid stays at TE. No move needed",
      "severity": "orange"
     },
     {
@@ -29,6 +22,13 @@
      "issue": "No teams on bye in W12",
      "suggestion": "No move needed",
      "severity": "green"
+    },
+    {
+     "week": 13,
+     "slot": null,
+     "issue": "Derrick Henry, Justice Hill (both BAL) and Adonai Mitchell (NYJ) are on bye",
+     "suggestion": "Covered but thin: Vidal and Price at RB, Deebo and Watkins at WR, Hunter Henry and Shaheed at FLEX. Optional WR depth: Kalif Raymond (CHI, 73.7) or Antonio Williams (WAS, 72.6), both past their byes",
+     "severity": "orange"
     }
    ]
   },
@@ -40,17 +40,10 @@
    "summary": "W11 D/ST hole",
    "items": [
     {
-     "week": 10,
-     "slot": null,
-     "issue": "Jonah Coleman (DEN) is on bye",
-     "suggestion": "Covered: Kamara and Flournoy fill RB/FLEX. No move needed",
-     "severity": "orange"
-    },
-    {
      "week": 11,
      "slot": "D/ST",
-     "issue": "Seahawks D/ST (SEA), your only defense, and Kyren Williams (LAR) are both on bye",
-     "suggestion": "Kamara and Coleman cover RB. Stream a defense for W11: Steelers (PIT, 84.0, bye passed) or 49ers (SF, 69.0, bye passed)",
+     "issue": "Seahawks D/ST (SEA), your only defense, is on bye, along with Kyren Williams (LAR) and DeMario Douglas (NE)",
+     "suggestion": "Kamara and Shakir cover FLEX. Add a defense this week: 49ers (SF, 73.0, bye passed) or Raiders (LV, 70.0, bye W13)",
      "severity": "red"
     },
     {
@@ -59,6 +52,13 @@
      "issue": "No teams on bye in W12",
      "suggestion": "No move needed",
      "severity": "green"
+    },
+    {
+     "week": 13,
+     "slot": null,
+     "issue": "Jonathan Taylor (IND) is on bye",
+     "suggestion": "Covered: Skattebo moves to RB, Douglas and Kamara fill FLEX. No move needed",
+     "severity": "orange"
     }
    ]
   },
@@ -67,28 +67,28 @@
    "team": "Travis***",
    "platform": "MFL",
    "status": "red",
-   "summary": "W11 QB, LB and DB holes; only one DB all season",
+   "summary": "W11 QB, LB and DB holes; only one DB all season; W13 LB hole",
    "items": [
-    {
-     "week": 10,
-     "slot": "DB",
-     "issue": "Xavier Watts (ATL) is your only DB, and the lineup needs two. Kyle Monangai (CHI) is on bye, but Henry and Kamara cover RB",
-     "suggestion": "Add a second DB now: Malaki Starks (BAL, 60, bye W13) or Josh Metellus (MIN, 59, bye passed). Brandon Jones (DEN, 61) is a free agent but questionable and on bye in W10",
-     "severity": "red"
-    },
     {
      "week": 11,
      "slot": "QB",
      "issue": "Matthew Stafford (LAR), your only QB, is on bye, along with Drake Thomas (SEA, LB) and Xavier Watts (ATL, your only DB)",
-     "suggestion": "Stash a QB this week: Geno Smith (NYJ, 106.4) or Jacoby Brissett (BAL, 94.4); Cam Ward (TEN, 87.3) also works. For LB add Drue Tranquill (KC, 68) or Terrel Bernard (BUF, 61). Two DBs like Starks and Metellus would cover both DB slots",
+     "suggestion": "Stash a QB now: Cam Ward (TEN, 105.0, bye passed) or Jacoby Brissett (BAL, 103.1, bye W13); Geno Smith (NYJ, 110.1) is questionable. LB: Terrel Bernard (BUF, 69) or Daiyan Henley (LAC, 69). DB: Jeremy Reaves (WAS, 64) or Malaki Starks (BAL, 64, bye W13)",
      "severity": "red"
     },
     {
      "week": 12,
      "slot": "DB",
-     "issue": "No teams on bye, but you are still one DB short unless you add one",
-     "suggestion": "Same fix as W10: Starks or Metellus",
-     "severity": "orange"
+     "issue": "No byes, but Xavier Watts is still your only DB and the lineup needs two",
+     "suggestion": "Add a second DB: Jeremy Reaves (WAS, 64) or Jaquan Brisker (PIT, 63), both past their byes",
+     "severity": "red"
+    },
+    {
+     "week": 13,
+     "slot": "LB",
+     "issue": "Derrick Henry (BAL) and Trenton Simpson (BAL, LB) are on bye, leaving Drake Thomas as your only LB, and you still have one DB",
+     "suggestion": "Kamara and Monangai cover RB. LB: Terrel Bernard (BUF, 69) or Daiyan Henley (LAC, 69), both past their byes; Kendal Daniels (ATL, 75) also works after W11. Plus a second DB as above",
+     "severity": "red"
     }
    ]
   },
@@ -96,27 +96,27 @@
    "league": "Lonestar",
    "team": "Purdy Good***",
    "platform": "ESPN",
-   "status": "green",
-   "summary": "Covered",
+   "status": "orange",
+   "summary": "Covered all three weeks",
    "items": [
-    {
-     "week": 10,
-     "slot": null,
-     "issue": "No starters on bye",
-     "suggestion": "No move needed",
-     "severity": "green"
-    },
     {
      "week": 11,
      "slot": null,
      "issue": "Kyren Williams (LAR) is on bye",
-     "suggestion": "Covered: Woody Marks and Emmett Johnson play RB, Flournoy at FLEX. No move needed",
+     "suggestion": "Covered: Emmett Johnson and Keaton Mitchell fill RB, Flournoy at FLEX. Woody Marks is out, so keep him benched. No move needed",
      "severity": "orange"
     },
     {
      "week": 12,
      "slot": null,
      "issue": "No teams on bye in W12",
+     "suggestion": "No move needed",
+     "severity": "green"
+    },
+    {
+     "week": 13,
+     "slot": null,
+     "issue": "No starters on bye (BAL, IND, LV, NYJ off)",
      "suggestion": "No move needed",
      "severity": "green"
     }
@@ -127,20 +127,13 @@
    "team": "Action Jackson",
    "platform": "ESPN",
    "status": "red",
-   "summary": "W11 D/ST hole",
+   "summary": "W11 D/ST hole; W13 K hole",
    "items": [
-    {
-     "week": 10,
-     "slot": null,
-     "issue": "No starters on bye (Monangai is out anyway)",
-     "suggestion": "No move needed",
-     "severity": "green"
-    },
     {
      "week": 11,
      "slot": "D/ST",
      "issue": "Seahawks D/ST (SEA), your only defense, is on bye",
-     "suggestion": "Stream a defense for W11: 49ers (SF, 85.5, bye passed), or Jets (NYJ, 73.0) or Raiders (LV, 74.5), both bye W13",
+     "suggestion": "Add a defense this week: 49ers (SF, 92.0, bye passed) or Raiders (LV, 83.5, bye W13); Lions (DET, 82.0, bye passed) also work",
      "severity": "red"
     },
     {
@@ -149,6 +142,13 @@
      "issue": "No teams on bye in W12",
      "suggestion": "No move needed",
      "severity": "green"
+    },
+    {
+     "week": 13,
+     "slot": "K",
+     "issue": "Matt Gay (LV), your only kicker, and Jonathan Taylor (IND) are on bye",
+     "suggestion": "Chase Brown and Vidal cover RB. Plan a short-term kicker pickup that week: Chad Ryland (ARI, 110.6), Chris Boswell (PIT, 106.3) or Chase McLaughlin (TB, 118.9)",
+     "severity": "red"
     }
    ]
   },
@@ -157,20 +157,13 @@
    "team": "Baby Back Gibbs*",
    "platform": "ESPN",
    "status": "red",
-   "summary": "W11 WR hole",
+   "summary": "W11 WR hole; W13 TE hole",
    "items": [
-    {
-     "week": 10,
-     "slot": null,
-     "issue": "Jonah Coleman (DEN) and Jaylen Waddle (DEN, out) are on bye",
-     "suggestion": "Covered: Caleb Douglas moves into WR and Tyler Warren plays FLEX. No move needed",
-     "severity": "orange"
-    },
     {
      "week": 11,
      "slot": "WR",
-     "issue": "Denzel Boston (CLE) is on bye and Waddle is still out, leaving only Addison and Douglas for three WR slots",
-     "suggestion": "Stash a WR now: Ryan Flournoy (DAL, 76.5, bye W14) or Josh Downs (IND, 69.7, bye W13). Keon Coleman (BUF, 69.7, bye passed) also works",
+     "issue": "Denzel Boston (CLE) and Tutu Atwell (LAR) are on bye, with Addison and Waddle out, leaving Josh Downs and Tank Dell for three WR slots. Charbonnet (SEA) is also off, but Skattebo and Coleman cover",
+     "suggestion": "Stash a WR now: Ryan Flournoy (DAL, 76.5, bye W14), Malik Washington (MIA, 71.7) or Keon Coleman (BUF, 69.7), both past their byes",
      "severity": "red"
     },
     {
@@ -179,6 +172,13 @@
      "issue": "No teams on bye in W12",
      "suggestion": "No move needed",
      "severity": "green"
+    },
+    {
+     "week": 13,
+     "slot": "TE",
+     "issue": "Tyler Warren (IND), your only TE, and Derrick Henry (BAL) are on bye",
+     "suggestion": "Coleman fills FLEX. Plan a short-term TE pickup: Dalton Kincaid (BUF, 82.1), Pat Freiermuth (PIT, 79.0) or Mike Gesicki (CIN, 77.1), all past their byes",
+     "severity": "red"
     }
    ]
   }
