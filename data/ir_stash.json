@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-17",
- "graphic_date": "2026-11-17",
+ "updated": "2026-11-18",
+ "graphic_date": "2026-11-18",
  "weeks": {
   "W11": "Nov 19-23",
   "W12": "Nov 26-30",
@@ -21,8 +21,8 @@
        "team": "ARI",
        "status": "IR-R",
        "injury": "Foot",
-       "ret_wk": 11,
-       "note": "designated to return (Nov 15)",
+       "ret_wk": 12,
+       "note": "return moved Nov 22\u2192Nov 29 (W12, designated to return)",
        "rank": 1
       },
       {
@@ -176,8 +176,8 @@
        "pos": "RB",
        "team": "HOU",
        "injury": "Hamstring",
-       "ret_wk": 11,
-       "note": "due back Nov 19 (W11)",
+       "ret_wk": 12,
+       "note": "return moved Nov 19\u2192Nov 29 (W12)",
        "rank": 6
       },
       {
@@ -358,8 +358,8 @@
        "team": "ARI",
        "status": "IR-R",
        "injury": "Foot",
-       "ret_wk": 11,
-       "note": "designated to return (Nov 15)",
+       "ret_wk": 12,
+       "note": "return moved Nov 22\u2192Nov 29 (W12, designated to return)",
        "rank": 1
       },
       {
@@ -371,14 +371,6 @@
        "ret_wk": 12,
        "note": "return moved Nov 8\u2192Nov 25 (W12)",
        "rank": 1
-      },
-      {
-       "player": "Jacory Croskey-Merritt",
-       "pos": "RB",
-       "team": "WAS",
-       "injury": "Groin",
-       "ret_wk": 11,
-       "rank": 2
       },
       {
        "player": "Andrei Iosivas",
@@ -415,7 +407,7 @@
        "injury": "Groin",
        "ret_wk": 11,
        "note": "return moved Nov 15\u2192Nov 22",
-       "rank": 3
+       "rank": 2
       },
       {
        "player": "Brashard Smith",
@@ -423,7 +415,7 @@
        "team": "KC",
        "injury": "Hamstring",
        "ret_wk": 11,
-       "rank": 4
+       "rank": 3
       },
       {
        "player": "Isaac Guerendo",
@@ -433,7 +425,7 @@
        "injury": "Pectoral",
        "ret_wk": 11,
        "note": "return moved Nov 15\u2192Nov 22",
-       "rank": 5
+       "rank": 4
       },
       {
        "player": "Davante Adams",
@@ -474,7 +466,7 @@
        "team": "NYG",
        "injury": "Hamstring",
        "ret_wk": 13,
-       "rank": 6
+       "rank": 5
       },
       {
        "player": "RJ Harvey",
@@ -482,7 +474,7 @@
        "team": "DEN",
        "injury": "Knee",
        "ret_wk": 13,
-       "rank": 7
+       "rank": 6
       }
      ]
     },
@@ -555,16 +547,16 @@
        "injury": "Neck",
        "ret_wk": 11,
        "note": "return moved Nov 5\u2192Nov 16 (W10)",
-       "rank": 8
+       "rank": 7
       },
       {
        "player": "British Brooks",
        "pos": "RB",
        "team": "HOU",
        "injury": "Hamstring",
-       "ret_wk": 11,
-       "note": "due back Nov 19 (W11)",
-       "rank": 9
+       "ret_wk": 12,
+       "note": "return moved Nov 19\u2192Nov 29 (W12)",
+       "rank": 8
       },
       {
        "player": "Will Shipley",
@@ -573,7 +565,7 @@
        "status": "IR-R",
        "injury": "Foot",
        "ret_wk": 11,
-       "rank": 10
+       "rank": 9
       },
       {
        "player": "Raheim Sanders",
@@ -582,7 +574,7 @@
        "injury": "Hip",
        "ret_wk": 12,
        "note": "return moved Nov 15\u2192Nov 29",
-       "rank": 11
+       "rank": 10
       },
       {
        "player": "Trey Lance",
@@ -599,7 +591,7 @@
        "team": "DEN",
        "injury": "Thumb",
        "ret_wk": 12,
-       "rank": 12
+       "rank": 11
       },
       {
        "player": "Alec Ingold",
@@ -607,7 +599,7 @@
        "team": "LAC",
        "injury": "Shoulder",
        "ret_wk": 11,
-       "rank": 13
+       "rank": 12
       },
       {
        "player": "De'Zhaun Stribling",
@@ -639,7 +631,7 @@
        "team": "MIN",
        "injury": "Knee",
        "ret_wk": 13,
-       "rank": 14
+       "rank": 13
       }
      ]
     },
@@ -684,7 +676,15 @@
        "team": "LAR",
        "ret_wk": "Active",
        "note": "off IR, activated by Nov 9",
-       "rank": 15
+       "rank": 14
+      },
+      {
+       "player": "Demarcus Robinson",
+       "pos": "WR",
+       "team": "SF",
+       "ret_wk": "Active",
+       "note": "off IR, activated by Nov 9",
+       "rank": 17
       },
       {
        "player": "Carter Runyon",
@@ -724,7 +724,7 @@
        "team": "TB",
        "ret_wk": "Active",
        "note": "off IR, activated by Oct 27",
-       "rank": 17
+       "rank": 18
       },
       {
        "player": "Dont'e Thornton",
@@ -732,7 +732,7 @@
        "team": "LV",
        "ret_wk": "Active",
        "note": "off IR, activated by Oct 28",
-       "rank": 18
+       "rank": 19
       }
      ]
     }
@@ -752,8 +752,8 @@
        "team": "ARI",
        "status": "IR-R",
        "injury": "Foot",
-       "ret_wk": 11,
-       "note": "designated to return (Nov 15)",
+       "ret_wk": 12,
+       "note": "return moved Nov 22\u2192Nov 29 (W12, designated to return)",
        "rank": 1
       },
       {
@@ -770,8 +770,10 @@
        "player": "Jacory Croskey-Merritt",
        "pos": "RB",
        "team": "WAS",
+       "status": "IR-R",
        "injury": "Groin",
        "ret_wk": 11,
+       "note": "designated to return (Nov 18)",
        "rank": 2
       },
       {
@@ -957,8 +959,8 @@
        "pos": "RB",
        "team": "HOU",
        "injury": "Hamstring",
-       "ret_wk": 11,
-       "note": "due back Nov 19 (W11)",
+       "ret_wk": 12,
+       "note": "return moved Nov 19\u2192Nov 29 (W12)",
        "rank": 9
       },
       {
@@ -1308,8 +1310,8 @@
        "pos": "RB",
        "team": "HOU",
        "injury": "Hamstring",
-       "ret_wk": 11,
-       "note": "due back Nov 19 (W11)",
+       "ret_wk": 12,
+       "note": "return moved Nov 19\u2192Nov 29 (W12)",
        "rank": 6
       },
       {
@@ -1393,20 +1395,12 @@
        "rank": 8
       },
       {
-       "player": "Pat Bryant",
-       "pos": "WR",
-       "team": "DEN",
-       "ret_wk": "Active",
-       "note": "off IR, activated by Nov 9",
-       "rank": 9
-      },
-      {
        "player": "Beaux Collins",
        "pos": "WR",
        "team": "ATL",
        "ret_wk": "Active",
        "note": "off IR, activated by Nov 9",
-       "rank": 10
+       "rank": 9
       },
       {
        "player": "Ronnie Rivers",
@@ -1422,7 +1416,7 @@
        "team": "SF",
        "ret_wk": "Active",
        "note": "off IR, activated by Nov 9",
-       "rank": 11
+       "rank": 10
       },
       {
        "player": "Carter Runyon",
@@ -1462,7 +1456,7 @@
        "team": "TB",
        "ret_wk": "Active",
        "note": "off IR, activated by Oct 27",
-       "rank": 12
+       "rank": 11
       },
       {
        "player": "Dont'e Thornton",
@@ -1470,7 +1464,7 @@
        "team": "LV",
        "ret_wk": "Active",
        "note": "off IR, activated by Oct 28",
-       "rank": 13
+       "rank": 12
       }
      ]
     }
@@ -1490,8 +1484,8 @@
        "team": "ARI",
        "status": "IR-R",
        "injury": "Foot",
-       "ret_wk": 11,
-       "note": "designated to return (Nov 15)",
+       "ret_wk": 12,
+       "note": "return moved Nov 22\u2192Nov 29 (W12, designated to return)",
        "rank": 1
       },
       {
@@ -1653,8 +1647,8 @@
        "pos": "RB",
        "team": "HOU",
        "injury": "Hamstring",
-       "ret_wk": 11,
-       "note": "due back Nov 19 (W11)",
+       "ret_wk": 12,
+       "note": "return moved Nov 19\u2192Nov 29 (W12)",
        "rank": 7
       },
       {
@@ -1786,6 +1780,14 @@
        "rank": 6
       },
       {
+       "player": "Dylan Sampson",
+       "pos": "RB",
+       "team": "CLE",
+       "ret_wk": "Active",
+       "note": "off IR, activated by Oct 27",
+       "rank": 14
+      },
+      {
        "player": "Eli Stowers",
        "pos": "TE",
        "team": "PHI",
@@ -1843,8 +1845,8 @@
        "team": "ARI",
        "status": "IR-R",
        "injury": "Foot",
-       "ret_wk": 11,
-       "note": "designated to return (Nov 15)",
+       "ret_wk": 12,
+       "note": "return moved Nov 22\u2192Nov 29 (W12, designated to return)",
        "rank": 1
       },
       {
@@ -1861,8 +1863,10 @@
        "player": "Jacory Croskey-Merritt",
        "pos": "RB",
        "team": "WAS",
+       "status": "IR-R",
        "injury": "Groin",
        "ret_wk": 11,
+       "note": "designated to return (Nov 18)",
        "rank": 2
       },
       {
@@ -2022,8 +2026,8 @@
        "pos": "RB",
        "team": "HOU",
        "injury": "Hamstring",
-       "ret_wk": 11,
-       "note": "due back Nov 19 (W11)",
+       "ret_wk": 12,
+       "note": "return moved Nov 19\u2192Nov 29 (W12)",
        "rank": 8
       },
       {
