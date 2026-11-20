@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-19",
- "graphic_date": "2026-11-19",
+ "updated": "2026-11-20",
+ "graphic_date": "2026-11-20",
  "weeks": {
   "W11": "Nov 19-23",
   "W12": "Nov 26-30",
@@ -109,7 +109,7 @@
        "team": "ARI",
        "status": "IR-PUP",
        "injury": "Ankle",
-       "ret_wk": 11,
+       "ret_wk": 12,
        "note": "return moved Nov 15\u2192Nov 22",
        "rank": 4
       },
@@ -458,7 +458,7 @@
        "team": "ARI",
        "status": "IR-PUP",
        "injury": "Ankle",
-       "ret_wk": 11,
+       "ret_wk": 12,
        "note": "return moved Nov 15\u2192Nov 22",
        "rank": 4
       },
@@ -825,7 +825,7 @@
        "team": "ARI",
        "status": "IR-PUP",
        "injury": "Ankle",
-       "ret_wk": 11,
+       "ret_wk": 12,
        "note": "return moved Nov 15\u2192Nov 22",
        "rank": 4
       },
@@ -1165,7 +1165,7 @@
        "team": "ARI",
        "status": "IR-PUP",
        "injury": "Ankle",
-       "ret_wk": 11,
+       "ret_wk": 12,
        "note": "return moved Nov 15\u2192Nov 22",
        "rank": 4
       },
@@ -1464,7 +1464,7 @@
        "team": "ARI",
        "status": "IR-PUP",
        "injury": "Ankle",
-       "ret_wk": 11,
+       "ret_wk": 12,
        "note": "return moved Nov 15\u2192Nov 22",
        "rank": 4
       },
@@ -1822,7 +1822,7 @@
        "team": "ARI",
        "status": "IR-PUP",
        "injury": "Ankle",
-       "ret_wk": 11,
+       "ret_wk": 12,
        "note": "return moved Nov 15\u2192Nov 22",
        "rank": 4
       },
