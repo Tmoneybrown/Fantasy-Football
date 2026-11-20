@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-19",
+ "updated": "2026-11-20",
  "through_week": 10,
  "leagues": [
   {
@@ -12,7 +12,7 @@
      {
       "player": "Drake Maye",
       "team": "NE",
-      "rank": 6,
+      "rank": 7,
       "pts": 229.2,
       "status": "fa"
      },
@@ -22,8 +22,7 @@
       "rank": 16,
       "pts": 160.4,
       "status": "drop",
-      "note": "dropped Wed 11/18",
-      "tag": "DROP"
+      "note": "dropped Wed 11/18"
      },
      {
       "player": "Aaron Rodgers",
@@ -53,8 +52,7 @@
       "rank": 25,
       "pts": 116.9,
       "status": "drop",
-      "note": "dropped Wed 11/18",
-      "tag": "DROP"
+      "note": "dropped Wed 11/18"
      }
     ],
     "RB": [
@@ -70,7 +68,7 @@
      {
       "player": "Michael Wilson",
       "team": "ARI",
-      "rank": 18,
+      "rank": 19,
       "pts": 123.7,
       "status": "fa"
      }
@@ -166,8 +164,7 @@
       "team": "NYJ",
       "rank": 16,
       "pts": 139.4,
-      "status": "drop",
-      "note": "dropped Thu 11/12"
+      "status": "fa"
      },
      {
       "player": "Jacoby Brissett",
@@ -241,7 +238,7 @@
      {
       "player": "Juwan Johnson",
       "team": "NO",
-      "rank": 13,
+      "rank": 14,
       "pts": 68.7,
       "status": "fa"
      },
@@ -258,8 +255,7 @@
       "rank": 23,
       "pts": 55.4,
       "status": "drop",
-      "note": "dropped Wed 11/18",
-      "tag": "DROP"
+      "note": "dropped Wed 11/18"
      },
      {
       "player": "AJ Barner",
@@ -279,14 +275,6 @@
    },
    "new_drops": [
     {
-     "player": "Geno Smith",
-     "pos": "QB",
-     "team": "NYJ",
-     "rank": 16,
-     "pts": 139.4,
-     "note": "dropped Thu 11/12"
-    },
-    {
      "player": "Mark Andrews",
      "pos": "TE",
      "team": "BAL",
@@ -298,7 +286,7 @@
      "player": "Sam Darnold",
      "pos": "QB",
      "team": "SEA",
-     "rank": 26,
+     "rank": 27,
      "pts": 101.3,
      "note": "dropped Wed 11/18"
     }
@@ -352,8 +340,7 @@
       "rank": 28,
       "pts": 70.04,
       "status": "drop",
-      "note": "dropped Wed 11/18",
-      "tag": "DROP"
+      "note": "dropped Wed 11/18"
      }
     ],
     "RB": [
@@ -370,18 +357,17 @@
       "rank": 29,
       "pts": 62.4,
       "status": "drop",
-      "note": "dropped Wed 11/18",
-      "tag": "DROP"
+      "note": "dropped Wed 11/18"
      }
     ],
     "WR": [
      {
-      "player": "KC Concepcion",
-      "team": "CLE",
-      "rank": 30,
-      "pts": 61.1,
+      "player": "Demario Douglas",
+      "team": "NE",
+      "rank": 27,
+      "pts": 67.8,
       "status": "drop",
-      "note": "dropped Wed 11/18",
+      "note": "dropped Thu 11/19",
       "tag": "DROP"
      }
     ],
@@ -391,13 +377,6 @@
       "team": "CLE",
       "rank": 5,
       "pts": 76.4,
-      "status": "fa"
-     },
-     {
-      "player": "Mike Gesicki",
-      "team": "CIN",
-      "rank": 8,
-      "pts": 62.1,
       "status": "fa"
      },
      {
@@ -427,6 +406,13 @@
       "rank": 16,
       "pts": 51.0,
       "status": "fa"
+     },
+     {
+      "player": "Tyler Warren",
+      "team": "IND",
+      "rank": 17,
+      "pts": 48.7,
+      "status": "fa"
      }
     ],
     "DL": [
@@ -438,41 +424,40 @@
       "status": "fa"
      },
      {
+      "player": "Tommy Togiai",
+      "team": "HOU",
+      "rank": 9,
+      "pts": 50.0,
+      "status": "fa"
+     },
+     {
       "player": "George Karlaftis",
       "team": "KC",
-      "rank": 9,
+      "rank": 10,
       "pts": 48.0,
+      "status": "fa"
+     },
+     {
+      "player": "Adetomiwa Adebawore",
+      "team": "IND",
+      "rank": 12,
+      "pts": 47.0,
       "status": "fa"
      },
      {
       "player": "Josh Uche",
       "team": "MIA",
-      "rank": 14,
+      "rank": 16,
       "pts": 46.0,
       "status": "fa"
      },
      {
       "player": "DeForest Buckner",
       "team": "SF",
-      "rank": 15,
+      "rank": 17,
       "pts": 45.0,
       "status": "drop",
-      "note": "dropped Wed 11/18",
-      "tag": "DROP"
-     },
-     {
-      "player": "Tuli Tuipulotu",
-      "team": "LAC",
-      "rank": 16,
-      "pts": 44.0,
-      "status": "fa"
-     },
-     {
-      "player": "Tommy Togiai",
-      "team": "HOU",
-      "rank": 17,
-      "pts": 44.0,
-      "status": "fa"
+      "note": "dropped Wed 11/18"
      }
     ],
     "LB": [
@@ -534,9 +519,25 @@
      "player": "DeForest Buckner",
      "pos": "DL",
      "team": "SF",
-     "rank": 15,
+     "rank": 17,
      "pts": 45.0,
      "note": "dropped Wed 11/18"
+    },
+    {
+     "player": "Xavier McKinney",
+     "pos": "DB",
+     "team": "GB",
+     "rank": 25,
+     "pts": 58.0,
+     "note": "dropped Thu 11/19"
+    },
+    {
+     "player": "Demario Douglas",
+     "pos": "WR",
+     "team": "NE",
+     "rank": 27,
+     "pts": 67.8,
+     "note": "dropped Thu 11/19"
     },
     {
      "player": "Jalen Hurts",
@@ -552,14 +553,6 @@
      "team": "HOU",
      "rank": 29,
      "pts": 62.4,
-     "note": "dropped Wed 11/18"
-    },
-    {
-     "player": "KC Concepcion",
-     "pos": "WR",
-     "team": "CLE",
-     "rank": 30,
-     "pts": 61.1,
      "note": "dropped Wed 11/18"
     }
    ]
