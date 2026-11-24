@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-20",
- "through_week": 10,
+ "updated": "2026-11-24",
+ "through_week": 11,
  "leagues": [
   {
    "league": "TRUMP",
@@ -12,55 +12,48 @@
      {
       "player": "Drake Maye",
       "team": "NE",
-      "rank": 7,
+      "rank": 10,
       "pts": 229.2,
-      "status": "fa"
+      "status": "drop",
+      "note": "dropped Tue 11/17",
+      "tag": "DROP"
      },
      {
       "player": "Geno Smith",
       "team": "NYJ",
-      "rank": 16,
-      "pts": 160.4,
+      "rank": 15,
+      "pts": 182.9,
       "status": "drop",
       "note": "dropped Wed 11/18"
      },
      {
       "player": "Aaron Rodgers",
       "team": "PIT",
-      "rank": 17,
-      "pts": 156.8,
+      "rank": 16,
+      "pts": 173.7,
+      "status": "drop",
+      "note": "dropped Wed 11/18"
+     },
+     {
+      "player": "Justin Herbert",
+      "team": "LAC",
+      "rank": 23,
+      "pts": 141.3,
       "status": "drop",
       "note": "dropped Wed 11/18"
      },
      {
       "player": "Michael Penix Jr.",
       "team": "ATL",
-      "rank": 23,
+      "rank": 24,
       "pts": 125.6,
       "status": "fa"
      },
      {
       "player": "Malik Willis",
       "team": "MIA",
-      "rank": 24,
-      "pts": 123.0,
-      "status": "fa"
-     },
-     {
-      "player": "Justin Herbert",
-      "team": "LAC",
       "rank": 25,
-      "pts": 116.9,
-      "status": "drop",
-      "note": "dropped Wed 11/18"
-     }
-    ],
-    "RB": [
-     {
-      "player": "Emanuel Wilson",
-      "team": "SEA",
-      "rank": 30,
-      "pts": 77.8,
+      "pts": 123.0,
       "status": "fa"
      }
     ],
@@ -68,7 +61,7 @@
      {
       "player": "Michael Wilson",
       "team": "ARI",
-      "rank": 19,
+      "rank": 22,
       "pts": 123.7,
       "status": "fa"
      }
@@ -82,65 +75,66 @@
       "status": "fa"
      },
      {
-      "player": "AJ Barner",
-      "team": "SEA",
-      "rank": 25,
-      "pts": 67.7,
-      "status": "fa"
-     },
-     {
       "player": "Tommy Tremble",
       "team": "CAR",
       "rank": 26,
-      "pts": 65.7,
+      "pts": 68.5,
+      "status": "fa"
+     },
+     {
+      "player": "AJ Barner",
+      "team": "SEA",
+      "rank": 27,
+      "pts": 67.7,
       "status": "fa"
      },
      {
       "player": "Kenyon Sadiq",
       "team": "NYJ",
       "rank": 28,
-      "pts": 59.1,
+      "pts": 65.1,
       "status": "fa"
      },
      {
-      "player": "Jake Ferguson",
-      "team": "DAL",
-      "rank": 29,
-      "pts": 54.6,
-      "status": "fa"
-     },
-     {
-      "player": "Greg Dulcich",
-      "team": "MIA",
+      "player": "Mason Taylor",
+      "team": "NYJ",
       "rank": 30,
-      "pts": 53.0,
+      "pts": 57.2,
       "status": "fa"
      }
     ]
    },
    "new_drops": [
     {
+     "player": "Drake Maye",
+     "pos": "QB",
+     "team": "NE",
+     "rank": 10,
+     "pts": 229.2,
+     "note": "dropped Tue 11/17"
+    },
+    {
      "player": "Geno Smith",
      "pos": "QB",
      "team": "NYJ",
-     "rank": 16,
-     "pts": 160.4,
+     "rank": 15,
+     "pts": 182.9,
      "note": "dropped Wed 11/18"
     },
     {
      "player": "Aaron Rodgers",
      "pos": "QB",
      "team": "PIT",
-     "rank": 17,
-     "pts": 156.8,
+     "rank": 16,
+     "pts": 173.7,
      "note": "dropped Wed 11/18"
     },
     {
      "player": "Justin Herbert",
      "pos": "QB",
      "team": "LAC",
-     "rank": 25,
-     "pts": 116.9,
+     "rank": 23,
+     "pts": 141.3,
      "note": "dropped Wed 11/18"
     }
    ]
@@ -153,54 +147,45 @@
    "top_by_pos": {
     "QB": [
      {
-      "player": "Deshaun Watson",
-      "team": "CLE",
-      "rank": 15,
-      "pts": 143.3,
-      "status": "fa"
-     },
-     {
       "player": "Geno Smith",
       "team": "NYJ",
-      "rank": 16,
-      "pts": 139.4,
+      "rank": 15,
+      "pts": 158.9,
       "status": "fa"
      },
      {
       "player": "Jacoby Brissett",
       "team": "BAL",
       "rank": 20,
-      "pts": 130.5,
+      "pts": 145.2,
+      "status": "fa"
+     },
+     {
+      "player": "Deshaun Watson",
+      "team": "CLE",
+      "rank": 21,
+      "pts": 143.3,
+      "status": "fa"
+     },
+     {
+      "player": "Justin Herbert",
+      "team": "LAC",
+      "rank": 23,
+      "pts": 130.3,
       "status": "fa"
      },
      {
       "player": "Michael Penix Jr.",
       "team": "ATL",
-      "rank": 22,
+      "rank": 24,
       "pts": 115.6,
       "status": "fa"
      },
      {
       "player": "Malik Willis",
       "team": "MIA",
-      "rank": 24,
-      "pts": 111.0,
-      "status": "fa"
-     },
-     {
-      "player": "Justin Herbert",
-      "team": "LAC",
       "rank": 25,
-      "pts": 107.9,
-      "status": "fa"
-     }
-    ],
-    "RB": [
-     {
-      "player": "Emanuel Wilson",
-      "team": "SEA",
-      "rank": 29,
-      "pts": 71.8,
+      "pts": 111.0,
       "status": "fa"
      }
     ],
@@ -208,22 +193,15 @@
      {
       "player": "Michael Wilson",
       "team": "ARI",
-      "rank": 20,
+      "rank": 24,
       "pts": 95.2,
       "status": "fa"
      },
      {
       "player": "Davante Adams",
       "team": "LAR",
-      "rank": 25,
+      "rank": 26,
       "pts": 87.0,
-      "status": "fa"
-     },
-     {
-      "player": "DeMario Douglas",
-      "team": "NE",
-      "rank": 27,
-      "pts": 81.8,
       "status": "fa"
      }
     ],
@@ -232,13 +210,22 @@
       "player": "Pat Freiermuth",
       "team": "PIT",
       "rank": 8,
-      "pts": 77.0,
+      "pts": 83.5,
       "status": "fa"
+     },
+     {
+      "player": "Darren Waller",
+      "team": "CAR",
+      "rank": 14,
+      "pts": 74.5,
+      "status": "drop",
+      "note": "dropped Sat 11/21",
+      "tag": "DROP"
      },
      {
       "player": "Juwan Johnson",
       "team": "NO",
-      "rank": 14,
+      "rank": 16,
       "pts": 68.7,
       "status": "fa"
      },
@@ -246,40 +233,52 @@
       "player": "Dallas Goedert",
       "team": "PHI",
       "rank": 22,
-      "pts": 58.5,
-      "status": "fa"
-     },
-     {
-      "player": "Mark Andrews",
-      "team": "BAL",
-      "rank": 23,
-      "pts": 55.4,
+      "pts": 62.8,
       "status": "drop",
-      "note": "dropped Wed 11/18"
-     },
-     {
-      "player": "AJ Barner",
-      "team": "SEA",
-      "rank": 24,
-      "pts": 54.7,
-      "status": "fa"
+      "note": "dropped Wed 11/18",
+      "tag": "DROP"
      },
      {
       "player": "Darnell Washington",
       "team": "PIT",
+      "rank": 24,
+      "pts": 57.6,
+      "status": "drop",
+      "note": "dropped Wed 11/18",
+      "tag": "DROP"
+     },
+     {
+      "player": "Tommy Tremble",
+      "team": "CAR",
       "rank": 25,
-      "pts": 53.9,
+      "pts": 55.5,
       "status": "fa"
      }
     ]
    },
    "new_drops": [
     {
-     "player": "Mark Andrews",
+     "player": "Darren Waller",
      "pos": "TE",
-     "team": "BAL",
-     "rank": 23,
-     "pts": 55.4,
+     "team": "CAR",
+     "rank": 14,
+     "pts": 74.5,
+     "note": "dropped Sat 11/21"
+    },
+    {
+     "player": "Dallas Goedert",
+     "pos": "TE",
+     "team": "PHI",
+     "rank": 22,
+     "pts": 62.8,
+     "note": "dropped Wed 11/18"
+    },
+    {
+     "player": "Darnell Washington",
+     "pos": "TE",
+     "team": "PIT",
+     "rank": 24,
+     "pts": 57.6,
      "note": "dropped Wed 11/18"
     },
     {
@@ -302,29 +301,29 @@
      {
       "player": "Geno Smith",
       "team": "NYJ",
-      "rank": 19,
-      "pts": 110.08,
+      "rank": 16,
+      "pts": 126.88,
       "status": "fa"
      },
      {
       "player": "Cam Ward",
       "team": "TEN",
-      "rank": 20,
-      "pts": 104.97,
-      "status": "fa"
-     },
-     {
-      "player": "Malik Willis",
-      "team": "MIA",
-      "rank": 22,
-      "pts": 96.12,
+      "rank": 18,
+      "pts": 124.47,
       "status": "fa"
      },
      {
       "player": "Justin Herbert",
       "team": "LAC",
+      "rank": 22,
+      "pts": 111.61,
+      "status": "fa"
+     },
+     {
+      "player": "Malik Willis",
+      "team": "MIA",
       "rank": 24,
-      "pts": 91.13,
+      "pts": 96.12,
       "status": "fa"
      },
      {
@@ -335,181 +334,171 @@
       "status": "fa"
      },
      {
-      "player": "Jalen Hurts",
-      "team": "PHI",
+      "player": "Jameis Winston",
+      "team": "NYG",
       "rank": 28,
-      "pts": 70.04,
-      "status": "drop",
-      "note": "dropped Wed 11/18"
+      "pts": 72.41,
+      "status": "fa"
      }
     ],
     "RB": [
      {
       "player": "Emanuel Wilson",
       "team": "SEA",
-      "rank": 27,
+      "rank": 29,
       "pts": 70.8,
       "status": "fa"
-     },
-     {
-      "player": "Woody Marks",
-      "team": "HOU",
-      "rank": 29,
-      "pts": 62.4,
-      "status": "drop",
-      "note": "dropped Wed 11/18"
      }
     ],
     "WR": [
      {
       "player": "Demario Douglas",
       "team": "NE",
-      "rank": 27,
+      "rank": 29,
       "pts": 67.8,
       "status": "drop",
-      "note": "dropped Thu 11/19",
-      "tag": "DROP"
+      "note": "dropped Thu 11/19"
      }
     ],
     "TE": [
      {
       "player": "Harold Fannin",
       "team": "CLE",
-      "rank": 5,
+      "rank": 6,
       "pts": 76.4,
       "status": "fa"
      },
      {
       "player": "Darren Waller",
       "team": "CAR",
-      "rank": 13,
-      "pts": 56.3,
-      "status": "fa"
-     },
-     {
-      "player": "Hunter Henry",
-      "team": "NE",
-      "rank": 14,
-      "pts": 53.3,
+      "rank": 11,
+      "pts": 60.5,
       "status": "fa"
      },
      {
       "player": "T.J. Hockenson",
       "team": "MIN",
-      "rank": 15,
-      "pts": 52.8,
+      "rank": 12,
+      "pts": 58.3,
+      "status": "fa"
+     },
+     {
+      "player": "Hunter Henry",
+      "team": "NE",
+      "rank": 16,
+      "pts": 53.3,
       "status": "fa"
      },
      {
       "player": "Kyle Pitts",
       "team": "ATL",
-      "rank": 16,
+      "rank": 17,
       "pts": 51.0,
       "status": "fa"
      },
      {
-      "player": "Tyler Warren",
-      "team": "IND",
-      "rank": 17,
-      "pts": 48.7,
+      "player": "Brenton Strange",
+      "team": "JAX",
+      "rank": 18,
+      "pts": 50.1,
       "status": "fa"
      }
     ],
     "DL": [
      {
+      "player": "George Karlaftis",
+      "team": "KC",
+      "rank": 5,
+      "pts": 58.0,
+      "status": "fa"
+     },
+     {
+      "player": "Boye Mafe",
+      "team": "CIN",
+      "rank": 9,
+      "pts": 53.0,
+      "status": "fa"
+     },
+     {
       "player": "Lukas Van Ness",
       "team": "GB",
-      "rank": 8,
+      "rank": 12,
       "pts": 50.0,
       "status": "fa"
      },
      {
       "player": "Tommy Togiai",
       "team": "HOU",
-      "rank": 9,
+      "rank": 13,
       "pts": 50.0,
-      "status": "fa"
-     },
-     {
-      "player": "George Karlaftis",
-      "team": "KC",
-      "rank": 10,
-      "pts": 48.0,
-      "status": "fa"
-     },
-     {
-      "player": "Adetomiwa Adebawore",
-      "team": "IND",
-      "rank": 12,
-      "pts": 47.0,
-      "status": "fa"
-     },
-     {
-      "player": "Josh Uche",
-      "team": "MIA",
-      "rank": 16,
-      "pts": 46.0,
       "status": "fa"
      },
      {
       "player": "DeForest Buckner",
       "team": "SF",
-      "rank": 17,
-      "pts": 45.0,
+      "rank": 14,
+      "pts": 49.0,
       "status": "drop",
       "note": "dropped Wed 11/18"
+     },
+     {
+      "player": "Tuli Tuipulotu",
+      "team": "LAC",
+      "rank": 15,
+      "pts": 48.0,
+      "status": "fa"
      }
     ],
     "LB": [
      {
       "player": "Kendal Daniels",
       "team": "ATL",
-      "rank": 26,
+      "rank": 30,
       "pts": 75.0,
       "status": "fa"
      }
     ],
     "DB": [
      {
-      "player": "Ronnie Hickman",
-      "team": "CLE",
-      "rank": 11,
-      "pts": 65.0,
+      "player": "Chuck Clark",
+      "team": "DET",
+      "rank": 12,
+      "pts": 70.0,
       "status": "fa"
      },
      {
       "player": "Malaki Starks",
       "team": "BAL",
       "rank": 13,
-      "pts": 64.0,
+      "pts": 69.0,
       "status": "fa"
      },
      {
-      "player": "Devon Witherspoon",
-      "team": "SEA",
-      "rank": 14,
-      "pts": 64.0,
+      "player": "Jonas Sanker",
+      "team": "NO",
+      "rank": 17,
+      "pts": 67.0,
       "status": "fa"
      },
      {
       "player": "Jaquan Brisker",
       "team": "PIT",
-      "rank": 17,
-      "pts": 63.0,
+      "rank": 18,
+      "pts": 67.0,
       "status": "fa"
      },
      {
-      "player": "Brandon Jones",
-      "team": "DEN",
-      "rank": 19,
-      "pts": 61.0,
+      "player": "Ronnie Hickman",
+      "team": "CLE",
+      "rank": 21,
+      "pts": 65.0,
       "status": "fa"
      },
      {
-      "player": "Michael Taaffe",
+      "player": "Chris Johnson",
       "team": "MIA",
-      "rank": 20,
-      "pts": 60.0,
+      "rank": 22,
+      "pts": 64.0,
       "status": "fa"
      }
     ]
@@ -519,41 +508,25 @@
      "player": "DeForest Buckner",
      "pos": "DL",
      "team": "SF",
-     "rank": 17,
-     "pts": 45.0,
+     "rank": 14,
+     "pts": 49.0,
      "note": "dropped Wed 11/18"
-    },
-    {
-     "player": "Xavier McKinney",
-     "pos": "DB",
-     "team": "GB",
-     "rank": 25,
-     "pts": 58.0,
-     "note": "dropped Thu 11/19"
-    },
-    {
-     "player": "Demario Douglas",
-     "pos": "WR",
-     "team": "NE",
-     "rank": 27,
-     "pts": 67.8,
-     "note": "dropped Thu 11/19"
     },
     {
      "player": "Jalen Hurts",
      "pos": "QB",
      "team": "PHI",
-     "rank": 28,
+     "rank": 29,
      "pts": 70.04,
      "note": "dropped Wed 11/18"
     },
     {
-     "player": "Woody Marks",
-     "pos": "RB",
-     "team": "HOU",
+     "player": "Demario Douglas",
+     "pos": "WR",
+     "team": "NE",
      "rank": 29,
-     "pts": 62.4,
-     "note": "dropped Wed 11/18"
+     "pts": 67.8,
+     "note": "dropped Thu 11/19"
     }
    ]
   },
@@ -565,93 +538,86 @@
    "top_by_pos": {
     "QB": [
      {
-      "player": "Jacoby Brissett",
-      "team": "BAL",
-      "rank": 20,
-      "pts": 137.1,
+      "player": "Cam Ward",
+      "team": "TEN",
+      "rank": 19,
+      "pts": 159.4,
       "status": "fa"
      },
      {
-      "player": "Cam Ward",
-      "team": "TEN",
-      "rank": 21,
-      "pts": 132.1,
+      "player": "Jacoby Brissett",
+      "team": "BAL",
+      "rank": 20,
+      "pts": 154.8,
       "status": "fa"
      },
      {
       "player": "Malik Willis",
       "team": "MIA",
-      "rank": 24,
+      "rank": 25,
       "pts": 117.2,
       "status": "fa",
       "injury": "IR"
      },
      {
       "player": "Daniel Jones",
-      "team": "IND",
+      "team": "FA",
       "rank": 27,
-      "pts": 97.5,
+      "pts": 100.8,
       "status": "fa"
+     },
+     {
+      "player": "Jalen Hurts",
+      "team": "PHI",
+      "rank": 28,
+      "pts": 95.7,
+      "status": "drop",
+      "injury": "IR",
+      "note": "dropped since 11/18",
+      "tag": "DROP"
      },
      {
       "player": "Jameis Winston",
       "team": "NYG",
-      "rank": 30,
-      "pts": 87.2,
-      "status": "fa"
-     }
-    ],
-    "RB": [
-     {
-      "player": "Emanuel Wilson",
-      "team": "SEA",
       "rank": 29,
-      "pts": 71.8,
-      "status": "fa",
-      "injury": "Out"
+      "pts": 93.7,
+      "status": "fa"
      }
     ],
     "TE": [
      {
       "player": "Hunter Henry",
       "team": "NE",
-      "rank": 15,
+      "rank": 18,
       "pts": 67.3,
       "status": "fa"
      },
      {
       "player": "Tyler Higbee",
       "team": "LAR",
-      "rank": 25,
+      "rank": 27,
       "pts": 53.9,
       "status": "fa"
      },
      {
-      "player": "Tommy Tremble",
-      "team": "CAR",
-      "rank": 27,
-      "pts": 53.2,
-      "status": "fa",
-      "injury": "Questionable"
-     },
-     {
-      "player": "Jake Ferguson",
-      "team": "DAL",
-      "rank": 28,
-      "pts": 45.1,
-      "status": "fa",
-      "injury": "Out"
-     },
-     {
-      "player": "Eli Raridon",
-      "team": "NE",
+      "player": "Mason Taylor",
+      "team": "NYJ",
       "rank": 30,
-      "pts": 43.6,
+      "pts": 45.2,
       "status": "fa"
      }
     ]
    },
-   "new_drops": []
+   "new_drops": [
+    {
+     "player": "Jalen Hurts",
+     "pos": "QB",
+     "team": "PHI",
+     "rank": 28,
+     "pts": 95.7,
+     "note": "dropped since 11/18"
+    }
+   ]
   },
   {
    "league": "Brews and Q's",
@@ -663,43 +629,42 @@
      {
       "player": "Geno Smith",
       "team": "NYJ",
-      "rank": 16,
-      "pts": 184.7,
-      "status": "fa",
-      "injury": "Questionable"
+      "rank": 15,
+      "pts": 211.9,
+      "status": "fa"
      },
      {
-      "player": "Deshaun Watson",
-      "team": "CLE",
-      "rank": 17,
-      "pts": 176.5,
+      "player": "Cam Ward",
+      "team": "TEN",
+      "rank": 19,
+      "pts": 183.5,
       "status": "fa"
      },
      {
       "player": "Jacoby Brissett",
       "team": "BAL",
       "rank": 20,
-      "pts": 162.55,
+      "pts": 183.05,
       "status": "fa"
      },
      {
-      "player": "Cam Ward",
-      "team": "TEN",
+      "player": "Deshaun Watson",
+      "team": "CLE",
       "rank": 21,
-      "pts": 152.8,
+      "pts": 176.5,
       "status": "fa"
      },
      {
       "player": "Michael Penix Jr.",
       "team": "ATL",
-      "rank": 22,
+      "rank": 24,
       "pts": 145.9,
       "status": "fa"
      },
      {
       "player": "Malik Willis",
       "team": "MIA",
-      "rank": 24,
+      "rank": 25,
       "pts": 135.0,
       "status": "fa",
       "injury": "IR"
@@ -709,7 +674,7 @@
      {
       "player": "Emanuel Wilson",
       "team": "SEA",
-      "rank": 28,
+      "rank": 29,
       "pts": 68.8,
       "status": "fa",
       "injury": "Out"
@@ -717,50 +682,63 @@
     ],
     "TE": [
      {
-      "player": "Pat Freiermuth",
-      "team": "PIT",
+      "player": "Mike Gesicki",
+      "team": "CIN",
       "rank": 7,
-      "pts": 63.5,
+      "pts": 69.8,
       "status": "fa"
      },
      {
-      "player": "Mike Gesicki",
-      "team": "CIN",
-      "rank": 8,
-      "pts": 62.1,
-      "status": "fa"
+      "player": "Darren Waller",
+      "team": "CAR",
+      "rank": 10,
+      "pts": 62.5,
+      "status": "drop",
+      "note": "dropped since 11/18",
+      "tag": "DROP"
      },
      {
       "player": "Juwan Johnson",
       "team": "NO",
-      "rank": 13,
+      "rank": 15,
       "pts": 53.7,
-      "status": "fa"
+      "status": "fa",
+      "injury": "Questionable"
      },
      {
       "player": "Hunter Henry",
       "team": "NE",
-      "rank": 15,
+      "rank": 16,
       "pts": 50.3,
       "status": "fa"
      },
      {
-      "player": "Michael Mayer",
-      "team": "LV",
+      "player": "Dallas Goedert",
+      "team": "PHI",
       "rank": 20,
-      "pts": 44.6,
-      "status": "fa"
+      "pts": 46.8,
+      "status": "fa",
+      "injury": "Questionable"
      },
      {
       "player": "Darnell Washington",
       "team": "PIT",
       "rank": 21,
-      "pts": 43.9,
+      "pts": 46.1,
       "status": "fa"
      }
     ]
    },
-   "new_drops": []
+   "new_drops": [
+    {
+     "player": "Darren Waller",
+     "pos": "TE",
+     "team": "CAR",
+     "rank": 10,
+     "pts": 62.5,
+     "note": "dropped since 11/18"
+    }
+   ]
   },
   {
    "league": "Tomball Never Dies",
@@ -770,64 +748,76 @@
    "top_by_pos": {
     "QB": [
      {
-      "player": "Deshaun Watson",
-      "team": "CLE",
-      "rank": 15,
-      "pts": 148.32,
-      "status": "fa"
+      "player": "Bryce Young",
+      "team": "CAR",
+      "rank": 12,
+      "pts": 176.64,
+      "status": "drop",
+      "note": "dropped since 11/18",
+      "tag": "DROP"
      },
      {
       "player": "Geno Smith",
       "team": "NYJ",
-      "rank": 17,
-      "pts": 139.44,
-      "status": "fa",
-      "injury": "Questionable"
+      "rank": 16,
+      "pts": 158.88,
+      "status": "fa"
      },
      {
       "player": "Aaron Rodgers",
       "team": "PIT",
-      "rank": 18,
-      "pts": 132.76,
+      "rank": 17,
+      "pts": 148.74,
       "status": "fa"
      },
      {
-      "player": "Bo Nix",
-      "team": "DEN",
-      "rank": 19,
-      "pts": 130.8,
+      "player": "Deshaun Watson",
+      "team": "CLE",
+      "rank": 18,
+      "pts": 148.32,
       "status": "fa"
      },
      {
       "player": "Cam Ward",
       "team": "TEN",
-      "rank": 21,
-      "pts": 122.66,
+      "rank": 19,
+      "pts": 144.88,
       "status": "fa"
      },
      {
-      "player": "Michael Penix Jr.",
-      "team": "ATL",
-      "rank": 23,
-      "pts": 108.6,
+      "player": "Bo Nix",
+      "team": "DEN",
+      "rank": 20,
+      "pts": 142.3,
       "status": "fa"
      }
     ],
     "RB": [
      {
-      "player": "Emanuel Wilson",
-      "team": "SEA",
-      "rank": 30,
-      "pts": 77.8,
-      "status": "fa",
-      "injury": "Out"
+      "player": "Alvin Kamara",
+      "team": "NO",
+      "rank": 29,
+      "pts": 97.3,
+      "status": "drop",
+      "note": "dropped since 11/18",
+      "tag": "DROP"
      }
     ],
     "WR": [
      {
+      "player": "Puka Nacua",
+      "team": "LAR",
+      "rank": 8,
+      "pts": 182.6,
+      "status": "drop",
+      "injury": "IR",
+      "note": "dropped since 11/18",
+      "tag": "DROP"
+     },
+     {
       "player": "Michael Wilson",
       "team": "ARI",
-      "rank": 18,
+      "rank": 22,
       "pts": 123.68,
       "status": "fa",
       "injury": "IR"
@@ -835,7 +825,7 @@
      {
       "player": "Denzel Boston",
       "team": "CLE",
-      "rank": 25,
+      "rank": 27,
       "pts": 105.3,
       "status": "fa"
      }
@@ -844,49 +834,73 @@
      {
       "player": "Pat Freiermuth",
       "team": "PIT",
-      "rank": 10,
-      "pts": 90.5,
-      "status": "fa"
-     },
-     {
-      "player": "Michael Mayer",
-      "team": "LV",
-      "rank": 13,
-      "pts": 85.6,
-      "status": "fa"
-     },
-     {
-      "player": "Juwan Johnson",
-      "team": "NO",
-      "rank": 15,
-      "pts": 83.7,
-      "status": "fa"
-     },
-     {
-      "player": "Dalton Schultz",
-      "team": "HOU",
-      "rank": 17,
-      "pts": 82.5,
+      "rank": 9,
+      "pts": 99.5,
       "status": "fa"
      },
      {
       "player": "Mike Gesicki",
       "team": "CIN",
-      "rank": 18,
-      "pts": 82.1,
+      "rank": 12,
+      "pts": 94.8,
       "status": "fa"
      },
      {
       "player": "Darren Waller",
       "team": "CAR",
-      "rank": 19,
-      "pts": 81.3,
-      "status": "fa",
-      "injury": "Questionable"
+      "rank": 15,
+      "pts": 88.5,
+      "status": "fa"
+     },
+     {
+      "player": "Michael Mayer",
+      "team": "LV",
+      "rank": 16,
+      "pts": 87.0,
+      "status": "fa"
+     },
+     {
+      "player": "Brenton Strange",
+      "team": "JAX",
+      "rank": 17,
+      "pts": 85.1,
+      "status": "fa"
+     },
+     {
+      "player": "Dalton Schultz",
+      "team": "HOU",
+      "rank": 18,
+      "pts": 84.6,
+      "status": "fa"
      }
     ]
    },
-   "new_drops": []
+   "new_drops": [
+    {
+     "player": "Puka Nacua",
+     "pos": "WR",
+     "team": "LAR",
+     "rank": 8,
+     "pts": 182.6,
+     "note": "dropped since 11/18"
+    },
+    {
+     "player": "Bryce Young",
+     "pos": "QB",
+     "team": "CAR",
+     "rank": 12,
+     "pts": 176.64,
+     "note": "dropped since 11/18"
+    },
+    {
+     "player": "Alvin Kamara",
+     "pos": "RB",
+     "team": "NO",
+     "rank": 29,
+     "pts": 97.3,
+     "note": "dropped since 11/18"
+    }
+   ]
   }
  ]
 }
