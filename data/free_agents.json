@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24",
+ "updated": "2026-11-25",
  "through_week": 11,
  "leagues": [
   {
@@ -14,9 +14,7 @@
       "team": "NE",
       "rank": 10,
       "pts": 229.2,
-      "status": "drop",
-      "note": "dropped Tue 11/17",
-      "tag": "DROP"
+      "status": "fa"
      },
      {
       "player": "Geno Smith",
@@ -31,8 +29,7 @@
       "team": "PIT",
       "rank": 16,
       "pts": 173.7,
-      "status": "drop",
-      "note": "dropped Wed 11/18"
+      "status": "fa"
      },
      {
       "player": "Justin Herbert",
@@ -68,10 +65,10 @@
     ],
     "TE": [
      {
-      "player": "Tyler Higbee",
-      "team": "LAR",
-      "rank": 24,
-      "pts": 69.4,
+      "player": "Mark Andrews",
+      "team": "BAL",
+      "rank": 22,
+      "pts": 78.3,
       "status": "fa"
      },
      {
@@ -106,27 +103,11 @@
    },
    "new_drops": [
     {
-     "player": "Drake Maye",
-     "pos": "QB",
-     "team": "NE",
-     "rank": 10,
-     "pts": 229.2,
-     "note": "dropped Tue 11/17"
-    },
-    {
      "player": "Geno Smith",
      "pos": "QB",
      "team": "NYJ",
      "rank": 15,
      "pts": 182.9,
-     "note": "dropped Wed 11/18"
-    },
-    {
-     "player": "Aaron Rodgers",
-     "pos": "QB",
-     "team": "PIT",
-     "rank": 16,
-     "pts": 173.7,
      "note": "dropped Wed 11/18"
     },
     {
@@ -196,13 +177,6 @@
       "rank": 24,
       "pts": 95.2,
       "status": "fa"
-     },
-     {
-      "player": "Davante Adams",
-      "team": "LAR",
-      "rank": 26,
-      "pts": 87.0,
-      "status": "fa"
      }
     ],
     "TE": [
@@ -219,8 +193,7 @@
       "rank": 14,
       "pts": 74.5,
       "status": "drop",
-      "note": "dropped Sat 11/21",
-      "tag": "DROP"
+      "note": "dropped Sat 11/21"
      },
      {
       "player": "Juwan Johnson",
@@ -230,28 +203,24 @@
       "status": "fa"
      },
      {
+      "player": "Michael Mayer",
+      "team": "LV",
+      "rank": 19,
+      "pts": 66.0,
+      "status": "fa"
+     },
+     {
       "player": "Dallas Goedert",
       "team": "PHI",
       "rank": 22,
       "pts": 62.8,
-      "status": "drop",
-      "note": "dropped Wed 11/18",
-      "tag": "DROP"
+      "status": "fa"
      },
      {
       "player": "Darnell Washington",
       "team": "PIT",
       "rank": 24,
       "pts": 57.6,
-      "status": "drop",
-      "note": "dropped Wed 11/18",
-      "tag": "DROP"
-     },
-     {
-      "player": "Tommy Tremble",
-      "team": "CAR",
-      "rank": 25,
-      "pts": 55.5,
       "status": "fa"
      }
     ]
@@ -264,22 +233,6 @@
      "rank": 14,
      "pts": 74.5,
      "note": "dropped Sat 11/21"
-    },
-    {
-     "player": "Dallas Goedert",
-     "pos": "TE",
-     "team": "PHI",
-     "rank": 22,
-     "pts": 62.8,
-     "note": "dropped Wed 11/18"
-    },
-    {
-     "player": "Darnell Washington",
-     "pos": "TE",
-     "team": "PIT",
-     "rank": 24,
-     "pts": 57.6,
-     "note": "dropped Wed 11/18"
     },
     {
      "player": "Sam Darnold",
@@ -571,10 +524,8 @@
       "team": "PHI",
       "rank": 28,
       "pts": 95.7,
-      "status": "drop",
-      "injury": "IR",
-      "note": "dropped since 11/18",
-      "tag": "DROP"
+      "status": "fa",
+      "injury": "IR"
      },
      {
       "player": "Jameis Winston",
@@ -608,16 +559,7 @@
      }
     ]
    },
-   "new_drops": [
-    {
-     "player": "Jalen Hurts",
-     "pos": "QB",
-     "team": "PHI",
-     "rank": 28,
-     "pts": 95.7,
-     "note": "dropped since 11/18"
-    }
-   ]
+   "new_drops": []
   },
   {
    "league": "Brews and Q's",
@@ -676,8 +618,7 @@
       "team": "SEA",
       "rank": 29,
       "pts": 68.8,
-      "status": "fa",
-      "injury": "Out"
+      "status": "fa"
      }
     ],
     "TE": [
@@ -693,9 +634,7 @@
       "team": "CAR",
       "rank": 10,
       "pts": 62.5,
-      "status": "drop",
-      "note": "dropped since 11/18",
-      "tag": "DROP"
+      "status": "fa"
      },
      {
       "player": "Juwan Johnson",
@@ -717,8 +656,7 @@
       "team": "PHI",
       "rank": 20,
       "pts": 46.8,
-      "status": "fa",
-      "injury": "Questionable"
+      "status": "fa"
      },
      {
       "player": "Darnell Washington",
@@ -729,16 +667,7 @@
      }
     ]
    },
-   "new_drops": [
-    {
-     "player": "Darren Waller",
-     "pos": "TE",
-     "team": "CAR",
-     "rank": 10,
-     "pts": 62.5,
-     "note": "dropped since 11/18"
-    }
-   ]
+   "new_drops": []
   },
   {
    "league": "Tomball Never Dies",
@@ -752,9 +681,7 @@
       "team": "CAR",
       "rank": 12,
       "pts": 176.64,
-      "status": "drop",
-      "note": "dropped since 11/18",
-      "tag": "DROP"
+      "status": "fa"
      },
      {
       "player": "Geno Smith",
@@ -798,9 +725,7 @@
       "team": "NO",
       "rank": 29,
       "pts": 97.3,
-      "status": "drop",
-      "note": "dropped since 11/18",
-      "tag": "DROP"
+      "status": "fa"
      }
     ],
     "WR": [
@@ -809,10 +734,8 @@
       "team": "LAR",
       "rank": 8,
       "pts": 182.6,
-      "status": "drop",
-      "injury": "IR",
-      "note": "dropped since 11/18",
-      "tag": "DROP"
+      "status": "fa",
+      "injury": "IR"
      },
      {
       "player": "Michael Wilson",
@@ -827,7 +750,8 @@
       "team": "CLE",
       "rank": 27,
       "pts": 105.3,
-      "status": "fa"
+      "status": "fa",
+      "injury": "Questionable"
      }
     ],
     "TE": [
@@ -875,32 +799,7 @@
      }
     ]
    },
-   "new_drops": [
-    {
-     "player": "Puka Nacua",
-     "pos": "WR",
-     "team": "LAR",
-     "rank": 8,
-     "pts": 182.6,
-     "note": "dropped since 11/18"
-    },
-    {
-     "player": "Bryce Young",
-     "pos": "QB",
-     "team": "CAR",
-     "rank": 12,
-     "pts": 176.64,
-     "note": "dropped since 11/18"
-    },
-    {
-     "player": "Alvin Kamara",
-     "pos": "RB",
-     "team": "NO",
-     "rank": 29,
-     "pts": 97.3,
-     "note": "dropped since 11/18"
-    }
-   ]
+   "new_drops": []
   }
  ]
 }
