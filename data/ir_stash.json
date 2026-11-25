@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-24",
- "graphic_date": "2026-11-24",
+ "updated": "2026-11-25",
+ "graphic_date": "2026-11-25",
  "weeks": {
   "W12": "Nov 26-30",
   "W13": "Dec 3-7",
@@ -48,7 +48,8 @@
        "pos": "RB",
        "team": "KC",
        "injury": "Hamstring",
-       "ret_wk": 12,
+       "ret_wk": 13,
+       "note": "return moved Nov 26\u2192Dec 3 (W13)",
        "rank": 2
       },
       {
@@ -127,6 +128,7 @@
        "player": "Raheim Sanders",
        "pos": "RB",
        "team": "CLE",
+       "status": "IR-R",
        "injury": "Hip",
        "ret_wk": 12,
        "note": "return moved Nov 15\u2192Nov 29",
@@ -145,6 +147,7 @@
        "player": "Tyler Badie",
        "pos": "RB",
        "team": "DEN",
+       "status": "IR-R",
        "injury": "Thumb",
        "ret_wk": 12,
        "rank": 6
@@ -222,6 +225,7 @@
        "player": "Tyler Badie",
        "pos": "RB",
        "team": "DEN",
+       "status": "IR-R",
        "injury": "Thumb",
        "ret_wk": 12,
        "rank": 12
@@ -232,20 +236,12 @@
      "category": "Off IR Now (still available)",
      "players": [
       {
-       "player": "Jack Bech",
-       "pos": "WR",
-       "team": "LV",
-       "ret_wk": "Active",
-       "note": "off IR, activated by Nov 3",
-       "rank": 7
-      },
-      {
        "player": "Mack Hollins",
        "pos": "WR",
        "team": "NE",
        "ret_wk": "Active",
        "note": "off IR, activated by Nov 9",
-       "rank": 8
+       "rank": 7
       },
       {
        "player": "Beaux Collins",
@@ -253,7 +249,7 @@
        "team": "ATL",
        "ret_wk": "Active",
        "note": "off IR, activated by Nov 9",
-       "rank": 9
+       "rank": 8
       },
       {
        "player": "Ronnie Rivers",
@@ -269,7 +265,7 @@
        "team": "SF",
        "ret_wk": "Active",
        "note": "off IR, activated by Nov 9",
-       "rank": 10
+       "rank": 9
       },
       {
        "player": "Carter Runyon",
@@ -309,7 +305,7 @@
        "team": "TB",
        "ret_wk": "Active",
        "note": "off IR, activated by Oct 27",
-       "rank": 11
+       "rank": 10
       },
       {
        "player": "Dont'e Thornton",
@@ -317,7 +313,7 @@
        "team": "LV",
        "ret_wk": "Active",
        "note": "off IR, activated by Oct 28",
-       "rank": 12
+       "rank": 11
       }
      ]
     }
@@ -365,7 +361,8 @@
        "pos": "RB",
        "team": "KC",
        "injury": "Hamstring",
-       "ret_wk": 12,
+       "ret_wk": 13,
+       "note": "return moved Nov 26\u2192Dec 3 (W13)",
        "rank": 2
       },
       {
@@ -379,29 +376,12 @@
        "rank": 3
       },
       {
-       "player": "Davante Adams",
-       "pos": "WR",
-       "team": "LAR",
-       "injury": "Hamstring",
-       "ret_wk": 14,
-       "note": "return moved Nov 25\u2192Dec 13 (W14)",
-       "rank": 3
-      },
-      {
-       "player": "Romeo Doubs",
-       "pos": "WR",
-       "team": "NE",
-       "injury": "Shoulder",
-       "ret_wk": 12,
-       "rank": 4
-      },
-      {
        "player": "Christian Kirk",
        "pos": "WR",
        "team": "SF",
        "injury": "Knee - Meniscus",
        "ret_wk": 13,
-       "rank": 5
+       "rank": 3
       },
       {
        "player": "Tyrone Tracy",
@@ -462,7 +442,7 @@
        "injury": "Leg",
        "ret_wk": 12,
        "note": "return moved Nov 22\u2192Nov 29",
-       "rank": 6
+       "rank": 4
       },
       {
        "player": "British Brooks",
@@ -477,6 +457,7 @@
        "player": "Raheim Sanders",
        "pos": "RB",
        "team": "CLE",
+       "status": "IR-R",
        "injury": "Hip",
        "ret_wk": 12,
        "note": "return moved Nov 15\u2192Nov 29",
@@ -495,6 +476,7 @@
        "player": "Tyler Badie",
        "pos": "RB",
        "team": "DEN",
+       "status": "IR-R",
        "injury": "Thumb",
        "ret_wk": 12,
        "rank": 8
@@ -514,7 +496,7 @@
        "team": "SF",
        "injury": "Ankle",
        "ret_wk": 13,
-       "rank": 7
+       "rank": 5
       },
       {
        "player": "Dyami Brown",
@@ -522,7 +504,7 @@
        "team": "WAS",
        "injury": "Calf",
        "ret_wk": 13,
-       "rank": 8
+       "rank": 6
       },
       {
        "player": "Joshua Palmer",
@@ -530,7 +512,7 @@
        "team": "BUF",
        "injury": "Hamstring",
        "ret_wk": 13,
-       "rank": 9
+       "rank": 7
       },
       {
        "player": "Demond Claiborne",
@@ -580,6 +562,7 @@
        "player": "Tyler Badie",
        "pos": "RB",
        "team": "DEN",
+       "status": "IR-R",
        "injury": "Thumb",
        "ret_wk": 12,
        "rank": 14
@@ -590,20 +573,12 @@
      "category": "Off IR Now (still available)",
      "players": [
       {
-       "player": "Jack Bech",
-       "pos": "WR",
-       "team": "LV",
-       "ret_wk": "Active",
-       "note": "off IR, activated by Nov 3",
-       "rank": 10
-      },
-      {
        "player": "Mack Hollins",
        "pos": "WR",
        "team": "NE",
        "ret_wk": "Active",
        "note": "off IR, activated by Nov 9",
-       "rank": 11
+       "rank": 8
       },
       {
        "player": "Pat Bryant",
@@ -611,7 +586,7 @@
        "team": "DEN",
        "ret_wk": "Active",
        "note": "off IR, activated by Nov 9",
-       "rank": 12
+       "rank": 9
       },
       {
        "player": "Beaux Collins",
@@ -619,7 +594,7 @@
        "team": "ATL",
        "ret_wk": "Active",
        "note": "off IR, activated by Nov 9",
-       "rank": 13
+       "rank": 10
       },
       {
        "player": "Ronnie Rivers",
@@ -635,7 +610,7 @@
        "team": "SF",
        "ret_wk": "Active",
        "note": "off IR, activated by Nov 9",
-       "rank": 14
+       "rank": 11
       },
       {
        "player": "Carter Runyon",
@@ -675,7 +650,7 @@
        "team": "TB",
        "ret_wk": "Active",
        "note": "off IR, activated by Oct 27",
-       "rank": 15
+       "rank": 12
       },
       {
        "player": "Dont'e Thornton",
@@ -683,7 +658,7 @@
        "team": "LV",
        "ret_wk": "Active",
        "note": "off IR, activated by Oct 28",
-       "rank": 16
+       "rank": 13
       }
      ]
     }
@@ -750,7 +725,8 @@
        "pos": "RB",
        "team": "KC",
        "injury": "Hamstring",
-       "ret_wk": 12,
+       "ret_wk": 13,
+       "note": "return moved Nov 26\u2192Dec 3 (W13)",
        "rank": 3
       },
       {
@@ -845,6 +821,7 @@
        "player": "Raheim Sanders",
        "pos": "RB",
        "team": "CLE",
+       "status": "IR-R",
        "injury": "Hip",
        "ret_wk": 12,
        "note": "return moved Nov 15\u2192Nov 29",
@@ -863,6 +840,7 @@
        "player": "Tyler Badie",
        "pos": "RB",
        "team": "DEN",
+       "status": "IR-R",
        "injury": "Thumb",
        "ret_wk": 12,
        "rank": 8
@@ -948,6 +926,7 @@
        "player": "Tyler Badie",
        "pos": "RB",
        "team": "DEN",
+       "status": "IR-R",
        "injury": "Thumb",
        "ret_wk": 12,
        "rank": 14
@@ -1106,7 +1085,8 @@
        "pos": "RB",
        "team": "KC",
        "injury": "Hamstring",
-       "ret_wk": 12,
+       "ret_wk": 13,
+       "note": "return moved Nov 26\u2192Dec 3 (W13)",
        "rank": 2
       },
       {
@@ -1193,6 +1173,7 @@
        "player": "Raheim Sanders",
        "pos": "RB",
        "team": "CLE",
+       "status": "IR-R",
        "injury": "Hip",
        "ret_wk": 12,
        "note": "return moved Nov 15\u2192Nov 29",
@@ -1211,6 +1192,7 @@
        "player": "Tyler Badie",
        "pos": "RB",
        "team": "DEN",
+       "status": "IR-R",
        "injury": "Thumb",
        "ret_wk": 12,
        "rank": 7
@@ -1288,6 +1270,7 @@
        "player": "Tyler Badie",
        "pos": "RB",
        "team": "DEN",
+       "status": "IR-R",
        "injury": "Thumb",
        "ret_wk": 12,
        "rank": 13
@@ -1422,7 +1405,8 @@
        "pos": "RB",
        "team": "KC",
        "injury": "Hamstring",
-       "ret_wk": 12,
+       "ret_wk": 13,
+       "note": "return moved Nov 26\u2192Dec 3 (W13)",
        "rank": 2
       },
       {
@@ -1509,6 +1493,7 @@
        "player": "Raheim Sanders",
        "pos": "RB",
        "team": "CLE",
+       "status": "IR-R",
        "injury": "Hip",
        "ret_wk": 12,
        "note": "return moved Nov 15\u2192Nov 29",
@@ -1527,6 +1512,7 @@
        "player": "Tyler Badie",
        "pos": "RB",
        "team": "DEN",
+       "status": "IR-R",
        "injury": "Thumb",
        "ret_wk": 12,
        "rank": 7
@@ -1612,6 +1598,7 @@
        "player": "Tyler Badie",
        "pos": "RB",
        "team": "DEN",
+       "status": "IR-R",
        "injury": "Thumb",
        "ret_wk": 12,
        "rank": 13
@@ -1762,7 +1749,8 @@
        "pos": "RB",
        "team": "KC",
        "injury": "Hamstring",
-       "ret_wk": 12,
+       "ret_wk": 13,
+       "note": "return moved Nov 26\u2192Dec 3 (W13)",
        "rank": 2
       },
       {
@@ -1857,6 +1845,7 @@
        "player": "Raheim Sanders",
        "pos": "RB",
        "team": "CLE",
+       "status": "IR-R",
        "injury": "Hip",
        "ret_wk": 12,
        "note": "return moved Nov 15\u2192Nov 29",
@@ -1875,6 +1864,7 @@
        "player": "Tyler Badie",
        "pos": "RB",
        "team": "DEN",
+       "status": "IR-R",
        "injury": "Thumb",
        "ret_wk": 12,
        "rank": 7
@@ -1960,6 +1950,7 @@
        "player": "Tyler Badie",
        "pos": "RB",
        "team": "DEN",
+       "status": "IR-R",
        "injury": "Thumb",
        "ret_wk": 12,
        "rank": 13
