@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-25",
- "graphic_date": "2026-11-25",
+ "updated": "2026-11-26",
+ "graphic_date": "2026-11-26",
  "weeks": {
   "W12": "Nov 26-30",
   "W13": "Dec 3-7",
@@ -29,6 +29,7 @@
        "player": "Jalen McMillan",
        "pos": "WR",
        "team": "TB",
+       "status": "IR-R",
        "injury": "Knee - PCL",
        "ret_wk": 12,
        "note": "return moved Nov 22\u2192Nov 30 (W12)",
@@ -236,20 +237,12 @@
      "category": "Off IR Now (still available)",
      "players": [
       {
-       "player": "Mack Hollins",
-       "pos": "WR",
-       "team": "NE",
-       "ret_wk": "Active",
-       "note": "off IR, activated by Nov 9",
-       "rank": 7
-      },
-      {
        "player": "Beaux Collins",
        "pos": "WR",
        "team": "ATL",
        "ret_wk": "Active",
        "note": "off IR, activated by Nov 9",
-       "rank": 8
+       "rank": 7
       },
       {
        "player": "Ronnie Rivers",
@@ -265,7 +258,7 @@
        "team": "SF",
        "ret_wk": "Active",
        "note": "off IR, activated by Nov 9",
-       "rank": 9
+       "rank": 8
       },
       {
        "player": "Carter Runyon",
@@ -305,7 +298,7 @@
        "team": "TB",
        "ret_wk": "Active",
        "note": "off IR, activated by Oct 27",
-       "rank": 10
+       "rank": 9
       },
       {
        "player": "Dont'e Thornton",
@@ -313,7 +306,7 @@
        "team": "LV",
        "ret_wk": "Active",
        "note": "off IR, activated by Oct 28",
-       "rank": 11
+       "rank": 10
       }
      ]
     }
@@ -341,6 +334,7 @@
        "player": "Jalen McMillan",
        "pos": "WR",
        "team": "TB",
+       "status": "IR-R",
        "injury": "Knee - PCL",
        "ret_wk": 12,
        "note": "return moved Nov 22\u2192Nov 30 (W12)",
@@ -390,14 +384,6 @@
        "injury": "Hamstring",
        "ret_wk": 13,
        "rank": 4
-      },
-      {
-       "player": "RJ Harvey",
-       "pos": "RB",
-       "team": "DEN",
-       "injury": "Knee",
-       "ret_wk": 13,
-       "rank": 5
       }
      ]
     },
@@ -451,7 +437,7 @@
        "injury": "Hamstring",
        "ret_wk": 12,
        "note": "return moved Nov 19\u2192Nov 29 (W12)",
-       "rank": 6
+       "rank": 5
       },
       {
        "player": "Raheim Sanders",
@@ -461,7 +447,7 @@
        "injury": "Hip",
        "ret_wk": 12,
        "note": "return moved Nov 15\u2192Nov 29",
-       "rank": 7
+       "rank": 6
       },
       {
        "player": "Trey Lance",
@@ -479,7 +465,7 @@
        "status": "IR-R",
        "injury": "Thumb",
        "ret_wk": 12,
-       "rank": 8
+       "rank": 7
       },
       {
        "player": "Alec Ingold",
@@ -488,14 +474,14 @@
        "injury": "Shoulder",
        "ret_wk": 12,
        "note": "return moved Nov 22\u2192Nov 29",
-       "rank": 9
+       "rank": 8
       },
       {
        "player": "De'Zhaun Stribling",
        "pos": "WR",
        "team": "SF",
        "injury": "Ankle",
-       "ret_wk": 13,
+       "ret_wk": 14,
        "rank": 5
       },
       {
@@ -520,7 +506,7 @@
        "team": "MIN",
        "injury": "Knee",
        "ret_wk": 13,
-       "rank": 10
+       "rank": 9
       },
       {
        "player": "Malik Willis",
@@ -538,7 +524,7 @@
        "injury": "Hamstring",
        "ret_wk": 14,
        "note": "new on IR",
-       "rank": 11
+       "rank": 10
       },
       {
        "player": "Zavier Scott",
@@ -547,7 +533,7 @@
        "injury": "Wrist",
        "ret_wk": 14,
        "note": "new on IR",
-       "rank": 12
+       "rank": 11
       },
       {
        "player": "Dean Connors",
@@ -556,7 +542,7 @@
        "injury": "Hand",
        "ret_wk": 14,
        "note": "new on IR",
-       "rank": 13
+       "rank": 12
       },
       {
        "player": "Tyler Badie",
@@ -565,7 +551,7 @@
        "status": "IR-R",
        "injury": "Thumb",
        "ret_wk": 12,
-       "rank": 14
+       "rank": 13
       }
      ]
     },
@@ -602,7 +588,7 @@
        "team": "LAR",
        "ret_wk": "Active",
        "note": "off IR, activated by Nov 9",
-       "rank": 15
+       "rank": 14
       },
       {
        "player": "Demarcus Robinson",
@@ -696,6 +682,7 @@
        "player": "Jalen McMillan",
        "pos": "WR",
        "team": "TB",
+       "status": "IR-R",
        "injury": "Knee - PCL",
        "ret_wk": 12,
        "note": "return moved Nov 22\u2192Nov 30 (W12)",
@@ -743,6 +730,7 @@
        "player": "Romeo Doubs",
        "pos": "WR",
        "team": "NE",
+       "status": "IR-R",
        "injury": "Shoulder",
        "ret_wk": 12,
        "rank": 4
@@ -859,7 +847,7 @@
        "pos": "WR",
        "team": "SF",
        "injury": "Ankle",
-       "ret_wk": 13,
+       "ret_wk": 14,
        "rank": 7
       },
       {
@@ -1066,6 +1054,7 @@
        "player": "Jalen McMillan",
        "pos": "WR",
        "team": "TB",
+       "status": "IR-R",
        "injury": "Knee - PCL",
        "ret_wk": 12,
        "note": "return moved Nov 22\u2192Nov 30 (W12)",
@@ -1386,6 +1375,7 @@
        "player": "Jalen McMillan",
        "pos": "WR",
        "team": "TB",
+       "status": "IR-R",
        "injury": "Knee - PCL",
        "ret_wk": 12,
        "note": "return moved Nov 22\u2192Nov 30 (W12)",
@@ -1531,7 +1521,7 @@
        "pos": "WR",
        "team": "SF",
        "injury": "Ankle",
-       "ret_wk": 13,
+       "ret_wk": 14,
        "rank": 5
       },
       {
@@ -1730,6 +1720,7 @@
        "player": "Jalen McMillan",
        "pos": "WR",
        "team": "TB",
+       "status": "IR-R",
        "injury": "Knee - PCL",
        "ret_wk": 12,
        "note": "return moved Nov 22\u2192Nov 30 (W12)",
@@ -1767,6 +1758,7 @@
        "player": "Romeo Doubs",
        "pos": "WR",
        "team": "NE",
+       "status": "IR-R",
        "injury": "Shoulder",
        "ret_wk": 12,
        "rank": 3
@@ -1883,7 +1875,7 @@
        "pos": "WR",
        "team": "SF",
        "injury": "Ankle",
-       "ret_wk": 13,
+       "ret_wk": 14,
        "rank": 6
       },
       {
