@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26",
+ "updated": "2026-11-27",
  "through_week": 11,
  "leagues": [
   {
@@ -12,14 +12,14 @@
      {
       "player": "Drake Maye",
       "team": "NE",
-      "rank": 10,
+      "rank": 11,
       "pts": 229.2,
       "status": "fa"
      },
      {
       "player": "Aaron Rodgers",
-      "team": "PIT",
-      "rank": 16,
+      "team": "FA",
+      "rank": 17,
       "pts": 173.7,
       "status": "fa"
      },
@@ -56,7 +56,7 @@
      {
       "player": "Michael Wilson",
       "team": "ARI",
-      "rank": 22,
+      "rank": 24,
       "pts": 123.7,
       "status": "fa"
      }
@@ -118,14 +118,14 @@
      {
       "player": "Jacoby Brissett",
       "team": "BAL",
-      "rank": 20,
+      "rank": 21,
       "pts": 145.2,
       "status": "fa"
      },
      {
       "player": "Deshaun Watson",
       "team": "CLE",
-      "rank": 21,
+      "rank": 22,
       "pts": 143.3,
       "status": "fa"
      },
@@ -155,7 +155,7 @@
      {
       "player": "Michael Wilson",
       "team": "ARI",
-      "rank": 24,
+      "rank": 26,
       "pts": 95.2,
       "status": "fa"
      }
@@ -171,7 +171,7 @@
      {
       "player": "Darren Waller",
       "team": "CAR",
-      "rank": 14,
+      "rank": 13,
       "pts": 74.5,
       "status": "drop",
       "note": "dropped Sat 11/21"
@@ -193,8 +193,8 @@
      {
       "player": "Dallas Goedert",
       "team": "PHI",
-      "rank": 22,
-      "pts": 62.8,
+      "rank": 20,
+      "pts": 64.2,
       "status": "fa"
      },
      {
@@ -211,7 +211,7 @@
      "player": "Darren Waller",
      "pos": "TE",
      "team": "CAR",
-     "rank": 14,
+     "rank": 13,
      "pts": 74.5,
      "note": "dropped Sat 11/21"
     }
@@ -227,16 +227,24 @@
      {
       "player": "Drake Maye",
       "team": "NE",
-      "rank": 9,
+      "rank": 10,
       "pts": 161.28,
       "status": "drop",
-      "note": "dropped Wed 11/25",
+      "note": "dropped Wed 11/25"
+     },
+     {
+      "player": "Aaron Rodgers",
+      "team": "PIT",
+      "rank": 17,
+      "pts": 126.16,
+      "status": "drop",
+      "note": "dropped Thu 11/26",
       "tag": "DROP"
      },
      {
       "player": "Justin Herbert",
       "team": "LAC",
-      "rank": 22,
+      "rank": 23,
       "pts": 111.61,
       "status": "fa"
      },
@@ -260,32 +268,26 @@
       "rank": 28,
       "pts": 72.41,
       "status": "fa"
-     },
-     {
-      "player": "Jalen Hurts",
-      "team": "PHI",
-      "rank": 29,
-      "pts": 70.04,
-      "status": "fa"
      }
     ],
     "RB": [
      {
       "player": "Emanuel Wilson",
       "team": "SEA",
-      "rank": 29,
+      "rank": 30,
       "pts": 70.8,
       "status": "fa"
      }
     ],
     "WR": [
      {
-      "player": "Demario Douglas",
-      "team": "NE",
-      "rank": 29,
-      "pts": 67.8,
+      "player": "Rome Odunze",
+      "team": "CHI",
+      "rank": 20,
+      "pts": 84.0,
       "status": "drop",
-      "note": "dropped Thu 11/19"
+      "note": "dropped Wed 11/25",
+      "tag": "DROP"
      }
     ],
     "TE": [
@@ -316,8 +318,7 @@
       "rank": 14,
       "pts": 56.7,
       "status": "drop",
-      "note": "dropped Wed 11/25",
-      "tag": "DROP"
+      "note": "dropped Wed 11/25"
      },
      {
       "player": "Hunter Henry",
@@ -338,21 +339,21 @@
      {
       "player": "George Karlaftis",
       "team": "KC",
-      "rank": 6,
-      "pts": 58.0,
+      "rank": 5,
+      "pts": 61.0,
       "status": "fa"
      },
      {
       "player": "Lukas Van Ness",
       "team": "GB",
-      "rank": 9,
+      "rank": 10,
       "pts": 53.0,
       "status": "fa"
      },
      {
       "player": "Boye Mafe",
       "team": "CIN",
-      "rank": 10,
+      "rank": 11,
       "pts": 53.0,
       "status": "fa"
      },
@@ -380,9 +381,16 @@
     ],
     "LB": [
      {
+      "player": "Jeremiah Trotter Jr.",
+      "team": "PHI",
+      "rank": 25,
+      "pts": 80.0,
+      "status": "fa"
+     },
+     {
       "player": "Isaiah McDuffie",
       "team": "GB",
-      "rank": 28,
+      "rank": 29,
       "pts": 79.0,
       "status": "fa"
      }
@@ -408,8 +416,7 @@
       "rank": 15,
       "pts": 69.0,
       "status": "drop",
-      "note": "dropped Wed 11/25",
-      "tag": "DROP"
+      "note": "dropped Wed 11/25"
      },
      {
       "player": "Jonas Sanker",
@@ -419,17 +426,17 @@
       "status": "fa"
      },
      {
-      "player": "Jaquan Brisker",
-      "team": "PIT",
+      "player": "Cole Bishop",
+      "team": "BUF",
       "rank": 18,
       "pts": 67.0,
       "status": "fa"
      },
      {
-      "player": "Keisean Nixon",
-      "team": "GB",
-      "rank": 20,
-      "pts": 66.0,
+      "player": "Jaquan Brisker",
+      "team": "PIT",
+      "rank": 19,
+      "pts": 67.0,
       "status": "fa"
      }
     ]
@@ -439,7 +446,7 @@
      "player": "Drake Maye",
      "pos": "QB",
      "team": "NE",
-     "rank": 9,
+     "rank": 10,
      "pts": 161.28,
      "note": "dropped Wed 11/25"
     },
@@ -460,20 +467,20 @@
      "note": "dropped Wed 11/25"
     },
     {
-     "player": "Xavier McKinney",
-     "pos": "DB",
-     "team": "GB",
-     "rank": 26,
-     "pts": 64.0,
-     "note": "dropped Thu 11/19"
+     "player": "Aaron Rodgers",
+     "pos": "QB",
+     "team": "PIT",
+     "rank": 17,
+     "pts": 126.16,
+     "note": "dropped Thu 11/26"
     },
     {
-     "player": "Demario Douglas",
+     "player": "Rome Odunze",
      "pos": "WR",
-     "team": "NE",
-     "rank": 29,
-     "pts": 67.8,
-     "note": "dropped Thu 11/19"
+     "team": "CHI",
+     "rank": 20,
+     "pts": 84.0,
+     "note": "dropped Wed 11/25"
     }
    ]
   },
@@ -629,7 +636,8 @@
       "team": "CAR",
       "rank": 10,
       "pts": 62.5,
-      "status": "fa"
+      "status": "fa",
+      "injury": "Questionable"
      },
      {
       "player": "Juwan Johnson",
@@ -651,7 +659,8 @@
       "team": "PHI",
       "rank": 20,
       "pts": 46.8,
-      "status": "fa"
+      "status": "fa",
+      "injury": "Out"
      },
      {
       "player": "Darnell Washington",
@@ -687,7 +696,7 @@
      },
      {
       "player": "Aaron Rodgers",
-      "team": "PIT",
+      "team": "FA",
       "rank": 17,
       "pts": 148.74,
       "status": "fa"
@@ -769,7 +778,8 @@
       "team": "CAR",
       "rank": 15,
       "pts": 88.5,
-      "status": "fa"
+      "status": "fa",
+      "injury": "Questionable"
      },
      {
       "player": "Michael Mayer",
@@ -790,7 +800,8 @@
       "team": "HOU",
       "rank": 18,
       "pts": 84.6,
-      "status": "fa"
+      "status": "fa",
+      "injury": "Questionable"
      }
     ]
    },
